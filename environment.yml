@@ -1,0 +1,21 @@
+name: vlm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pillow
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+      - transformers
+      - peft
+      - bitsandbytes
+      - accelerate
+      - datasets

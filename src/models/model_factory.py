@@ -1,12 +1,22 @@
 import torch
-from transformers import LlavaForConditionalGeneration, AutoProcessor
+from transformers import LlavaForConditionalGeneration, AutoProcessor, BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model
 
 from constants.constants import *
 
 
 def build_vlm_lora():
-    model = LlavaForConditionalGeneration.from_pretrained(MODEL_LLAVA, torch_dtype=torch.bfloat16, device_map=DEVICE_MPS)
+
+    bnb_config = BitsAndBytesConfig(
+        load_in_8bit=True
+    )
+    
+    model = LlavaForConditionalGeneration.from_pretrained(
+        MODEL_LLAVA_2, 
+        quantization_config=bnb_config,
+        device_map=DEVICE_MPS
+        )
+    
     processor = AutoProcessor.from_pretrained(MODEL_LLAVA)
 
     lora_config = LoraConfig(
