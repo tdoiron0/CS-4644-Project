@@ -1,0 +1,70 @@
+﻿A300: https://en.wikipedia.org/wiki/Airbus_A300
+A310: https://en.wikipedia.org/wiki/Airbus_A310
+A320: https://en.wikipedia.org/wiki/Airbus_A320_family
+A330: https://en.wikipedia.org/wiki/Airbus_A330
+A340: https://en.wikipedia.org/wiki/Airbus_A340
+A380: https://en.wikipedia.org/wiki/Airbus_A380
+ATR-42: https://en.wikipedia.org/wiki/ATR_42
+ATR-72: https://en.wikipedia.org/wiki/ATR_72
+An-12: https://en.wikipedia.org/wiki/Antonov_An-12
+BAE 146: https://en.wikipedia.org/wiki/BAe_146
+BAE-125: https://en.wikipedia.org/wiki/BAe_125
+Beechcraft 1900: https://en.wikipedia.org/wiki/Beechcraft_1900
+Boeing 707: https://en.wikipedia.org/wiki/Boeing_707
+Boeing 717: https://en.wikipedia.org/wiki/Boeing_717
+Boeing 727: https://en.wikipedia.org/wiki/Boeing_727
+Boeing 737: https://en.wikipedia.org/wiki/Boeing_737
+Boeing 747: https://en.wikipedia.org/wiki/Boeing_747
+Boeing 757: https://en.wikipedia.org/wiki/Boeing_757
+Boeing 767: https://en.wikipedia.org/wiki/Boeing_767
+Boeing 777: https://en.wikipedia.org/wiki/Boeing_777
+C-130: https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules
+C-47: https://en.wikipedia.org/wiki/Douglas_C-47_Skytrain
+CRJ-200: https://en.wikipedia.org/wiki/Bombardier_CRJ200
+CRJ-700: https://en.wikipedia.org/wiki/Bombardier_CRJ700
+Cessna 172: https://en.wikipedia.org/wiki/Cessna_172
+Cessna 208: https://en.wikipedia.org/wiki/Cessna_208_Caravan
+Cessna Citation: https://en.wikipedia.org/wiki/Cessna_Citation
+Challenger 600: https://en.wikipedia.org/wiki/Canadair_Challenger_600
+DC-10: https://en.wikipedia.org/wiki/McDonnell_Douglas_DC-10
+DC-3: https://en.wikipedia.org/wiki/Douglas_DC-3
+DC-6: https://en.wikipedia.org/wiki/Douglas_DC-6
+DC-8: https://en.wikipedia.org/wiki/Douglas_DC-8
+DC-9: https://en.wikipedia.org/wiki/McDonnell_Douglas_DC-9
+DH-82: https://en.wikipedia.org/wiki/De_Havilland_DH.82_Tiger_Moth
+DHC-1: https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-1_Chipmunk
+DHC-6: https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-6_Twin_Otter
+DR-400: https://en.wikipedia.org/wiki/Robin_DR400
+Dash 8: https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-8
+Dornier 328: https://en.wikipedia.org/wiki/Dornier_328
+EMB-120: https://en.wikipedia.org/wiki/Embraer_EMB_120_Bras%C3%ADlia
+Embraer E-Jet: https://en.wikipedia.org/wiki/Embraer_E-Jet
+Embraer ERJ 145: https://en.wikipedia.org/wiki/Embraer_ERJ_145
+Embraer Legacy 600: https://en.wikipedia.org/wiki/Embraer_Legacy_600
+Eurofighter Typhoon: https://en.wikipedia.org/wiki/Eurofighter_Typhoon
+F-16: https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon
+F/A-18: https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet
+Falcon 2000: https://en.wikipedia.org/wiki/Dassault_Falcon_2000
+Falcon 900: https://en.wikipedia.org/wiki/Dassault_Falcon_900
+Fokker 100: https://en.wikipedia.org/wiki/Fokker_100
+Fokker 50: https://en.wikipedia.org/wiki/Fokker_50
+Fokker 70: https://en.wikipedia.org/wiki/Fokker_70
+Global Express: https://en.wikipedia.org/wiki/Bombardier_Global_Express
+Gulfstream: https://en.wikipedia.org/wiki/Gulfstream_Aerospace
+Hawk T1: https://en.wikipedia.org/wiki/BAE_Systems_Hawk
+Il-76: https://en.wikipedia.org/wiki/Ilyushin_Il-76
+King Air: https://en.wikipedia.org/wiki/Beechcraft_King_Air
+L-1011: https://en.wikipedia.org/wiki/Lockheed_L-1011_TriStar
+MD-11: https://en.wikipedia.org/wiki/McDonnell_Douglas_MD-11
+MD-80: https://en.wikipedia.org/wiki/McDonnell_Douglas_MD-80
+MD-90: https://en.wikipedia.org/wiki/McDonnell_Douglas_MD-90
+Metroliner: https://en.wikipedia.org/wiki/Fairchild_Swearingen_Metroliner
+PA-28: https://en.wikipedia.org/wiki/Piper_PA-28_Cherokee
+SR-20: https://en.wikipedia.org/wiki/Cirrus_SR20
+Saab 2000: https://en.wikipedia.org/wiki/Saab_2000
+Saab 340: https://en.wikipedia.org/wiki/Saab_340
+Spitfire: https://en.wikipedia.org/wiki/Supermarine_Spitfire
+Tornado: https://en.wikipedia.org/wiki/Panavia_Tornado
+Tu-134: https://en.wikipedia.org/wiki/Tupolev_Tu-134
+Tu-154: https://en.wikipedia.org/wiki/Tupolev_Tu-154
+Yak-42: https://en.wikipedia.org/wiki/Yakovlev_Yak-42
