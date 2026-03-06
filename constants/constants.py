@@ -5,6 +5,8 @@ MODEL_LLAVA = 'llava-hf/llava-1.5-7b-hf'
 
 MODEL_LLAVA_NEXT = "llava-hf/llava-v1.6-mistral-7b-hf"
 
+MODEL_INTERNVL3 = "OpenGVLab/InternVL3-14B"
+
 
 DEVICE_CUDA = "cuda"
 DEVICE_CPU = "cpu"

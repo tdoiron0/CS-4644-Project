@@ -1,11 +1,11 @@
 import torch
-from transformers import LlavaForConditionalGeneration, AutoProcessor, BitsAndBytesConfig, LlavaNextForConditionalGeneration
+from transformers import LlavaForConditionalGeneration, AutoProcessor, BitsAndBytesConfig, LlavaNextForConditionalGeneration, AutoModel, AutoTokenizer
 from peft import LoraConfig, get_peft_model
 
 from constants.constants import *
 
 
-def build_llavanext_lora():    
+def build_llavanext_lora():
     model = LlavaNextForConditionalGeneration.from_pretrained(
         MODEL_LLAVA_NEXT,
         torch_dtype=torch.float16,   # or bfloat16 if supported in your env
@@ -25,24 +25,23 @@ def build_llavanext_lora():
     )
 
     model = get_peft_model(model, lora_config)
-    
-    return model, processor
 
+    return model, processor
 
 
 def build_llavanext_lora_cuda():
     bnb_config = BitsAndBytesConfig(
         load_in_8bit=True
     )
-    
+
     model = LlavaNextForConditionalGeneration.from_pretrained(
-        MODEL_LLAVA_NEXT, 
+        MODEL_LLAVA_NEXT,
         quantization_config=bnb_config,
         device_map=DEVICE_CUDA
         )
-    
+
     processor = AutoProcessor.from_pretrained(MODEL_LLAVA_NEXT)  # must match
-    
+
 
     lora_config = LoraConfig(
         r=16,
@@ -54,5 +53,37 @@ def build_llavanext_lora_cuda():
     )
 
     model = get_peft_model(model, lora_config)
-    
+
     return model, processor
+
+
+def build_internvl3(
+    freeze_vision_encoder: bool = False,
+    freeze_llm: bool = False,
+    load_in_8bit: bool = False,
+    device_map: str = "auto",
+):
+    bnb_config = BitsAndBytesConfig(load_in_8bit=True) if load_in_8bit else None
+
+    model = AutoModel.from_pretrained(
+        MODEL_INTERNVL3,
+        torch_dtype=torch.bfloat16,
+        quantization_config=bnb_config,
+        device_map=device_map,
+        trust_remote_code=True,
+    )
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        MODEL_INTERNVL3,
+        trust_remote_code=True,
+    )
+
+    if freeze_vision_encoder:
+        for param in model.vision_model.parameters():
+            param.requires_grad = False
+
+    if freeze_llm:
+        for param in model.language_model.parameters():
+            param.requires_grad = False
+
+    return model, tokenizer
