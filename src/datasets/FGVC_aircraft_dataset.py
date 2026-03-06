@@ -7,7 +7,7 @@ import numpy as np
 from transformers import AutoProcessor
 
 class AircraftCaptionDataset(Dataset):
-    def __init__(self, root_path, processor: AutoProcessor, **kwargs):
+    def __init__(self, root_path, processor, **kwargs):
         super().__init__(**kwargs)
 
         self.root_path = root_path
