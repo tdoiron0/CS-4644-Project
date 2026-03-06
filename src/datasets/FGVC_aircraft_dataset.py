@@ -6,6 +6,15 @@ import csv
 import numpy as np
 from transformers import AutoProcessor
 
+'''
+Expected dataset file structure like 
+root_path
+    images
+        0034309.jpg
+        0034958.jpg
+        etc.
+    labels.csv
+'''
 class AircraftCaptionDataset(Dataset):
     def __init__(self, root_path, processor, **kwargs):
         super().__init__(**kwargs)
