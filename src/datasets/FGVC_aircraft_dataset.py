@@ -17,10 +17,10 @@ class AircraftCaptionDataset(Dataset):
             self.label_rows: list[dict[str: str]] = list(reader)
 
     def __len__(self):
-        pass
+        return len(self.label_rows)
 
     def __getitem__(self, index):
         datapoint = self.label_rows[index]
-        img_path = os.path.join(self.images_path, datapoint["image_id"])
+        img_path = os.path.join(self.images_path, datapoint["image_id"] + ".jpg")
         img = Image.open(img_path).convert("RGB")
         return img, datapoint["manufacturer"], datapoint["family"], datapoint["variant"]

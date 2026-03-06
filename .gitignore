@@ -1,4 +1,4 @@
 /data/raw
 __pycache__/
 .vscode/
-**/fgvc-aircraft-2013b/*
+**/fgvc-aircraft-dataset/*
