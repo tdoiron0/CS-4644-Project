@@ -1,5 +1,5 @@
 import torch
-from transformers import LlavaForConditionalGeneration, AutoProcessor, BitsAndBytesConfig, LlavaNextForConditionalGeneration, AutoModel, AutoTokenizer
+from transformers import AutoProcessor, BitsAndBytesConfig, LlavaNextForConditionalGeneration, AutoModel
 from peft import LoraConfig, get_peft_model
 
 from constants.constants import *
@@ -13,7 +13,7 @@ def build_llavanext_lora():
 
     model.to(DEVICE_MPS)
 
-    processor = AutoProcessor.from_pretrained(MODEL_LLAVA_NEXT)  # must match
+    processor = AutoProcessor.from_pretrained(MODEL_LLAVA_NEXT)
 
     lora_config = LoraConfig(
         r=16,
@@ -40,8 +40,7 @@ def build_llavanext_lora_cuda():
         device_map=DEVICE_CUDA
         )
 
-    processor = AutoProcessor.from_pretrained(MODEL_LLAVA_NEXT)  # must match
-
+    processor = AutoProcessor.from_pretrained(MODEL_LLAVA_NEXT)
 
     lora_config = LoraConfig(
         r=16,
@@ -73,7 +72,7 @@ def build_internvl3(
         trust_remote_code=True,
     )
 
-    tokenizer = AutoTokenizer.from_pretrained(
+    processor = AutoProcessor.from_pretrained(
         MODEL_INTERNVL3,
         trust_remote_code=True,
     )
@@ -86,4 +85,4 @@ def build_internvl3(
         for param in model.language_model.parameters():
             param.requires_grad = False
 
-    return model, tokenizer
+    return model, processor

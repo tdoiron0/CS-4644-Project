@@ -6,7 +6,7 @@ from src.datasets.aircraft_text_dataset import AircraftTextDataset
 from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset
 
 
-def finetune_text(model, tokenizer, optimizer, train_loader, val_loader, num_epochs=3):
+def finetune_text(model, processor, optimizer, train_loader, val_loader, num_epochs=3):
     for epoch in range(num_epochs):
         # --- Training ---
         model.train()
@@ -40,7 +40,7 @@ def finetune_text(model, tokenizer, optimizer, train_loader, val_loader, num_epo
         print(f"[Text] Epoch {epoch+1}/{num_epochs}  train_loss={avg_train_loss:.4f}  val_loss={avg_val_loss:.4f}")
 
 
-def finetune_captions(model, tokenizer, optimizer, train_loader, val_loader, num_epochs=3):
+def finetune_captions(model, processor, optimizer, train_loader, val_loader, num_epochs=3):
     for epoch in range(num_epochs):
         # --- Training ---
         model.train()
@@ -98,7 +98,7 @@ def run_inference(model, processor, prompt, max_new_tokens=128):
 
 def main():
     # --- Model ---
-    model, tokenizer = model_factory.build_internvl3(
+    model, processor = model_factory.build_internvl3(
         freeze_vision_encoder=True,
         freeze_llm=False,
         load_in_8bit=True,
@@ -122,10 +122,10 @@ def main():
     )
 
     # --- Stage 1: finetune on text ---
-    finetune_text(model, tokenizer, optimizer, train_text_loader, val_text_loader, num_epochs=3)
+    finetune_text(model, processor, optimizer, train_text_loader, val_text_loader, num_epochs=3)
 
     # --- Stage 2: finetune on captions ---
-    finetune_captions(model, tokenizer, optimizer, train_caption_loader, val_caption_loader, num_epochs=3)
+    finetune_captions(model, processor, optimizer, train_caption_loader, val_caption_loader, num_epochs=3)
 
 
 if __name__ == "__main__":
