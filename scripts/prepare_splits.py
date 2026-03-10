@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
-LABELS_PATH = os.path.join(DATA_DIR, "labels.csv")
+LABELS_PATH = "/Users/jackwarren430/Documents/Classes/deep learning/CS-4644-Project/data/processed/fgvc/labels.csv"
 RANDOM_SEED = 42
 
 COLUMNS = ["image_id", "manufacturer", "family", "variant"]

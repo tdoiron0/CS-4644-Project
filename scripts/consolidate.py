@@ -11,7 +11,7 @@ import csv
 import os
 import shutil
 
-DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = "/Users/jackwarren430/Documents/Classes/deep learning/CS-4644-Project/data/raw/fgvc-aircraft-2013b/data"
 
 SPLITS = ["train", "val", "test"]
 

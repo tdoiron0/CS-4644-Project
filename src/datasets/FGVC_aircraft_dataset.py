@@ -16,12 +16,11 @@ root_path
     labels.csv
 '''
 class AircraftCaptionDataset(Dataset):
-    def __init__(self, root_path, processor, **kwargs):
+    def __init__(self, csv_path, images_path, processor, **kwargs):
         super().__init__(**kwargs)
-
-        self.root_path = root_path
-        self.images_path = os.path.join(self.root_path, "images")
-        self.labels_path = os.path.join(self.root_path, "labels.csv")
+        self.processor = processor
+        self.labels_path = csv_path
+        self.images_path = images_path
         
         with open(self.labels_path, "r", newline="") as f:
             reader = csv.DictReader(f)
