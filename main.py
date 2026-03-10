@@ -5,6 +5,8 @@ from src.models import model_factory
 from src.datasets.aircraft_text_dataset import AircraftTextDataset
 from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset
 
+from constants.constants import *
+
 
 def finetune_text(model, processor, optimizer, train_loader, val_loader, num_epochs=3):
     for epoch in range(num_epochs):
@@ -98,20 +100,24 @@ def run_inference(model, processor, prompt, max_new_tokens=128):
 
 def main():
     # --- Model ---
-    model, processor = model_factory.build_internvl3(
+    model, processor = model_factory.build_internvl3_14b(
         freeze_vision_encoder=True,
-        freeze_llm=False,
         load_in_8bit=True,
+        device_map=DEVICE_MPS
     )
 
-    # --- Datasets ---
-    train_text_dataset = AircraftTextDataset()
-    val_text_dataset = AircraftTextDataset()
-    train_caption_dataset = AircraftCaptionDataset()
-    val_caption_dataset = AircraftCaptionDataset()
 
-    train_text_loader = DataLoader(train_text_dataset, batch_size=4, shuffle=True)
-    val_text_loader = DataLoader(val_text_dataset, batch_size=4)
+
+    # --- Datasets ---
+    #train_text_dataset = AircraftTextDataset()
+    #val_text_dataset = AircraftTextDataset()
+
+    train_caption_dataset = AircraftCaptionDataset(csv_path=FGVC_TRAIN_LABELS, images_path=FGVC_TRAIN_IMAGES, processor=processor)
+    val_caption_dataset = AircraftCaptionDataset(csv_path=FGVC_VAL_LABELS, images_path=FGVC_VAL_IMAGES, processor=processor)
+
+    #train_text_loader = DataLoader(train_text_dataset, batch_size=4, shuffle=True)
+    #val_text_loader = DataLoader(val_text_dataset, batch_size=4)
+
     train_caption_loader = DataLoader(train_caption_dataset, batch_size=4, shuffle=True)
     val_caption_loader = DataLoader(val_caption_dataset, batch_size=4)
 
@@ -122,7 +128,7 @@ def main():
     )
 
     # --- Stage 1: finetune on text ---
-    finetune_text(model, processor, optimizer, train_text_loader, val_text_loader, num_epochs=3)
+    #finetune_text(model, processor, optimizer, train_text_loader, val_text_loader, num_epochs=3)
 
     # --- Stage 2: finetune on captions ---
     finetune_captions(model, processor, optimizer, train_caption_loader, val_caption_loader, num_epochs=3)

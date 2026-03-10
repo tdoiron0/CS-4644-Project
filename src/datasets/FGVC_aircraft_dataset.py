@@ -35,10 +35,10 @@ class AircraftCaptionDataset(Dataset):
         img_path = os.path.join(self.images_path, datapoint["image_id"] + ".jpg")
         img_raw = Image.open(img_path).convert("RGB")
 
-        label = f"The manufacturer is {datapoint["manufacturer"]}, the family is {datapoint["family"]}, the variant is {datapoint["variant"]}."
+        label = f"The manufacturer is {datapoint["manufacturer"]}, the family is {datapoint["family"]}, and the variant is {datapoint["variant"]}."
 
         return self.processor(
-            text="What is the manufacturer, family, and variant of this aircraft", 
+            text="What is the manufacturer, family, and variant of this aircraft?", 
             images=img_raw, 
             return_tensors="pt"
-        ), self.processor.tokenizer(label, return_tensors="pt")
+        )
