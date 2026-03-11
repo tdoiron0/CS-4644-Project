@@ -1,36 +1,33 @@
 import torch
-from transformers import AutoProcessor, BitsAndBytesConfig, LlavaNextForConditionalGeneration, AutoModel
+from transformers import AutoProcessor, BitsAndBytesConfig, AutoModelForImageTextToText
 from peft import LoraConfig, get_peft_model
 
 from constants.constants import *
 
 
-
-def build_internvl3_14b(
-    freeze_vision_encoder: bool = True,
-    load_in_8bit: bool = False,
-    device_map: str = "auto",
-    lora_r: int = 16,
-    lora_alpha: int = 32,
-    lora_dropout: float = 0.05,
+def _build_internvl3(
+    model_name,
+    freeze_vision_encoder=True,
+    load_in_8bit=False,
+    device_map=None,
+    lora_r=16,
+    lora_alpha=32,
+    lora_dropout=0.05,
 ):
-    bnb_config = BitsAndBytesConfig(load_in_8bit=True) if load_in_8bit else None
+    kwargs = {
+        "torch_dtype": torch.float16,
+    }
 
-    model = AutoModel.from_pretrained(
-        MODEL_INTERNVL3_14B,
-        torch_dtype=torch.bfloat16,
-        quantization_config=bnb_config,
-        device_map=device_map,
-        trust_remote_code=True,
-    )
+    if load_in_8bit:
+        kwargs["quantization_config"] = BitsAndBytesConfig(load_in_8bit=True)
+        kwargs["device_map"] = device_map or "auto"
 
-    processor = AutoProcessor.from_pretrained(
-        MODEL_INTERNVL3_14B,
-        trust_remote_code=True,
-    )
+    model = AutoModelForImageTextToText.from_pretrained(model_name, **kwargs)
+
+    processor = AutoProcessor.from_pretrained(model_name)
 
     if freeze_vision_encoder:
-        for param in model.vision_model.parameters():
+        for param in model.model.vision_tower.parameters():
             param.requires_grad = False
 
     lora_config = LoraConfig(
@@ -48,43 +45,9 @@ def build_internvl3_14b(
     return model, processor
 
 
-def build_internvl3_8b(
-    freeze_vision_encoder: bool = True,
-    load_in_8bit: bool = False,
-    device_map: str = "auto",
-    lora_r: int = 16,
-    lora_alpha: int = 32,
-    lora_dropout: float = 0.05,
-):
-    bnb_config = BitsAndBytesConfig(load_in_8bit=True) if load_in_8bit else None
+def build_internvl3_14b(**kwargs):
+    return _build_internvl3(MODEL_INTERNVL3_14B, **kwargs)
 
-    model = AutoModel.from_pretrained(
-        MODEL_INTERNVL3_8B,
-        torch_dtype=torch.bfloat16,
-        quantization_config=bnb_config,
-        device_map=device_map,
-        trust_remote_code=True,
-    )
 
-    processor = AutoProcessor.from_pretrained(
-        MODEL_INTERNVL3_8B,
-        trust_remote_code=True,
-    )
-
-    if freeze_vision_encoder:
-        for param in model.vision_model.parameters():
-            param.requires_grad = False
-
-    lora_config = LoraConfig(
-        r=lora_r,
-        lora_alpha=lora_alpha,
-        lora_dropout=lora_dropout,
-        bias="none",
-        task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
-    )
-
-    model = get_peft_model(model, lora_config)
-    model.print_trainable_parameters()
-
-    return model, processor
+def build_internvl3_8b(**kwargs):
+    return _build_internvl3(MODEL_INTERNVL3_8B, **kwargs)

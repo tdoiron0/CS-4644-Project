@@ -7,7 +7,7 @@ from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset
 from constants.constants import *
 
 
-def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4):
+def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1):
     optimizer = torch.optim.AdamW(
         filter(lambda p: p.requires_grad, model.parameters()),
         lr=2e-5,
@@ -19,6 +19,8 @@ def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_
         train_loss = 0.0
         optimizer.zero_grad()
 
+        num_steps = len(train_loader)
+
         for step, batch in enumerate(train_loader):
             # Move each tensor to the model's expected device
             inputs = {k: v.to(device=model.device, dtype=model.dtype) if k == "pixel_values"
@@ -29,11 +31,15 @@ def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_
             loss = outputs.loss / grad_accum_steps
             loss.backward()
 
-            if (step + 1) % grad_accum_steps == 0 or (step + 1) == len(train_loader):
+            if (step + 1) % grad_accum_steps == 0 or (step + 1) == num_steps:
                 optimizer.step()
                 optimizer.zero_grad()
 
             train_loss += outputs.loss.item()
+
+            if (step + 1) % log_every == 0 or (step + 1) == num_steps:
+                running_avg = train_loss / (step + 1)
+                print(f"  [Train] Epoch {epoch+1} | Step {step+1}/{num_steps} | running_loss={running_avg:.4f}")
 
         avg_train_loss = train_loss / len(train_loader)
 
@@ -58,8 +64,8 @@ def main():
     # --- Model ---
     model, processor = model_factory.build_internvl3_8b(
         freeze_vision_encoder=True,
-        load_in_8bit=True,
     )
+    model.to(DEVICE_MPS)
     model.gradient_checkpointing_enable()
 
     # --- Datasets ---

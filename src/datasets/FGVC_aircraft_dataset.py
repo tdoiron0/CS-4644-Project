@@ -25,16 +25,20 @@ class AircraftCaptionDataset(Dataset):
             reader = csv.DictReader(f)
             self.label_rows = list(reader)
 
-        # Tokenize the question once to know how many answer tokens to unmask
-        self.question_messages = [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "image"},
-                    {"type": "text", "text": QUESTION},
-                ],
-            },
-        ]
+        # The prompt is always the same question, so compute its token length once.
+        # Use a dummy image so the processor generates the correct image token count.
+        dummy_image = Image.new("RGB", (448, 448))
+        prompt_only = self.processor.apply_chat_template(
+            [{"role": "user", "content": [
+                {"type": "image", "image": dummy_image},
+                {"type": "text", "text": QUESTION},
+            ]}],
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+        )
+        self.prompt_len = prompt_only["input_ids"].shape[-1]
 
     def __len__(self):
         return len(self.label_rows)
@@ -51,35 +55,24 @@ class AircraftCaptionDataset(Dataset):
             f"and the variant is {datapoint['variant']}."
         )
 
-        # Build full conversation (user question + assistant answer)
-        messages = self.question_messages + [
-            {"role": "assistant", "content": answer},
-        ]
-
         # Tokenize the full conversation (prompt + answer)
         full = self.processor.apply_chat_template(
-            messages,
+            [
+                {"role": "user", "content": [
+                    {"type": "image", "image": image},
+                    {"type": "text", "text": QUESTION},
+                ]},
+                {"role": "assistant", "content": [{"type": "text", "text": answer}]},
+            ],
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
-            images=[image],
-        )
-
-        # Tokenize prompt only (no answer) to find where the answer starts
-        prompt_only = self.processor.apply_chat_template(
-            self.question_messages,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_dict=True,
-            return_tensors="pt",
-            images=[image],
         )
 
         # Build labels: -100 for prompt tokens, real IDs for answer tokens
         input_ids = full["input_ids"].squeeze(0)
         labels = input_ids.clone()
-        prompt_len = prompt_only["input_ids"].shape[-1]
-        labels[:prompt_len] = -100
+        labels[:self.prompt_len] = -100
 
         return {
             "input_ids": input_ids,
