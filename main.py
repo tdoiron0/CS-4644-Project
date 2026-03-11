@@ -1,9 +1,11 @@
 import math
+import os
 import torch
 from torch.utils.data import DataLoader
+from PIL import Image
 
 from src.models import model_factory
-from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset
+from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset, QUESTION
 
 from constants.constants import *
 
@@ -128,6 +130,57 @@ def test(model, test_loader, log_every=10):
     return avg_test_loss, test_acc, test_ppl
 
 
+def sample_inference(model, processor, test_dataset):
+    """Run inference on the first test sample and print the generated vs expected text."""
+    model.eval()
+
+    # Get raw data for the first sample
+    datapoint = test_dataset.label_rows[0]
+    img_path = os.path.join(test_dataset.images_path, datapoint["image_id"] + ".jpg")
+    image = Image.open(img_path).convert("RGB")
+
+    expected = (
+        f"The manufacturer is {datapoint['manufacturer']}, "
+        f"the family is {datapoint['family']}, "
+        f"and the variant is {datapoint['variant']}."
+    )
+
+    # Build prompt-only messages (no assistant answer)
+    messages = [
+        {"role": "user", "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": QUESTION},
+        ]},
+    ]
+
+    inputs = processor.apply_chat_template(
+        messages,
+        add_generation_prompt=True,
+        tokenize=True,
+        return_dict=True,
+        return_tensors="pt",
+    )
+    inputs = {k: v.to(device=model.device, dtype=model.dtype) if k == "pixel_values"
+              else v.to(model.device)
+              for k, v in inputs.items()}
+
+    with torch.no_grad():
+        output_ids = model.generate(**inputs, max_new_tokens=128)
+
+    # Decode only the newly generated tokens
+    generated_ids = output_ids[0, inputs["input_ids"].shape[-1]:]
+    generated_text = processor.tokenizer.decode(generated_ids, skip_special_tokens=True)
+
+    print(f"\n{'='*60}")
+    print(f"Image: {img_path}")
+    print(f"Expected: {expected}")
+    print(f"Generated: {generated_text}")
+    print(f"{'='*60}\n")
+
+    # Show the image
+    image.show()
+
+
 def main():
     # --- Model ---
     model, processor = model_factory.build_internvl3_2b(
@@ -155,7 +208,10 @@ def main():
     #finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1)
 
     # --- Test ---
-    test(model, test_loader, log_every=10)
+    #test(model, test_loader, log_every=10)
+
+    # --- Sample inference ---
+    sample_inference(model, processor, test_dataset)
 
 
 if __name__ == "__main__":
