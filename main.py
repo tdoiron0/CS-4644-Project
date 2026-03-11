@@ -62,7 +62,7 @@ def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_
 
 def main():
     # --- Model ---
-    model, processor = model_factory.build_internvl3_8b(
+    model, processor = model_factory.build_internvl3_2b(
         freeze_vision_encoder=True,
     )
     model.to(DEVICE_MPS)

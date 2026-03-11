@@ -5,6 +5,7 @@ import os
     MODELS
 '''
 
+MODEL_INTERNVL3_2B = "OpenGVLab/InternVL3-2B-hf"
 MODEL_INTERNVL3_8B = "OpenGVLab/InternVL3-8B-hf"
 MODEL_INTERNVL3_14B = "OpenGVLab/InternVL3-14B-hf"
 

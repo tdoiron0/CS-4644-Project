@@ -51,3 +51,7 @@ def build_internvl3_14b(**kwargs):
 
 def build_internvl3_8b(**kwargs):
     return _build_internvl3(MODEL_INTERNVL3_8B, **kwargs)
+
+
+def build_internvl3_2b(**kwargs):
+    return _build_internvl3(MODEL_INTERNVL3_2B, **kwargs)
