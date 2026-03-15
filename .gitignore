@@ -1,5 +1,6 @@
-/data/raw
+/data/*
 __pycache__/
 .vscode/
 **/fgvc-aircraft-dataset/*
 /data
+.DS_Store
