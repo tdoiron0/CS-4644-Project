@@ -50,6 +50,8 @@ def main():
 
         for i, img_id in enumerate(image_ids, 1):
             img = Image.open(os.path.join(INPUT_DIR, f"{img_id}.jpg")).convert("RGB")
+            w, h = img.size
+            img = img.crop((0, 0, w, h - 20))
             img = tfm(img)
             img.save(os.path.join(out_dir, f"{img_id}.jpg"), "JPEG")
 
