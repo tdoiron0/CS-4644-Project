@@ -211,7 +211,7 @@ def main():
     #test(model, test_loader, log_every=10)
 
     # --- Sample inference ---
-    sample_inference(model, processor, test_dataset)
+    #sample_inference(model, processor, test_dataset)
 
 
 if __name__ == "__main__":
