@@ -30,23 +30,30 @@ import requests
 
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WIKI_LINKS_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "wikipediastuff", "Wiki_links.txt")
+WIKI_LINKS_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "wikipediastuff", "Wiki_links_expanded.txt")
 TAXONOMY_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "fgvc-aircraft-2013b", "data", "taxonomy")
-OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus.jsonl")
-OUTPUT_TXT = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus.txt")
-
+OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus_expanded.jsonl")
+OUTPUT_TXT = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus_expanded.txt")
 API_URL = "https://en.wikipedia.org/w/api.php"
 REQUEST_DELAY = 0.5
 
-TARGET_SECTION_KEYWORDS = ["variant", "design", "development", "specification", "description"]
 
+TARGET_SECTION_KEYWORDS = [
+    "variant", "design", "development", "specification", "description",
+    "history", "production", "operational", "operator", "service",
+    "overview", "general characteristics", "performance", "orders",
+    "deliveries", "assembly", "manufacture", "technical", "feature",
+    "introduction", "background", "origin", "configuration", "model",
+    "aircraft", "product",
+]
 
 SKIP_SECTIONS = frozenset({
     "references", "external links", "see also", "bibliography",
     "further reading", "notes", "citations",
 })
 
-MAX_SECTION_CHARS = 4000
+
+MAX_SECTION_CHARS = 15000
 
 TECHNICAL_KEYWORDS = frozenset({
     "wingspan", "fuselage", "engine", "turbofan", "turboprop", "cockpit",
@@ -100,11 +107,17 @@ def load_wiki_links(path):
     with open(path) as f:
         for line in f:
             line = line.strip()
-            if not line:
+            if not line or line.startswith("#"):
                 continue
             family, url = line.split(": ", 1)
+            family = family.strip()
+            page_type = "aircraft"
+            type_match = re.match(r"(.+?)\s*\[(manufacturer|concept)\]$", family)
+            if type_match:
+                family = type_match.group(1)
+                page_type = type_match.group(2)
             page_title = unquote(url.split("/wiki/")[-1]).replace("_", " ")
-            entries.append((family.strip(), page_title))
+            entries.append((family, page_title, page_type))
     return entries
 
 
@@ -310,29 +323,22 @@ def extract_target_sections(parsed_wikitext):
 # ---------------------------------------------------------------------------
 
 def filter_by_taxonomy(text, taxonomy_terms):
-    """Keep sentences that mention a taxonomy term. Technical-keyword sentences
-    are only kept if the section already has at least one taxonomy hit,
-    so we never admit purely generic content.
+    """Relaxed filter: keep ALL sentences in sections that have at least one
+    taxonomy or technical-keyword hit. Only discard sections that are entirely
+    off-topic (no taxonomy or technical terms at all).
     Applied to section text only — lead and infobox are kept in full."""
     if not text:
         return text
     sentences = re.split(r"(?<=[.!?])\s+", text)
 
-    taxonomy_hits = []
-    technical_hits = []
     for sentence in sentences:
         s_lower = sentence.lower()
         if any(term in s_lower for term in taxonomy_terms):
-            taxonomy_hits.append(sentence)
-        elif any(kw in s_lower for kw in TECHNICAL_KEYWORDS):
-            technical_hits.append(sentence)
+            return text
+        if any(kw in s_lower for kw in TECHNICAL_KEYWORDS):
+            return text
 
-    if not taxonomy_hits:
-        return ""
-
-    kept = taxonomy_hits + technical_hits
-    return " ".join(kept)
-
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -350,8 +356,8 @@ def build_full_text(family, lead, infobox, sections):
     return "\n\n".join(parts)
 
 
-def process_page(family, page_title, session, taxonomy_terms):
-    log.info("Fetching: %s  (family: %s)", page_title, family)
+def process_page(family, page_title, session, taxonomy_terms, page_type="aircraft"):
+    log.info("Fetching: %s  (family: %s, type: %s)", page_title, family, page_type)
 
     api_data = fetch_page(page_title, session)
     raw_wikitext = api_data["wikitext"]
@@ -362,7 +368,8 @@ def process_page(family, page_title, session, taxonomy_terms):
     sections = extract_target_sections(parsed)
 
 
-    if taxonomy_terms:
+    # Only apply taxonomy filtering to aircraft pages
+    if page_type == "aircraft" and taxonomy_terms:
         filtered = {}
         for title, content in sections.items():
             result = filter_by_taxonomy(content, taxonomy_terms)
@@ -375,6 +382,7 @@ def process_page(family, page_title, session, taxonomy_terms):
     entry = {
         "family": family,
         "aircraft_name": api_data.get("title", page_title),
+        "page_type": page_type,
         "lead": lead,
         "infobox": infobox,
         "sections": sections,
@@ -407,9 +415,10 @@ def main():
     results = []
     failed = []
 
-    for i, (family, page_title) in enumerate(entries):
+
+    for i, (family, page_title, page_type) in enumerate(entries):
         try:
-            entry = process_page(family, page_title, session, taxonomy_terms)
+            entry = process_page(family, page_title, session, taxonomy_terms, page_type)
             results.append(entry)
         except Exception as e:
             log.error("FAILED: %s — %s", page_title, e)
