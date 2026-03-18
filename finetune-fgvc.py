@@ -3,6 +3,7 @@ import os
 import torch
 from torch.utils.data import DataLoader
 from PIL import Image
+import matplotlib.pyplot as plt
 
 from src.models import model_factory
 from src.datasets.FGVC_aircraft_dataset import AircraftCaptionDataset, QUESTION
@@ -30,11 +31,44 @@ def _compute_metrics(outputs, labels):
     return accuracy, perplexity
 
 
+def _plot_metrics(history, title_prefix=""):
+    """Plot loss, accuracy, and perplexity across epochs."""
+    epochs = range(1, len(history["train_loss"]) + 1)
+
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4))
+
+    axes[0].plot(epochs, history["train_loss"], label="Train")
+    axes[0].plot(epochs, history["val_loss"], label="Val")
+    axes[0].set_xlabel("Epoch")
+    axes[0].set_ylabel("Loss")
+    axes[0].set_title(f"{title_prefix}Loss")
+    axes[0].legend()
+
+    axes[1].plot(epochs, history["val_acc"], label="Val")
+    axes[1].set_xlabel("Epoch")
+    axes[1].set_ylabel("Accuracy")
+    axes[1].set_title(f"{title_prefix}Val Accuracy")
+    axes[1].legend()
+
+    axes[2].plot(epochs, history["train_ppl"], label="Train")
+    axes[2].plot(epochs, history["val_ppl"], label="Val")
+    axes[2].set_xlabel("Epoch")
+    axes[2].set_ylabel("Perplexity")
+    axes[2].set_title(f"{title_prefix}Perplexity")
+    axes[2].legend()
+
+    plt.tight_layout()
+    plt.show()
+
+
 def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1):
     optimizer = torch.optim.AdamW(
         filter(lambda p: p.requires_grad, model.parameters()),
         lr=2e-5,
     )
+
+    history = {"train_loss": [], "train_ppl": [],
+               "val_loss": [], "val_acc": [], "val_ppl": []}
 
     for epoch in range(num_epochs):
         # --- Training ---
@@ -65,6 +99,10 @@ def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_
                 print(f"  [Train] Epoch {epoch+1} | Step {step+1}/{num_steps} | loss={running_avg:.4f} | ppl={ppl:.2f}")
 
         avg_train_loss = train_loss / num_steps
+        train_ppl = math.exp(avg_train_loss)
+
+        history["train_loss"].append(avg_train_loss)
+        history["train_ppl"].append(train_ppl)
 
         # --- Validation ---
         model.eval()
@@ -90,7 +128,13 @@ def finetune_captions(model, train_loader, val_loader, num_epochs=3, grad_accum_
         val_acc = val_correct / val_total if val_total > 0 else 0.0
         val_ppl = math.exp(avg_val_loss)
 
+        history["val_loss"].append(avg_val_loss)
+        history["val_acc"].append(val_acc)
+        history["val_ppl"].append(val_ppl)
+
         print(f"Epoch {epoch+1}/{num_epochs}  train_loss={avg_train_loss:.4f}  val_loss={avg_val_loss:.4f}  val_acc={val_acc:.4f}  val_ppl={val_ppl:.2f}")
+
+    _plot_metrics(history, title_prefix="FGVC Finetune — ")
 
     return avg_val_loss, val_acc, val_ppl
 
