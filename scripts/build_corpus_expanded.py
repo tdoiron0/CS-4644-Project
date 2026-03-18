@@ -29,10 +29,10 @@ import mwparserfromhell
 import requests
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WIKI_LINKS_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "wikipediastuff", "Wiki_links.txt")
+WIKI_LINKS_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "wikipediastuff", "Wiki_links_expanded.txt")
 TAXONOMY_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "fgvc-aircraft-2013b", "data", "taxonomy")
-OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus.jsonl")
-OUTPUT_TXT = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus.txt")
+OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus_expanded.jsonl")
+OUTPUT_TXT = os.path.join(PROJECT_ROOT, "data", "processed", "wikitext", "text_corpus_expanded.txt")
 
 API_URL = "https://en.wikipedia.org/w/api.php"
 REQUEST_DELAY = 0.5
