@@ -222,10 +222,10 @@ def main():
     test_loader = DataLoader(test_dataset, batch_size=1)
 
     # --- Train ---
-    finetune_wiki(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1)
+    #finetune_wiki(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1)
 
     # --- Test ---
-    #test(model, test_loader, log_every=10)
+    test(model, test_loader, log_every=10)
 
     # --- Sample inference ---
     #sample_inference(model, processor, test_dataset)

@@ -1,6 +1,6 @@
 SBATCH HEADERS HERE
 
-# inscructions for running on pace_ice, we'll worry about this later
+
 
 # This is the first argument passed to the script, which is the number of iterations
 # Usage: sbatch pace_ice_island_controller.sbatch <number_of_iterations>
