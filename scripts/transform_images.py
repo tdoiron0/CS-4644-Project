@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Apply torchvision transforms to images listed in train/val/test CSVs
-and save results as JPGs in split-specific output folders.
-
-No normalization is applied — InternVL3's processor handles that at inference time.
+Preprocess images: crop bottom 20px copyright strip and resize to 448x448.
+InternVL3 expects 448x448; using native resolution preserves detail for
+fine-grained aircraft recognition. No augmentation — that happens in the
+Dataset at training time.
 """
 
 import csv
@@ -11,26 +11,18 @@ import os
 from PIL import Image
 from torchvision import transforms
 
-DATA_ROOT = "/Users/jackwarren430/Documents/Classes/deep learning/CS-4644-Project/data"
-INPUT_DIR = os.path.join(DATA_ROOT, "raw/fgvc-aircraft-2013b/data/images")
-LABELS_DIR = os.path.join(DATA_ROOT, "processed/fgvc/labels")
+DATA_ROOT = "/Users/seanhall/Desktop/cs4644 project/data"
+INPUT_DIR = os.path.join(DATA_ROOT, "images")
+LABELS_DIR = DATA_ROOT
 OUTPUT_DIR = os.path.join(DATA_ROOT, "processed/fgvc/images")
 
-train_transform = transforms.Compose([
-    transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
-    transforms.RandomHorizontalFlip(),
-    transforms.ColorJitter(brightness=0.2, contrast=0.2),
+# Remove bottom 20px copyright strip, then resize to 448x448 (InternVL3 native size)
+preprocess = transforms.Compose([
+    transforms.Lambda(lambda img: img.crop((0, 0, img.size[0], max(1, img.size[1] - 20)))),
+    transforms.Resize((448, 448)),
 ])
 
-eval_transform = transforms.Compose([
-    transforms.Resize((224, 224)),
-])
-
-SPLITS = {
-    "train": train_transform,
-    "val": eval_transform,
-    "test": eval_transform,
-}
+SPLITS = ["train", "val", "test"]
 
 
 def load_image_ids(csv_path):
@@ -40,7 +32,7 @@ def load_image_ids(csv_path):
 
 
 def main():
-    for split, tfm in SPLITS.items():
+    for split in SPLITS:
         csv_path = os.path.join(LABELS_DIR, f"{split}.csv")
         out_dir = os.path.join(OUTPUT_DIR, split)
         os.makedirs(out_dir, exist_ok=True)
@@ -50,7 +42,7 @@ def main():
 
         for i, img_id in enumerate(image_ids, 1):
             img = Image.open(os.path.join(INPUT_DIR, f"{img_id}.jpg")).convert("RGB")
-            img = tfm(img)
+            img = preprocess(img)
             img.save(os.path.join(out_dir, f"{img_id}.jpg"), "JPEG")
 
             if i % 500 == 0 or i == len(image_ids):
