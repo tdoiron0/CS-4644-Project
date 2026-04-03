@@ -9,7 +9,7 @@ class AircraftTextDataset(Dataset):
     Text-only dataset for domain-adaptive pretraining on aircraft Wikipedia text.
 
     Loads a JSONL corpus (one JSON object per article), splits articles into
-    train/val/test by article, then tokenizes and chunks each article's
+    train/val by article, then tokenizes and chunks each article's
     full_clean_text into fixed-length sequences for causal language modeling.
     """
 
@@ -21,23 +21,20 @@ class AircraftTextDataset(Dataset):
         with open(jsonl_path, "r") as f:
             articles = [json.loads(line) for line in f if line.strip()]
 
-        # Deterministic shuffle and 80/10/10 split by article
+        # Deterministic shuffle and 85/15 train/val split by article
         rng = random.Random(seed)
         indices = list(range(len(articles)))
         rng.shuffle(indices)
 
         n = len(articles)
-        train_end = int(0.8 * n)
-        val_end = train_end + int(0.1 * n)
+        train_end = int(0.85 * n)
 
         if split == "train":
             selected = [articles[i] for i in indices[:train_end]]
         elif split == "val":
-            selected = [articles[i] for i in indices[train_end:val_end]]
-        elif split == "test":
-            selected = [articles[i] for i in indices[val_end:]]
+            selected = [articles[i] for i in indices[train_end:]]
         else:
-            raise ValueError(f"Unknown split: {split!r}. Use 'train', 'val', or 'test'.")
+            raise ValueError(f"Unknown split: {split!r}. Use 'train' or 'val'.")
 
         # Tokenize all selected articles and chunk into max_length sequences
         # Temporarily raise model_max_length to avoid spurious warnings —
