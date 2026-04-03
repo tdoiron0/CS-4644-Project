@@ -12,6 +12,7 @@ dependencies:
   - pillow
   - pandas
   - tqdm
+  - matplotlib
   - pip
   - pip:
       - transformers

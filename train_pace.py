@@ -39,7 +39,7 @@ WEIGHT_DECAY = 0.01
 WARMUP_RATIO = 0.10
 MAX_NEW_TOKENS = 32
 LOG_EVERY = 50
-SAVE_EVERY = 7000  # save latest checkpoint every N steps (3 per epoch)
+SAVE_EVERY = 2000  # save latest checkpoint every N steps (~10 per epoch)
 
 # ── Globals for SIGTERM ──────────────────────────────────────────────────────
 

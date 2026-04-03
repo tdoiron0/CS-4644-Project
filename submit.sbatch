@@ -3,7 +3,7 @@
 #SBATCH --account=ece
 #SBATCH --qos=coc-ice
 #SBATCH --partition=coc-gpu
-#SBATCH --gres=gpu:v100:1
+#SBATCH --gres=gpu:a100:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24G
 #SBATCH --time=03:00:00

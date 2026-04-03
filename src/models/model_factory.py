@@ -8,14 +8,21 @@ from constants.constants import *
 def _build_internvl3(
     model_name,
     freeze_vision_encoder=True,
+    train_projector=True,
     load_in_8bit=False,
     device_map=None,
-    lora_r=16,
-    lora_alpha=32,
+    lora_r=8,
+    lora_alpha=16,
     lora_dropout=0.05,
 ):
+    if torch.backends.mps.is_available():
+        dtype = torch.float32
+    elif torch.cuda.is_available() and torch.cuda.is_bf16_supported():
+        dtype = torch.bfloat16
+    else:
+        dtype = torch.float32
     kwargs = {
-        "torch_dtype": torch.float16,
+        "torch_dtype": dtype,
     }
 
     if load_in_8bit:
@@ -40,6 +47,12 @@ def _build_internvl3(
     )
 
     model = get_peft_model(model, lora_config)
+
+    if train_projector:
+        for name, param in model.named_parameters():
+            if "multi_modal_projector" in name:
+                param.requires_grad = True
+
     model.print_trainable_parameters()
 
     return model, processor
