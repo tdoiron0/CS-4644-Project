@@ -199,7 +199,8 @@ def main():
     model, processor = model_factory.build_internvl3_2b(
         freeze_vision_encoder=True,
     )
-    model.to(DEVICE_MPS)
+    device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
+    model.to(device)
     model.gradient_checkpointing_enable()
 
     # --- Datasets ---
@@ -211,24 +212,20 @@ def main():
     val_dataset = AircraftTextDataset(
         jsonl_path=corpus_path, processor=processor, split="val",
     )
-    test_dataset = AircraftTextDataset(
-        jsonl_path=corpus_path, processor=processor, split="test",
-    )
 
-    print(f"Train chunks: {len(train_dataset)}, Val chunks: {len(val_dataset)}, Test chunks: {len(test_dataset)}")
+    print(f"Train chunks: {len(train_dataset)}, Val chunks: {len(val_dataset)}")
 
     train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=1)
-    test_loader = DataLoader(test_dataset, batch_size=1)
 
     # --- Train ---
-    #finetune_wiki(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1)
+    finetune_wiki(model, train_loader, val_loader, num_epochs=3, grad_accum_steps=4, log_every=1)
 
-    # --- Test ---
-    test(model, test_loader, log_every=10)
+    # --- Evaluate ---
+    #test(model, val_loader, log_every=10)
 
     # --- Sample inference ---
-    #sample_inference(model, processor, test_dataset)
+    #sample_inference(model, processor, val_dataset)
 
 
 if __name__ == "__main__":
