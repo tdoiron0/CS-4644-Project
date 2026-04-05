@@ -33,6 +33,8 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 8
 GRAD_ACCUM_STEPS = 1
 LEARNING_RATE = 2e-5
+WEIGHT_DECAY = 0.01
+WARMUP_RATIO = 0.10
 LOG_EVERY = 50
 SAVE_EVERY = 500  # save latest checkpoint every N steps
 
@@ -56,6 +58,17 @@ def get_device():
     if torch.backends.mps.is_available():
         return torch.device("mps")
     return torch.device("cpu")
+
+
+def cosine_lr(optimizer, step, total_steps, warmup_steps, base_lr):
+    if step < warmup_steps:
+        lr = base_lr * step / max(1, warmup_steps)
+    else:
+        progress = (step - warmup_steps) / max(1, total_steps - warmup_steps)
+        lr = base_lr * 0.5 * (1.0 + math.cos(math.pi * progress))
+    for pg in optimizer.param_groups:
+        pg["lr"] = lr
+    return lr
 
 
 # ── Checkpoint helpers ───────────────────────────────────────────────────────
@@ -130,7 +143,7 @@ def delete_train_metrics(output_dir, epoch):
 
 
 def train_one_epoch(model, loader, optimizer, device, epoch,
-                    total_steps_so_far, start_step=0,
+                    total_steps_so_far, total_steps, start_step=0,
                     save_latest_fn=None, output_dir=None):
     """Train for one epoch. Returns (metrics_dict, last_step_in_epoch, interrupted)."""
     model.train()
@@ -139,11 +152,14 @@ def train_one_epoch(model, loader, optimizer, device, epoch,
     num_steps = len(loader)
     optimizer.zero_grad()
 
+    warmup_steps = int(total_steps * WARMUP_RATIO)
+
     for step, batch in enumerate(loader):
         if step < start_step:
             continue
 
         global_step = total_steps_so_far + step
+        lr = cosine_lr(optimizer, global_step, total_steps, warmup_steps, LEARNING_RATE)
         inputs = {k: v.to(device) for k, v in batch.items()}
 
         outputs = model(**inputs)
@@ -151,6 +167,7 @@ def train_one_epoch(model, loader, optimizer, device, epoch,
         loss.backward()
 
         if (step + 1) % GRAD_ACCUM_STEPS == 0 or (step + 1) == num_steps:
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             optimizer.zero_grad()
 
@@ -162,7 +179,7 @@ def train_one_epoch(model, loader, optimizer, device, epoch,
             ppl = math.exp(min(avg, 100))
             print(
                 f"  [Train] Epoch {epoch} | Step {step+1}/{num_steps} | "
-                f"loss={avg:.4f} | ppl={ppl:.2f}"
+                f"loss={avg:.4f} | ppl={ppl:.2f} | lr={lr:.2e}"
             )
 
         if (step + 1) % SAVE_EVERY == 0 and save_latest_fn is not None:
@@ -322,12 +339,14 @@ def main():
     val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE)
 
     steps_per_epoch = len(train_loader)
-    print(f"Steps/epoch: {steps_per_epoch} | Total steps: {NUM_EPOCHS * steps_per_epoch}")
+    total_steps = NUM_EPOCHS * steps_per_epoch
+    print(f"Steps/epoch: {steps_per_epoch} | Total steps: {total_steps}")
 
     # ── Optimizer ──
     optimizer = torch.optim.AdamW(
         filter(lambda p: p.requires_grad, model.parameters()),
         lr=LEARNING_RATE,
+        weight_decay=WEIGHT_DECAY,
     )
 
     # ── Resume ──
@@ -423,7 +442,7 @@ def main():
         t0 = time.time()
         train_metrics, last_step, interrupted = train_one_epoch(
             model, train_loader, optimizer, device, epoch,
-            steps_so_far,
+            steps_so_far, total_steps,
             start_step=epoch_start,
             save_latest_fn=save_latest,
             output_dir=args.output_dir,
