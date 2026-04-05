@@ -32,4 +32,7 @@ FGVC_VAL_IMAGES = os.path.join(DATA_ROOT, "processed/fgvc/images/val")
 FGVC_VAL_LABELS = os.path.join(DATA_ROOT, "val.csv")
 
 FGVC_TEST_IMAGES = os.path.join(DATA_ROOT, "processed/fgvc/images/test")
-FGVC_TEST_LABELS = os.path.join(DATA_ROOT, "test.csv")
+FGVC_TEST_LABELS = os.path.join(DATA_ROOT, "processed/fgvc/labels/test.csv")
+
+WIKI_CORPUS = os.path.join(DATA_ROOT, "processed/wikitext/text_corpus.jsonl")
+WIKI_CORPUS_EXPANDED = os.path.join(DATA_ROOT, "processed/wikitext/text_corpus_expanded.jsonl")
