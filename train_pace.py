@@ -38,7 +38,7 @@ LEARNING_RATE = 2e-4
 WEIGHT_DECAY = 0.01
 WARMUP_RATIO = 0.10
 MAX_NEW_TOKENS = 32
-LOG_EVERY = 50
+LOG_EVERY = 10
 SAVE_EVERY = 2000  # save latest checkpoint every N steps (~10 per epoch)
 
 # ── Globals for SIGTERM ──────────────────────────────────────────────────────
@@ -347,6 +347,10 @@ def parse_args():
     parser.add_argument("--resume", type=str, default=None,
                         help="Path to latest/ checkpoint directory to resume from. "
                              "If the path doesn't exist yet, starts fresh.")
+    parser.add_argument("--pretrained", type=str, default=None,
+                        help="Path to a model_weights.pt state dict to load before training. "
+                             "Use this to initialize from a wiki-finetuned checkpoint. "
+                             "Ignored if --resume finds a valid checkpoint.")
     return parser.parse_args()
 
 
@@ -411,6 +415,13 @@ def main():
         lr=LEARNING_RATE,
         weight_decay=WEIGHT_DECAY,
     )
+
+    # ── Pretrained weights (wiki checkpoint) ──
+    if args.pretrained and not (args.resume and os.path.isdir(args.resume)):
+        print(f"\n[Pretrained] Loading weights from {args.pretrained}")
+        state_dict = torch.load(args.pretrained, map_location=device, weights_only=True)
+        model.load_state_dict(state_dict)
+        print(f"  [Pretrained] Loaded model weights successfully")
 
     # ── Resume ──
     start_epoch = 1

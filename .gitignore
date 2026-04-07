@@ -4,3 +4,4 @@ __pycache__/
 **/fgvc-aircraft-dataset/*
 /data
 .DS_Store
+/outputs

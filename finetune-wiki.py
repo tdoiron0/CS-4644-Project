@@ -30,12 +30,12 @@ from constants.constants import WIKI_CORPUS_EXPANDED
 # ── Hyperparameters ──────────────────────────────────────────────────────────
 
 NUM_EPOCHS = 10
-BATCH_SIZE = 8
-GRAD_ACCUM_STEPS = 1
+BATCH_SIZE = 4
+GRAD_ACCUM_STEPS = 2
 LEARNING_RATE = 2e-5
 WEIGHT_DECAY = 0.01
 WARMUP_RATIO = 0.10
-LOG_EVERY = 50
+LOG_EVERY = 5
 SAVE_EVERY = 500  # save latest checkpoint every N steps
 
 # ── Globals for SIGTERM ──────────────────────────────────────────────────────
