@@ -1,0 +1,4501 @@
+index,category,expected,generated,correct
+0,manufacturer,Boeing,Boeing,1
+1,family,Boeing 737,Boeing 737,1
+2,variant,737-200,737-300,0
+3,manufacturer,Boeing,McDonnell Douglas,0
+4,family,Boeing 737,DC-9,0
+5,variant,737-200,DC-9-30,0
+6,manufacturer,Gulfstream Aerospace,Dassault Aviation,0
+7,family,Gulfstream,Falcon 2000,0
+8,variant,Gulfstream IV,Falcon 2000,0
+9,manufacturer,Boeing,Boeing,1
+10,family,Boeing 727,Boeing 727,1
+11,variant,727-200,727-200,1
+12,manufacturer,de Havilland,de Havilland,1
+13,family,Dash 8,Dash 8,1
+14,variant,DHC-8-100,DHC-8-100,1
+15,manufacturer,Boeing,Boeing,1
+16,family,Boeing 727,Boeing 727,1
+17,variant,727-200,727-200,1
+18,manufacturer,Boeing,Boeing,1
+19,family,Boeing 737,Boeing 737,1
+20,variant,737-400,737-400,1
+21,manufacturer,Boeing,Boeing,1
+22,family,Boeing 747,Boeing 747,1
+23,variant,747-400,747-200,0
+24,manufacturer,Tupolev,Tupolev,1
+25,family,Tu-154,Tu-154,1
+26,variant,Tu-154,Tu-154,1
+27,manufacturer,Boeing,Boeing,1
+28,family,Boeing 767,Boeing 767,1
+29,variant,767-200,767-200,1
+30,manufacturer,Boeing,Boeing,1
+31,family,Boeing 727,Boeing 727,1
+32,variant,727-200,727-200,1
+33,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+34,family,L-1011,L-1011,1
+35,variant,L-1011,L-1011,1
+36,manufacturer,Airbus,Airbus,1
+37,family,A310,A310,1
+38,variant,A310,A310,1
+39,manufacturer,Boeing,Boeing,1
+40,family,Boeing 727,Boeing 727,1
+41,variant,727-200,727-200,1
+42,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+43,family,MD-80,MD-80,1
+44,variant,MD-87,MD-87,1
+45,manufacturer,Airbus,Airbus,1
+46,family,A300,A300,1
+47,variant,A300B4,A300B4,1
+48,manufacturer,Boeing,Boeing,1
+49,family,Boeing 747,Boeing 747,1
+50,variant,747-300,747-200,0
+51,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+52,family,DC-8,DC-8,1
+53,variant,DC-8,DC-8,1
+54,manufacturer,Canadair,Canadair,1
+55,family,CRJ-200,CRJ-200,1
+56,variant,CRJ-200,CRJ-200,1
+57,manufacturer,Saab,Saab,1
+58,family,Saab 340,Saab 340,1
+59,variant,Saab 340,Saab 340,1
+60,manufacturer,Boeing,Ilyushin,0
+61,family,Boeing 727,Il-76,0
+62,variant,727-200,Il-76,0
+63,manufacturer,Fokker,Fokker,1
+64,family,Fokker 100,Fokker 100,1
+65,variant,Fokker 100,Fokker 100,1
+66,manufacturer,Airbus,Airbus,1
+67,family,A320,A320,1
+68,variant,A321,A321,1
+69,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+70,family,DC-10,DC-10,1
+71,variant,DC-10,DC-10,1
+72,manufacturer,Boeing,Boeing,1
+73,family,Boeing 767,Boeing 767,1
+74,variant,767-300,767-300,1
+75,manufacturer,Boeing,Boeing,1
+76,family,Boeing 737,Boeing 737,1
+77,variant,737-700,737-500,0
+78,manufacturer,Lockheed Corporation,McDonnell Douglas,0
+79,family,L-1011,DC-10,0
+80,variant,L-1011,DC-10,0
+81,manufacturer,de Havilland,de Havilland,1
+82,family,Dash 8,Dash 8,1
+83,variant,DHC-8-300,DHC-8-100,0
+84,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+85,family,Gulfstream,Gulfstream,1
+86,variant,Gulfstream IV,Gulfstream IV,1
+87,manufacturer,Airbus,Airbus,1
+88,family,A340,A340,1
+89,variant,A340-200,A340-300,0
+90,manufacturer,Boeing,Boeing,1
+91,family,Boeing 737,Boeing 737,1
+92,variant,737-500,737-500,1
+93,manufacturer,McDonnell Douglas,Boeing,0
+94,family,DC-9,L-1011,0
+95,variant,DC-9-30,727-200,0
+96,manufacturer,Boeing,Boeing,1
+97,family,Boeing 737,Boeing 737,1
+98,variant,737-200,737-200,1
+99,manufacturer,Boeing,Boeing,1
+100,family,Boeing 727,Boeing 727,1
+101,variant,727-200,727-200,1
+102,manufacturer,Tupolev,Tupolev,1
+103,family,Tu-154,Tu-154,1
+104,variant,Tu-154,Tu-154,1
+105,manufacturer,Airbus,Airbus,1
+106,family,A340,A340,1
+107,variant,A340-300,A340-300,1
+108,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+109,family,MD-80,MD-80,1
+110,variant,MD-87,MD-87,1
+111,manufacturer,Airbus,Airbus,1
+112,family,A340,A340,1
+113,variant,A340-200,A340-200,1
+114,manufacturer,Embraer,Embraer,1
+115,family,Embraer ERJ 145,Embraer ERJ 145,1
+116,variant,ERJ 145,ERJ 145,1
+117,manufacturer,Boeing,Boeing,1
+118,family,Boeing 737,Boeing 737,1
+119,variant,737-300,737-300,1
+120,manufacturer,Boeing,Boeing,1
+121,family,Boeing 737,Boeing 737,1
+122,variant,737-400,737-400,1
+123,manufacturer,de Havilland,de Havilland,1
+124,family,Dash 8,Dash 8,1
+125,variant,DHC-8-100,DHC-8-100,1
+126,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+127,family,DC-9,DC-9,1
+128,variant,DC-9-30,DC-9-30,1
+129,manufacturer,Boeing,Boeing,1
+130,family,Boeing 737,Boeing 737,1
+131,variant,737-300,737-300,1
+132,manufacturer,Airbus,Boeing,0
+133,family,A300,Boeing 747,0
+134,variant,A300B4,747-300,0
+135,manufacturer,Embraer,Embraer,1
+136,family,Embraer ERJ 145,Embraer ERJ 145,1
+137,variant,ERJ 135,ERJ 135,1
+138,manufacturer,Yakovlev,Yakovlev,1
+139,family,Yak-42,Yak-42,1
+140,variant,Yak-42,Yak-42,1
+141,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+142,family,MD-80,MD-80,1
+143,variant,MD-87,MD-87,1
+144,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+145,family,DC-9,DC-9,1
+146,variant,DC-9-30,DC-9-30,1
+147,manufacturer,Fokker,Fokker,1
+148,family,Fokker 50,Fokker 50,1
+149,variant,Fokker 50,Fokker 50,1
+150,manufacturer,Airbus,Airbus,1
+151,family,A300,A300,1
+152,variant,A300B4,A300B4,1
+153,manufacturer,de Havilland,de Havilland,1
+154,family,Dash 8,Dash 8,1
+155,variant,DHC-8-100,DHC-8-100,1
+156,manufacturer,Boeing,Boeing,1
+157,family,Boeing 737,Boeing 737,1
+158,variant,737-400,737-400,1
+159,manufacturer,Airbus,Airbus,1
+160,family,A310,A300,0
+161,variant,A310,A300B4,0
+162,manufacturer,Boeing,Boeing,1
+163,family,Boeing 777,Boeing 777,1
+164,variant,777-200,777-200,1
+165,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+166,family,MD-80,MD-80,1
+167,variant,MD-87,MD-87,1
+168,manufacturer,Boeing,Boeing,1
+169,family,Boeing 767,Boeing 767,1
+170,variant,767-400,767-400,1
+171,manufacturer,Boeing,Boeing,1
+172,family,Boeing 747,Boeing 747,1
+173,variant,747-400,A380,0
+174,manufacturer,Beechcraft,Beechcraft,1
+175,family,Beechcraft 1900,Beechcraft 1900,1
+176,variant,Beechcraft 1900,Beechcraft 1900,1
+177,manufacturer,Boeing,Boeing,1
+178,family,Boeing 737,Boeing 737,1
+179,variant,737-200,737-200,1
+180,manufacturer,Fairchild,Fairchild,1
+181,family,Metroliner,Metroliner,1
+182,variant,Metroliner,Metroliner,1
+183,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+184,family,DC-9,DC-9,1
+185,variant,DC-9-30,DC-9-30,1
+186,manufacturer,British Aerospace,British Aerospace,1
+187,family,BAE 146,BAE 146,1
+188,variant,BAE 146-300,BAE 146-300,1
+189,manufacturer,Embraer,Embraer,1
+190,family,EMB-120,EMB-120,1
+191,variant,EMB-120,EMB-120,1
+192,manufacturer,Fokker,Fokker,1
+193,family,Fokker 100,Fokker 100,1
+194,variant,Fokker 100,Fokker 100,1
+195,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+196,family,Gulfstream,Gulfstream,1
+197,variant,Gulfstream IV,Gulfstream IV,1
+198,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+199,family,DC-10,DC-10,1
+200,variant,DC-10,DC-10,1
+201,manufacturer,Airbus,Airbus,1
+202,family,A320,A320,1
+203,variant,A319,A319,1
+204,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+205,family,DC-6,DC-6,1
+206,variant,DC-6,DC-6,1
+207,manufacturer,Beechcraft,Beechcraft,1
+208,family,Beechcraft 1900,Beechcraft 1900,1
+209,variant,Beechcraft 1900,Beechcraft 1900,1
+210,manufacturer,Airbus,Airbus,1
+211,family,A320,A320,1
+212,variant,A320,A320,1
+213,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+214,family,DC-8,DC-8,1
+215,variant,DC-8,DC-8,1
+216,manufacturer,Boeing,Boeing,1
+217,family,Boeing 737,Boeing 737,1
+218,variant,737-800,737-800,1
+219,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+220,family,L-1011,L-1011,1
+221,variant,L-1011,L-1011,1
+222,manufacturer,Boeing,Boeing,1
+223,family,Boeing 737,Boeing 737,1
+224,variant,737-500,737-500,1
+225,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+226,family,MD-90,MD-80,0
+227,variant,MD-90,MD-80,0
+228,manufacturer,Boeing,Boeing,1
+229,family,Boeing 747,Boeing 747,1
+230,variant,747-100,747-400,0
+231,manufacturer,Boeing,Boeing,1
+232,family,Boeing 757,Boeing 757,1
+233,variant,757-300,757-300,1
+234,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+235,family,MD-11,MD-11,1
+236,variant,MD-11,MD-11,1
+237,manufacturer,Boeing,Boeing,1
+238,family,Boeing 757,Boeing 757,1
+239,variant,757-200,757-200,1
+240,manufacturer,Saab,Fokker,0
+241,family,Saab 340,Fokker 50,0
+242,variant,Saab 340,Fokker 50,0
+243,manufacturer,Dornier,Dornier,1
+244,family,Dornier 328,Dornier 328,1
+245,variant,Dornier 328,Dornier 328,1
+246,manufacturer,Airbus,Airbus,1
+247,family,A300,A300,1
+248,variant,A300B4,A300B4,1
+249,manufacturer,Boeing,Boeing,1
+250,family,Boeing 747,Boeing 747,1
+251,variant,747-300,747-200,0
+252,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+253,family,MD-11,MD-11,1
+254,variant,MD-11,MD-11,1
+255,manufacturer,Airbus,Airbus,1
+256,family,A300,A300,1
+257,variant,A300B4,A300B4,1
+258,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+259,family,DC-6,DC-6,1
+260,variant,DC-6,DC-6,1
+261,manufacturer,Boeing,Boeing,1
+262,family,Boeing 777,Boeing 767,0
+263,variant,777-200,767-300,0
+264,manufacturer,Boeing,Boeing,1
+265,family,Boeing 757,Boeing 757,1
+266,variant,757-200,757-200,1
+267,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+268,family,MD-90,MD-90,1
+269,variant,MD-90,MD-90,1
+270,manufacturer,Boeing,Boeing,1
+271,family,Boeing 767,Boeing 767,1
+272,variant,767-400,767-400,1
+273,manufacturer,Fokker,Fokker,1
+274,family,Fokker 50,Fokker 50,1
+275,variant,Fokker 50,Fokker 50,1
+276,manufacturer,Boeing,Boeing,1
+277,family,Boeing 747,Boeing 747,1
+278,variant,747-100,747-200,0
+279,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+280,family,DC-8,DC-8,1
+281,variant,DC-8,DC-8,1
+282,manufacturer,Fairchild,Fairchild,1
+283,family,Metroliner,Metroliner,1
+284,variant,Metroliner,Metroliner,1
+285,manufacturer,Boeing,Boeing,1
+286,family,Boeing 767,Boeing 767,1
+287,variant,767-400,767-400,1
+288,manufacturer,Tupolev,Tupolev,1
+289,family,Tu-154,Tu-154,1
+290,variant,Tu-154,Tu-154,1
+291,manufacturer,Airbus,Airbus,1
+292,family,A300,A300,1
+293,variant,A300B4,A300B4,1
+294,manufacturer,Boeing,Boeing,1
+295,family,Boeing 767,Boeing 757,0
+296,variant,767-400,757-300,0
+297,manufacturer,Airbus,Boeing,0
+298,family,A340,A320,0
+299,variant,A340-200,A320,0
+300,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+301,family,DC-8,DC-8,1
+302,variant,DC-8,DC-8,1
+303,manufacturer,Yakovlev,Yakovlev,1
+304,family,Yak-42,Yak-42,1
+305,variant,Yak-42,Yak-42,1
+306,manufacturer,Tupolev,Tupolev,1
+307,family,Tu-154,Tu-154,1
+308,variant,Tu-154,Tu-154,1
+309,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+310,family,MD-90,MD-90,1
+311,variant,MD-90,MD-90,1
+312,manufacturer,Airbus,Airbus,1
+313,family,A300,A300,1
+314,variant,A300B4,A300B4,1
+315,manufacturer,Airbus,Airbus,1
+316,family,A320,A320,1
+317,variant,A319,A320,0
+318,manufacturer,Airbus,Airbus,1
+319,family,A320,A320,1
+320,variant,A320,A320,1
+321,manufacturer,Boeing,Boeing,1
+322,family,Boeing 727,Boeing 727,1
+323,variant,727-200,727-200,1
+324,manufacturer,Airbus,Airbus,1
+325,family,A340,A340,1
+326,variant,A340-300,A340-300,1
+327,manufacturer,Boeing,Boeing,1
+328,family,Boeing 737,Boeing 757,0
+329,variant,737-400,757-200,0
+330,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+331,family,DC-10,DC-10,1
+332,variant,DC-10,DC-10,1
+333,manufacturer,Airbus,Airbus,1
+334,family,A330,A330,1
+335,variant,A330-200,A330-200,1
+336,manufacturer,Boeing,Boeing,1
+337,family,Boeing 737,Boeing 737,1
+338,variant,737-700,737-700,1
+339,manufacturer,Cessna,Embraer,0
+340,family,Cessna Citation,Embraer ERJ 145,0
+341,variant,Cessna 560,ERJ 135,0
+342,manufacturer,Embraer,Embraer,1
+343,family,Embraer ERJ 145,Embraer ERJ 145,1
+344,variant,ERJ 135,ERJ 135,1
+345,manufacturer,Dassault Aviation,Dassault Aviation,1
+346,family,Falcon 900,Falcon 900,1
+347,variant,Falcon 900,Falcon 900,1
+348,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+349,family,DC-3,DC-3,1
+350,variant,DC-3,DC-3,1
+351,manufacturer,Tupolev,Tupolev,1
+352,family,Tu-154,Tu-154,1
+353,variant,Tu-154,Tu-154,1
+354,manufacturer,Canadair,Canadair,1
+355,family,Challenger 600,Challenger 600,1
+356,variant,Challenger 600,Challenger 600,1
+357,manufacturer,Airbus,Airbus,1
+358,family,A340,A340,1
+359,variant,A340-200,A340-200,1
+360,manufacturer,Fokker,Fokker,1
+361,family,Fokker 70,MD-80,0
+362,variant,Fokker 70,MD-87,0
+363,manufacturer,Airbus,Airbus,1
+364,family,A310,A300,0
+365,variant,A310,A300B4,0
+366,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+367,family,MD-80,MD-80,1
+368,variant,MD-87,MD-87,1
+369,manufacturer,de Havilland,de Havilland,1
+370,family,Dash 8,Dash 8,1
+371,variant,DHC-8-300,DHC-8-300,1
+372,manufacturer,Airbus,Airbus,1
+373,family,A330,A330,1
+374,variant,A330-200,A330-200,1
+375,manufacturer,Boeing,Boeing,1
+376,family,Boeing 757,Boeing 757,1
+377,variant,757-300,757-300,1
+378,manufacturer,British Aerospace,British Aerospace,1
+379,family,BAE 146,BAE 146,1
+380,variant,BAE 146-200,BAE 146-300,0
+381,manufacturer,Boeing,Boeing,1
+382,family,Boeing 747,Boeing 747,1
+383,variant,747-200,747-200,1
+384,manufacturer,Boeing,Boeing,1
+385,family,Boeing 737,Boeing 737,1
+386,variant,737-600,737-600,1
+387,manufacturer,Fairchild,Fairchild,1
+388,family,Metroliner,Metroliner,1
+389,variant,Metroliner,Metroliner,1
+390,manufacturer,Boeing,Boeing,1
+391,family,Boeing 747,Boeing 747,1
+392,variant,747-300,747-200,0
+393,manufacturer,Airbus,Airbus,1
+394,family,A320,A320,1
+395,variant,A321,A321,1
+396,manufacturer,Boeing,Boeing,1
+397,family,Boeing 737,Boeing 737,1
+398,variant,737-800,737-800,1
+399,manufacturer,Embraer,Embraer,1
+400,family,EMB-120,EMB-120,1
+401,variant,EMB-120,EMB-120,1
+402,manufacturer,Saab,Saab,1
+403,family,Saab 340,Saab 340,1
+404,variant,Saab 340,Saab 340,1
+405,manufacturer,Douglas Aircraft Company,de Havilland,0
+406,family,DC-6,DC-3,0
+407,variant,DC-6,DC-3,0
+408,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+409,family,C-130,C-130,1
+410,variant,C-130,C-130,1
+411,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+412,family,F/A-18,F/A-18,1
+413,variant,F/A-18,F/A-18,1
+414,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+415,family,MD-80,MD-80,1
+416,variant,MD-80,MD-80,1
+417,manufacturer,Boeing,Airbus,0
+418,family,Boeing 757,A320,0
+419,variant,757-200,A321,0
+420,manufacturer,Airbus,Airbus,1
+421,family,A340,A340,1
+422,variant,A340-200,A340-200,1
+423,manufacturer,Boeing,Boeing,1
+424,family,Boeing 757,Boeing 757,1
+425,variant,757-200,757-200,1
+426,manufacturer,British Aerospace,British Aerospace,1
+427,family,BAE-125,BAE-125,1
+428,variant,BAE-125,BAE-125,1
+429,manufacturer,Airbus,Airbus,1
+430,family,A340,A340,1
+431,variant,A340-200,A340-300,0
+432,manufacturer,de Havilland,de Havilland,1
+433,family,DHC-6,DHC-6,1
+434,variant,DHC-6,DHC-6,1
+435,manufacturer,Cessna,Cessna,1
+436,family,Cessna 208,Cessna 208,1
+437,variant,Cessna 208,Cessna 208,1
+438,manufacturer,Boeing,Boeing,1
+439,family,Boeing 717,Boeing 717,1
+440,variant,Boeing 717,Boeing 717,1
+441,manufacturer,de Havilland,de Havilland,1
+442,family,Dash 8,Dash 8,1
+443,variant,DHC-8-100,DHC-8-100,1
+444,manufacturer,de Havilland,de Havilland,1
+445,family,Dash 8,Dash 8,1
+446,variant,DHC-8-100,DHC-8-100,1
+447,manufacturer,Canadair,Canadair,1
+448,family,CRJ-700,CRJ-700,1
+449,variant,CRJ-700,CRJ-700,1
+450,manufacturer,Cessna,Beechcraft,0
+451,family,Cessna 208,Cessna 208,1
+452,variant,Cessna 208,Beechcraft 1900,0
+453,manufacturer,Lockheed Corporation,Airbus,0
+454,family,L-1011,A340,0
+455,variant,L-1011,A340-300,0
+456,manufacturer,Boeing,Boeing,1
+457,family,Boeing 757,Boeing 757,1
+458,variant,757-200,757-300,0
+459,manufacturer,Boeing,Boeing,1
+460,family,Boeing 737,Boeing 737,1
+461,variant,737-400,737-400,1
+462,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+463,family,DC-10,DC-10,1
+464,variant,DC-10,DC-10,1
+465,manufacturer,Boeing,Boeing,1
+466,family,Boeing 767,Boeing 767,1
+467,variant,767-400,757-300,0
+468,manufacturer,Embraer,Embraer,1
+469,family,EMB-120,EMB-120,1
+470,variant,EMB-120,EMB-120,1
+471,manufacturer,Saab,Saab,1
+472,family,Saab 340,Saab 340,1
+473,variant,Saab 340,Saab 340,1
+474,manufacturer,Canadair,Canadair,1
+475,family,CRJ-200,CRJ-200,1
+476,variant,CRJ-200,CRJ-200,1
+477,manufacturer,British Aerospace,British Aerospace,1
+478,family,BAE 146,BAE 146,1
+479,variant,BAE 146-300,BAE 146-300,1
+480,manufacturer,Fairchild,Fairchild,1
+481,family,Metroliner,Metroliner,1
+482,variant,Metroliner,Metroliner,1
+483,manufacturer,de Havilland,de Havilland,1
+484,family,Dash 8,Dash 8,1
+485,variant,DHC-8-100,DHC-8-100,1
+486,manufacturer,British Aerospace,British Aerospace,1
+487,family,BAE-125,BAE-125,1
+488,variant,BAE-125,BAE-125,1
+489,manufacturer,Beechcraft,Beechcraft,1
+490,family,Beechcraft 1900,Beechcraft 1900,1
+491,variant,Beechcraft 1900,Beechcraft 1900,1
+492,manufacturer,Fairchild,Fairchild,1
+493,family,Metroliner,Metroliner,1
+494,variant,Metroliner,Metroliner,1
+495,manufacturer,McDonnell Douglas,Airbus,0
+496,family,MD-80,A340,0
+497,variant,MD-87,A340-200,0
+498,manufacturer,Cessna,Cessna,1
+499,family,Cessna 208,Cessna 208,1
+500,variant,Cessna 208,Cessna 208,1
+501,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+502,family,MD-90,MD-90,1
+503,variant,MD-90,MD-90,1
+504,manufacturer,Boeing,Boeing,1
+505,family,Boeing 767,Boeing 767,1
+506,variant,767-300,767-200,0
+507,manufacturer,Eurofighter,Eurofighter,1
+508,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+509,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+510,manufacturer,Airbus,Airbus,1
+511,family,A310,A310,1
+512,variant,A310,A310,1
+513,manufacturer,Eurofighter,Eurofighter,1
+514,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+515,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+516,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+517,family,MD-90,MD-80,0
+518,variant,MD-90,MD-80,0
+519,manufacturer,Airbus,Airbus,1
+520,family,A320,A320,1
+521,variant,A319,A319,1
+522,manufacturer,Boeing,Boeing,1
+523,family,Boeing 737,Boeing 737,1
+524,variant,737-300,737-300,1
+525,manufacturer,ATR,ATR,1
+526,family,ATR-42,ATR-42,1
+527,variant,ATR-42,ATR-42,1
+528,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+529,family,L-1011,L-1011,1
+530,variant,L-1011,L-1011,1
+531,manufacturer,Fokker,Boeing,0
+532,family,Fokker 70,Boeing 717,0
+533,variant,Fokker 70,Boeing 717,0
+534,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+535,family,MD-11,DC-10,0
+536,variant,MD-11,DC-10,0
+537,manufacturer,Douglas Aircraft Company,Boeing,0
+538,family,DC-8,DC-8,1
+539,variant,DC-8,DC-8,1
+540,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+541,family,L-1011,L-1011,1
+542,variant,L-1011,L-1011,1
+543,manufacturer,ATR,ATR,1
+544,family,ATR-42,ATR-72,0
+545,variant,ATR-42,ATR-72,0
+546,manufacturer,British Aerospace,British Aerospace,1
+547,family,BAE 146,BAE 146,1
+548,variant,BAE 146-200,BAE 146-200,1
+549,manufacturer,Embraer,British Aerospace,0
+550,family,EMB-120,BAE 146,0
+551,variant,EMB-120,Beechcraft 1900,0
+552,manufacturer,Boeing,Boeing,1
+553,family,Boeing 727,Boeing 727,1
+554,variant,727-200,727-200,1
+555,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+556,family,DC-9,DC-9,1
+557,variant,DC-9-30,DC-9-30,1
+558,manufacturer,Cessna,Cessna,1
+559,family,Cessna Citation,Cessna Citation,1
+560,variant,Cessna 525,Cessna 525,1
+561,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+562,family,C-47,C-47,1
+563,variant,C-47,C-47,1
+564,manufacturer,Boeing,Boeing,1
+565,family,Boeing 737,Boeing 737,1
+566,variant,737-400,737-400,1
+567,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+568,family,DC-9,DC-9,1
+569,variant,DC-9-30,DC-9-30,1
+570,manufacturer,Fokker,Fokker,1
+571,family,Fokker 70,Fokker 70,1
+572,variant,Fokker 70,Fokker 70,1
+573,manufacturer,Yakovlev,Yakovlev,1
+574,family,Yak-42,Yak-42,1
+575,variant,Yak-42,Yak-42,1
+576,manufacturer,Boeing,Boeing,1
+577,family,Boeing 747,Boeing 747,1
+578,variant,747-200,747-300,0
+579,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+580,family,MD-11,MD-11,1
+581,variant,MD-11,MD-11,1
+582,manufacturer,Embraer,Embraer,1
+583,family,Embraer ERJ 145,Embraer ERJ 145,1
+584,variant,ERJ 145,ERJ 145,1
+585,manufacturer,ATR,ATR,1
+586,family,ATR-72,ATR-42,0
+587,variant,ATR-72,ATR-42,0
+588,manufacturer,Airbus,Airbus,1
+589,family,A340,A340,1
+590,variant,A340-200,A340-200,1
+591,manufacturer,ATR,ATR,1
+592,family,ATR-42,ATR-42,1
+593,variant,ATR-42,ATR-42,1
+594,manufacturer,Airbus,Airbus,1
+595,family,A320,A320,1
+596,variant,A319,A319,1
+597,manufacturer,Airbus,Airbus,1
+598,family,A340,A340,1
+599,variant,A340-200,A340-200,1
+600,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+601,family,Global Express,Global Express,1
+602,variant,Global Express,Global Express,1
+603,manufacturer,Beechcraft,Beechcraft,1
+604,family,Beechcraft 1900,Beechcraft 1900,1
+605,variant,Beechcraft 1900,Beechcraft 1900,1
+606,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+607,family,C-47,C-47,1
+608,variant,C-47,C-47,1
+609,manufacturer,Airbus,Airbus,1
+610,family,A340,A340,1
+611,variant,A340-600,A340-200,0
+612,manufacturer,Tupolev,Tupolev,1
+613,family,Tu-154,Tu-154,1
+614,variant,Tu-154,Tu-154,1
+615,manufacturer,Saab,Saab,1
+616,family,Saab 340,Saab 340,1
+617,variant,Saab 340,Saab 340,1
+618,manufacturer,Yakovlev,Yakovlev,1
+619,family,Yak-42,Yak-42,1
+620,variant,Yak-42,Yak-42,1
+621,manufacturer,McDonnell Douglas,Boeing,0
+622,family,DC-9,Boeing 717,0
+623,variant,DC-9-30,Boeing 717,0
+624,manufacturer,Boeing,Boeing,1
+625,family,Boeing 757,Boeing 757,1
+626,variant,757-300,757-300,1
+627,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+628,family,MD-80,MD-80,1
+629,variant,MD-87,MD-87,1
+630,manufacturer,Boeing,Boeing,1
+631,family,Boeing 767,Boeing 777,0
+632,variant,767-300,777-200,0
+633,manufacturer,McDonnell Douglas,Boeing,0
+634,family,DC-10,Boeing 777,0
+635,variant,DC-10,777-200,0
+636,manufacturer,de Havilland,de Havilland,1
+637,family,Dash 8,Dash 8,1
+638,variant,DHC-8-300,DHC-8-300,1
+639,manufacturer,Yakovlev,Yakovlev,1
+640,family,Yak-42,Yak-42,1
+641,variant,Yak-42,Yak-42,1
+642,manufacturer,Boeing,Boeing,1
+643,family,Boeing 737,Boeing 737,1
+644,variant,737-700,737-300,0
+645,manufacturer,Boeing,Boeing,1
+646,family,Boeing 767,Boeing 767,1
+647,variant,767-300,767-300,1
+648,manufacturer,Boeing,Boeing,1
+649,family,Boeing 737,Boeing 737,1
+650,variant,737-300,737-700,0
+651,manufacturer,Boeing,Boeing,1
+652,family,Boeing 777,Boeing 777,1
+653,variant,777-200,777-300,0
+654,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+655,family,MD-90,MD-90,1
+656,variant,MD-90,MD-90,1
+657,manufacturer,McDonnell Douglas,Boeing,0
+658,family,DC-9,Boeing 727,0
+659,variant,DC-9-30,727-200,0
+660,manufacturer,Beechcraft,Beechcraft,1
+661,family,Beechcraft 1900,Beechcraft 1900,1
+662,variant,Beechcraft 1900,Beechcraft 1900,1
+663,manufacturer,Boeing,Boeing,1
+664,family,Boeing 737,Boeing 737,1
+665,variant,737-900,737-900,1
+666,manufacturer,Fokker,Fokker,1
+667,family,Fokker 50,Fokker 50,1
+668,variant,Fokker 50,Fokker 50,1
+669,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+670,family,Gulfstream,Gulfstream,1
+671,variant,Gulfstream V,Gulfstream V,1
+672,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+673,family,DC-10,DC-10,1
+674,variant,DC-10,DC-10,1
+675,manufacturer,Yakovlev,Yakovlev,1
+676,family,Yak-42,Yak-42,1
+677,variant,Yak-42,Yak-42,1
+678,manufacturer,British Aerospace,British Aerospace,1
+679,family,BAE 146,BAE 146,1
+680,variant,BAE 146-300,BAE 146-300,1
+681,manufacturer,Dornier,de Havilland,0
+682,family,Dornier 328,Dash 8,0
+683,variant,Dornier 328,DHC-8-300,0
+684,manufacturer,Canadair,Canadair,1
+685,family,CRJ-700,CRJ-700,1
+686,variant,CRJ-700,CRJ-700,1
+687,manufacturer,Boeing,Boeing,1
+688,family,Boeing 737,Boeing 737,1
+689,variant,737-900,737-900,1
+690,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+691,family,Global Express,Global Express,1
+692,variant,Global Express,Global Express,1
+693,manufacturer,Tupolev,Tupolev,1
+694,family,Tu-134,Tu-134,1
+695,variant,Tu-134,Tu-134,1
+696,manufacturer,Airbus,Airbus,1
+697,family,A320,A320,1
+698,variant,A320,A320,1
+699,manufacturer,Antonov,Antonov,1
+700,family,An-12,An-12,1
+701,variant,An-12,An-12,1
+702,manufacturer,Tupolev,Tupolev,1
+703,family,Tu-134,Tu-134,1
+704,variant,Tu-134,Tu-134,1
+705,manufacturer,Ilyushin,Ilyushin,1
+706,family,Il-76,Il-76,1
+707,variant,Il-76,Il-76,1
+708,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+709,family,MD-80,MD-80,1
+710,variant,MD-80,MD-80,1
+711,manufacturer,Tupolev,Tupolev,1
+712,family,Tu-134,Tu-134,1
+713,variant,Tu-134,Tu-134,1
+714,manufacturer,British Aerospace,British Aerospace,1
+715,family,BAE-125,BAE-125,1
+716,variant,BAE-125,BAE-125,1
+717,manufacturer,Airbus,Airbus,1
+718,family,A310,A310,1
+719,variant,A310,A310,1
+720,manufacturer,Boeing,Boeing,1
+721,family,Boeing 747,Boeing 747,1
+722,variant,747-100,747-100,1
+723,manufacturer,Panavia,Panavia,1
+724,family,Tornado,Tornado,1
+725,variant,Tornado,Tornado,1
+726,manufacturer,Boeing,Boeing,1
+727,family,Boeing 707,Boeing 707,1
+728,variant,707-320,707-320,1
+729,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+730,family,DC-6,DC-6,1
+731,variant,DC-6,DC-6,1
+732,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+733,family,DC-6,DC-6,1
+734,variant,DC-6,DC-6,1
+735,manufacturer,Boeing,Boeing,1
+736,family,Boeing 737,Boeing 737,1
+737,variant,737-300,737-300,1
+738,manufacturer,Boeing,Boeing,1
+739,family,Boeing 737,Boeing 737,1
+740,variant,737-300,737-300,1
+741,manufacturer,Boeing,Boeing,1
+742,family,Boeing 737,Boeing 757,0
+743,variant,737-200,757-200,0
+744,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+745,family,DC-3,DC-3,1
+746,variant,DC-3,DC-3,1
+747,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+748,family,DC-6,DC-6,1
+749,variant,DC-6,DC-6,1
+750,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+751,family,DC-3,DC-3,1
+752,variant,DC-3,DC-3,1
+753,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+754,family,MD-80,MD-90,0
+755,variant,MD-80,MD-90,0
+756,manufacturer,Airbus,Airbus,1
+757,family,A340,A340,1
+758,variant,A340-300,A340-300,1
+759,manufacturer,Boeing,Boeing,1
+760,family,Boeing 747,Boeing 747,1
+761,variant,747-100,747-300,0
+762,manufacturer,ATR,ATR,1
+763,family,ATR-42,ATR-42,1
+764,variant,ATR-42,ATR-42,1
+765,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+766,family,DC-6,DC-6,1
+767,variant,DC-6,DC-6,1
+768,manufacturer,Airbus,Airbus,1
+769,family,A340,A340,1
+770,variant,A340-600,A340-600,1
+771,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+772,family,MD-80,MD-80,1
+773,variant,MD-80,MD-80,1
+774,manufacturer,Embraer,Saab,0
+775,family,EMB-120,Saab 340,0
+776,variant,EMB-120,Saab 340,0
+777,manufacturer,de Havilland,de Havilland,1
+778,family,Dash 8,Dash 8,1
+779,variant,DHC-8-100,DHC-8-100,1
+780,manufacturer,Fairchild,Fairchild,1
+781,family,Metroliner,Metroliner,1
+782,variant,Metroliner,Metroliner,1
+783,manufacturer,Fokker,Fokker,1
+784,family,Fokker 100,Fokker 100,1
+785,variant,Fokker 100,Fokker 100,1
+786,manufacturer,Embraer,Embraer,1
+787,family,EMB-120,EMB-120,1
+788,variant,EMB-120,EMB-120,1
+789,manufacturer,de Havilland,de Havilland,1
+790,family,Dash 8,Dash 8,1
+791,variant,DHC-8-100,DHC-8-100,1
+792,manufacturer,Embraer,Embraer,1
+793,family,Embraer ERJ 145,Embraer ERJ 145,1
+794,variant,ERJ 145,ERJ 145,1
+795,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+796,family,DC-6,DC-6,1
+797,variant,DC-6,DC-6,1
+798,manufacturer,Antonov,Antonov,1
+799,family,An-12,An-12,1
+800,variant,An-12,An-12,1
+801,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+802,family,C-47,DC-3,0
+803,variant,C-47,DC-3,0
+804,manufacturer,Boeing,Boeing,1
+805,family,Boeing 707,Boeing 707,1
+806,variant,707-320,707-320,1
+807,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+808,family,DC-3,DC-3,1
+809,variant,DC-3,DC-3,1
+810,manufacturer,Cessna,Beechcraft,0
+811,family,Cessna 208,Cessna 208,1
+812,variant,Cessna 208,Cessna 208,1
+813,manufacturer,Tupolev,Tupolev,1
+814,family,Tu-134,Tu-134,1
+815,variant,Tu-134,Tu-134,1
+816,manufacturer,Embraer,Embraer,1
+817,family,Embraer Legacy 600,Embraer ERJ 145,0
+818,variant,Embraer Legacy 600,ERJ 135,0
+819,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+820,family,DC-10,DC-10,1
+821,variant,DC-10,DC-10,1
+822,manufacturer,ATR,ATR,1
+823,family,ATR-72,ATR-42,0
+824,variant,ATR-72,ATR-42,0
+825,manufacturer,Boeing,Boeing,1
+826,family,Boeing 737,Boeing 737,1
+827,variant,737-700,737-700,1
+828,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+829,family,C-47,C-47,1
+830,variant,C-47,C-47,1
+831,manufacturer,Airbus,Airbus,1
+832,family,A320,A320,1
+833,variant,A320,A320,1
+834,manufacturer,Boeing,Boeing,1
+835,family,Boeing 727,Boeing 727,1
+836,variant,727-200,727-200,1
+837,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+838,family,DC-8,DC-8,1
+839,variant,DC-8,DC-8,1
+840,manufacturer,Yakovlev,Yakovlev,1
+841,family,Yak-42,Yak-42,1
+842,variant,Yak-42,Yak-42,1
+843,manufacturer,Antonov,Antonov,1
+844,family,An-12,An-12,1
+845,variant,An-12,An-12,1
+846,manufacturer,Saab,Saab,1
+847,family,Saab 2000,Saab 2000,1
+848,variant,Saab 2000,Saab 2000,1
+849,manufacturer,Boeing,Boeing,1
+850,family,Boeing 737,Boeing 737,1
+851,variant,737-500,737-500,1
+852,manufacturer,Embraer,Embraer,1
+853,family,EMB-120,EMB-120,1
+854,variant,EMB-120,EMB-120,1
+855,manufacturer,Airbus,Airbus,1
+856,family,A330,A330,1
+857,variant,A330-200,A330-200,1
+858,manufacturer,Panavia,Panavia,1
+859,family,Tornado,Tornado,1
+860,variant,Tornado,Tornado,1
+861,manufacturer,Embraer,Embraer,1
+862,family,Embraer E-Jet,Embraer E-Jet,1
+863,variant,E-170,E-170,1
+864,manufacturer,Boeing,Boeing,1
+865,family,Boeing 737,Boeing 737,1
+866,variant,737-600,737-500,0
+867,manufacturer,Boeing,Boeing,1
+868,family,Boeing 737,Boeing 737,1
+869,variant,737-700,737-700,1
+870,manufacturer,Boeing,Boeing,1
+871,family,Boeing 767,Boeing 767,1
+872,variant,767-200,767-300,0
+873,manufacturer,Fokker,Fokker,1
+874,family,Fokker 100,Fokker 100,1
+875,variant,Fokker 100,Fokker 100,1
+876,manufacturer,British Aerospace,British Aerospace,1
+877,family,BAE-125,BAE-125,1
+878,variant,BAE-125,BAE-125,1
+879,manufacturer,Boeing,Boeing,1
+880,family,Boeing 747,Boeing 747,1
+881,variant,747-100,747-100,1
+882,manufacturer,Boeing,Boeing,1
+883,family,Boeing 757,Boeing 767,0
+884,variant,757-200,767-200,0
+885,manufacturer,British Aerospace,Eurofighter,0
+886,family,Hawk T1,F/A-18,0
+887,variant,Hawk T1,F/A-18,0
+888,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+889,family,L-1011,L-1011,1
+890,variant,L-1011,L-1011,1
+891,manufacturer,Airbus,Airbus,1
+892,family,A310,A310,1
+893,variant,A310,A310,1
+894,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+895,family,C-130,C-130,1
+896,variant,C-130,C-130,1
+897,manufacturer,Airbus,Airbus,1
+898,family,A320,A330,0
+899,variant,A321,A330-300,0
+900,manufacturer,Airbus,Airbus,1
+901,family,A320,A320,1
+902,variant,A321,A321,1
+903,manufacturer,Boeing,Boeing,1
+904,family,Boeing 747,Boeing 747,1
+905,variant,747-200,747-300,0
+906,manufacturer,Boeing,Boeing,1
+907,family,Boeing 707,Boeing 707,1
+908,variant,707-320,707-320,1
+909,manufacturer,de Havilland,de Havilland,1
+910,family,Dash 8,Dash 8,1
+911,variant,DHC-8-300,DHC-8-300,1
+912,manufacturer,Boeing,Boeing,1
+913,family,Boeing 767,Boeing 767,1
+914,variant,767-300,767-200,0
+915,manufacturer,Fokker,Fokker,1
+916,family,Fokker 100,Fokker 100,1
+917,variant,Fokker 100,Fokker 100,1
+918,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+919,family,MD-11,DC-10,0
+920,variant,MD-11,DC-10,0
+921,manufacturer,British Aerospace,British Aerospace,1
+922,family,BAE 146,BAE 146,1
+923,variant,BAE 146-300,BAE 146-300,1
+924,manufacturer,Boeing,Boeing,1
+925,family,Boeing 757,Boeing 757,1
+926,variant,757-200,757-200,1
+927,manufacturer,Boeing,Boeing,1
+928,family,Boeing 727,Boeing 727,1
+929,variant,727-200,727-200,1
+930,manufacturer,Boeing,Boeing,1
+931,family,Boeing 737,Boeing 737,1
+932,variant,737-700,737-700,1
+933,manufacturer,Boeing,Boeing,1
+934,family,Boeing 737,Boeing 737,1
+935,variant,737-500,737-400,0
+936,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+937,family,DC-8,DC-8,1
+938,variant,DC-8,DC-8,1
+939,manufacturer,Embraer,Fokker,0
+940,family,Embraer ERJ 145,Fokker 100,0
+941,variant,ERJ 145,Fokker 100,0
+942,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+943,family,MD-80,MD-80,1
+944,variant,MD-80,MD-80,1
+945,manufacturer,British Aerospace,British Aerospace,1
+946,family,BAE 146,BAE 146,1
+947,variant,BAE 146-200,BAE 146-200,1
+948,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+949,family,DC-9,DC-9,1
+950,variant,DC-9-30,DC-9-30,1
+951,manufacturer,Boeing,Boeing,1
+952,family,Boeing 737,Boeing 737,1
+953,variant,737-300,737-400,0
+954,manufacturer,Embraer,Embraer,1
+955,family,Embraer ERJ 145,Embraer ERJ 145,1
+956,variant,ERJ 135,ERJ 145,0
+957,manufacturer,de Havilland,de Havilland,1
+958,family,DH-82,DH-82,1
+959,variant,DH-82,DH-82,1
+960,manufacturer,Boeing,Boeing,1
+961,family,Boeing 767,Boeing 767,1
+962,variant,767-200,767-300,0
+963,manufacturer,Lockheed Martin,Panavia,0
+964,family,F-16,Tornado,0
+965,variant,F-16A/B,Tornado,0
+966,manufacturer,Boeing,Boeing,1
+967,family,Boeing 747,Boeing 747,1
+968,variant,747-300,747-300,1
+969,manufacturer,Airbus,Airbus,1
+970,family,A340,A340,1
+971,variant,A340-300,A340-300,1
+972,manufacturer,Airbus,Airbus,1
+973,family,A340,A340,1
+974,variant,A340-200,A340-200,1
+975,manufacturer,Boeing,Boeing,1
+976,family,Boeing 747,Boeing 747,1
+977,variant,747-100,747-200,0
+978,manufacturer,Boeing,Boeing,1
+979,family,Boeing 737,Boeing 737,1
+980,variant,737-800,737-800,1
+981,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+982,family,DC-3,DC-3,1
+983,variant,DC-3,DC-3,1
+984,manufacturer,Airbus,Airbus,1
+985,family,A330,A330,1
+986,variant,A330-300,A330-300,1
+987,manufacturer,Tupolev,Tupolev,1
+988,family,Tu-134,Tu-134,1
+989,variant,Tu-134,Tu-134,1
+990,manufacturer,Boeing,Boeing,1
+991,family,Boeing 707,Boeing 747,0
+992,variant,707-320,747-100,0
+993,manufacturer,Tupolev,Tupolev,1
+994,family,Tu-154,Tu-154,1
+995,variant,Tu-154,Tu-154,1
+996,manufacturer,Embraer,Embraer,1
+997,family,Embraer E-Jet,Embraer E-Jet,1
+998,variant,E-170,E-170,1
+999,manufacturer,Tupolev,Fokker,0
+1000,family,Tu-134,DC-9,0
+1001,variant,Tu-134,DC-9-30,0
+1002,manufacturer,Boeing,Boeing,1
+1003,family,Boeing 747,Boeing 747,1
+1004,variant,747-200,747-100,0
+1005,manufacturer,Airbus,Airbus,1
+1006,family,A310,A310,1
+1007,variant,A310,A310,1
+1008,manufacturer,British Aerospace,British Aerospace,1
+1009,family,BAE 146,BAE 146,1
+1010,variant,BAE 146-200,BAE 146-200,1
+1011,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1012,family,DC-3,DC-3,1
+1013,variant,DC-3,DC-3,1
+1014,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1015,family,DC-6,DC-6,1
+1016,variant,DC-6,DC-6,1
+1017,manufacturer,Yakovlev,Yakovlev,1
+1018,family,Yak-42,Yak-42,1
+1019,variant,Yak-42,Yak-42,1
+1020,manufacturer,Boeing,Boeing,1
+1021,family,Boeing 747,Boeing 747,1
+1022,variant,747-200,747-400,0
+1023,manufacturer,Boeing,Boeing,1
+1024,family,Boeing 737,Boeing 737,1
+1025,variant,737-900,737-900,1
+1026,manufacturer,ATR,ATR,1
+1027,family,ATR-42,ATR-42,1
+1028,variant,ATR-42,ATR-42,1
+1029,manufacturer,Boeing,Boeing,1
+1030,family,Boeing 737,Boeing 737,1
+1031,variant,737-600,737-500,0
+1032,manufacturer,Antonov,Antonov,1
+1033,family,An-12,An-12,1
+1034,variant,An-12,An-12,1
+1035,manufacturer,de Havilland,de Havilland,1
+1036,family,Dash 8,Dash 8,1
+1037,variant,DHC-8-300,DHC-8-300,1
+1038,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1039,family,C-47,C-47,1
+1040,variant,C-47,C-47,1
+1041,manufacturer,de Havilland,de Havilland,1
+1042,family,DHC-6,DHC-6,1
+1043,variant,DHC-6,DHC-6,1
+1044,manufacturer,Antonov,Antonov,1
+1045,family,An-12,An-12,1
+1046,variant,An-12,An-12,1
+1047,manufacturer,Antonov,Antonov,1
+1048,family,An-12,An-12,1
+1049,variant,An-12,An-12,1
+1050,manufacturer,Ilyushin,Ilyushin,1
+1051,family,Il-76,Il-76,1
+1052,variant,Il-76,Il-76,1
+1053,manufacturer,Ilyushin,Airbus,0
+1054,family,Il-76,A340,0
+1055,variant,Il-76,A340-300,0
+1056,manufacturer,Boeing,Boeing,1
+1057,family,Boeing 767,Boeing 767,1
+1058,variant,767-200,767-200,1
+1059,manufacturer,Dornier,Dornier,1
+1060,family,Dornier 328,Dornier 328,1
+1061,variant,Dornier 328,Dornier 328,1
+1062,manufacturer,Airbus,Airbus,1
+1063,family,A320,A320,1
+1064,variant,A321,A321,1
+1065,manufacturer,Saab,Saab,1
+1066,family,Saab 340,Saab 340,1
+1067,variant,Saab 340,Saab 340,1
+1068,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1069,family,MD-80,DC-9,0
+1070,variant,MD-87,DC-9-30,0
+1071,manufacturer,Ilyushin,Ilyushin,1
+1072,family,Il-76,Il-76,1
+1073,variant,Il-76,Il-76,1
+1074,manufacturer,British Aerospace,British Aerospace,1
+1075,family,BAE 146,BAE 146,1
+1076,variant,BAE 146-200,BAE 146-200,1
+1077,manufacturer,Cessna,Cessna,1
+1078,family,Cessna Citation,Cessna Citation,1
+1079,variant,Cessna 560,Cessna 560,1
+1080,manufacturer,Fokker,Fokker,1
+1081,family,Fokker 50,Fokker 50,1
+1082,variant,Fokker 50,Fokker 50,1
+1083,manufacturer,Cessna,Cessna,1
+1084,family,Cessna 172,Cessna 172,1
+1085,variant,Cessna 172,Cessna 172,1
+1086,manufacturer,Boeing,Boeing,1
+1087,family,Boeing 737,Boeing 737,1
+1088,variant,737-600,737-600,1
+1089,manufacturer,Ilyushin,Ilyushin,1
+1090,family,Il-76,Il-76,1
+1091,variant,Il-76,Il-76,1
+1092,manufacturer,Panavia,Panavia,1
+1093,family,Tornado,Tornado,1
+1094,variant,Tornado,Tornado,1
+1095,manufacturer,Dornier,ATR,0
+1096,family,Dornier 328,ATR-42,0
+1097,variant,Dornier 328,ATR-42,0
+1098,manufacturer,Airbus,Airbus,1
+1099,family,A300,A300,1
+1100,variant,A300B4,A300B4,1
+1101,manufacturer,Boeing,Boeing,1
+1102,family,Boeing 777,Boeing 777,1
+1103,variant,777-200,777-200,1
+1104,manufacturer,Dassault Aviation,Dassault Aviation,1
+1105,family,Falcon 900,Falcon 900,1
+1106,variant,Falcon 900,Falcon 900,1
+1107,manufacturer,Airbus,Airbus,1
+1108,family,A300,A300,1
+1109,variant,A300B4,A300B4,1
+1110,manufacturer,Boeing,Boeing,1
+1111,family,Boeing 737,Boeing 737,1
+1112,variant,737-600,737-600,1
+1113,manufacturer,Embraer,Embraer,1
+1114,family,Embraer E-Jet,Embraer E-Jet,1
+1115,variant,E-170,E-170,1
+1116,manufacturer,Cessna,Cessna,1
+1117,family,Cessna Citation,Cessna Citation,1
+1118,variant,Cessna 560,Cessna 560,1
+1119,manufacturer,Boeing,Boeing,1
+1120,family,Boeing 737,Boeing 737,1
+1121,variant,737-500,737-300,0
+1122,manufacturer,Fokker,Fokker,1
+1123,family,Fokker 70,Fokker 70,1
+1124,variant,Fokker 70,Fokker 70,1
+1125,manufacturer,Antonov,Antonov,1
+1126,family,An-12,An-12,1
+1127,variant,An-12,An-12,1
+1128,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1129,family,DC-3,C-47,0
+1130,variant,DC-3,C-47,0
+1131,manufacturer,de Havilland,de Havilland,1
+1132,family,DH-82,DH-82,1
+1133,variant,DH-82,DH-82,1
+1134,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1135,family,C-130,C-130,1
+1136,variant,C-130,C-130,1
+1137,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1138,family,DC-3,C-47,0
+1139,variant,DC-3,C-47,0
+1140,manufacturer,de Havilland,de Havilland,1
+1141,family,DHC-6,DHC-6,1
+1142,variant,DHC-6,DHC-6,1
+1143,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+1144,family,Global Express,Global Express,1
+1145,variant,Global Express,Global Express,1
+1146,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1147,family,C-130,C-130,1
+1148,variant,C-130,C-130,1
+1149,manufacturer,Cessna,Cessna,1
+1150,family,Cessna 172,Cessna 172,1
+1151,variant,Cessna 172,Cessna 172,1
+1152,manufacturer,Embraer,Embraer,1
+1153,family,Embraer E-Jet,Embraer E-Jet,1
+1154,variant,E-170,E-170,1
+1155,manufacturer,Boeing,Boeing,1
+1156,family,Boeing 737,Boeing 737,1
+1157,variant,737-800,737-800,1
+1158,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1159,family,Gulfstream,Gulfstream,1
+1160,variant,Gulfstream V,Gulfstream V,1
+1161,manufacturer,Canadair,Canadair,1
+1162,family,Challenger 600,Challenger 600,1
+1163,variant,Challenger 600,Challenger 600,1
+1164,manufacturer,Boeing,Boeing,1
+1165,family,Boeing 747,Boeing 747,1
+1166,variant,747-100,747-100,1
+1167,manufacturer,Ilyushin,McDonnell Douglas,0
+1168,family,Il-76,DC-10,0
+1169,variant,Il-76,DC-10,0
+1170,manufacturer,Fokker,Fokker,1
+1171,family,Fokker 100,Fokker 100,1
+1172,variant,Fokker 100,Fokker 100,1
+1173,manufacturer,Cessna,Cessna,1
+1174,family,Cessna 208,Cessna 208,1
+1175,variant,Cessna 208,Cessna 208,1
+1176,manufacturer,Boeing,Boeing,1
+1177,family,Boeing 747,Boeing 747,1
+1178,variant,747-100,747-200,0
+1179,manufacturer,Fokker,Fokker,1
+1180,family,Fokker 70,Fokker 70,1
+1181,variant,Fokker 70,Fokker 70,1
+1182,manufacturer,Fokker,Fokker,1
+1183,family,Fokker 70,Fokker 70,1
+1184,variant,Fokker 70,Fokker 70,1
+1185,manufacturer,Antonov,Antonov,1
+1186,family,An-12,An-12,1
+1187,variant,An-12,An-12,1
+1188,manufacturer,Cessna,Cessna,1
+1189,family,Cessna Citation,Cessna Citation,1
+1190,variant,Cessna 560,Cessna 560,1
+1191,manufacturer,Airbus,Airbus,1
+1192,family,A340,A340,1
+1193,variant,A340-600,A340-600,1
+1194,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1195,family,C-47,DC-3,0
+1196,variant,C-47,DC-3,0
+1197,manufacturer,Airbus,Airbus,1
+1198,family,A340,A340,1
+1199,variant,A340-500,A340-500,1
+1200,manufacturer,British Aerospace,British Aerospace,1
+1201,family,BAE 146,BAE 146,1
+1202,variant,BAE 146-300,BAE 146-300,1
+1203,manufacturer,Ilyushin,Ilyushin,1
+1204,family,Il-76,Il-76,1
+1205,variant,Il-76,Il-76,1
+1206,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1207,family,L-1011,L-1011,1
+1208,variant,L-1011,L-1011,1
+1209,manufacturer,de Havilland,de Havilland,1
+1210,family,DH-82,DH-82,1
+1211,variant,DH-82,DH-82,1
+1212,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1213,family,MD-80,MD-80,1
+1214,variant,MD-80,MD-80,1
+1215,manufacturer,de Havilland,de Havilland,1
+1216,family,Dash 8,Dash 8,1
+1217,variant,DHC-8-300,DHC-8-300,1
+1218,manufacturer,Dassault Aviation,Dassault Aviation,1
+1219,family,Falcon 900,Falcon 900,1
+1220,variant,Falcon 900,Falcon 900,1
+1221,manufacturer,Tupolev,Tupolev,1
+1222,family,Tu-134,Tu-134,1
+1223,variant,Tu-134,Tu-134,1
+1224,manufacturer,Yakovlev,Yakovlev,1
+1225,family,Yak-42,Yak-42,1
+1226,variant,Yak-42,Yak-42,1
+1227,manufacturer,Boeing,Boeing,1
+1228,family,Boeing 737,Boeing 737,1
+1229,variant,737-900,737-900,1
+1230,manufacturer,Dornier,Dornier,1
+1231,family,Dornier 328,Dornier 328,1
+1232,variant,Dornier 328,Dornier 328,1
+1233,manufacturer,Embraer,Embraer,1
+1234,family,Embraer ERJ 145,Embraer ERJ 145,1
+1235,variant,ERJ 135,ERJ 135,1
+1236,manufacturer,Airbus,Airbus,1
+1237,family,A320,A320,1
+1238,variant,A319,A319,1
+1239,manufacturer,Airbus,Airbus,1
+1240,family,A310,A310,1
+1241,variant,A310,A310,1
+1242,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1243,family,MD-80,MD-80,1
+1244,variant,MD-80,MD-80,1
+1245,manufacturer,de Havilland,de Havilland,1
+1246,family,DHC-6,DHC-6,1
+1247,variant,DHC-6,DHC-6,1
+1248,manufacturer,Airbus,Airbus,1
+1249,family,A330,A330,1
+1250,variant,A330-200,A330-200,1
+1251,manufacturer,Ilyushin,British Aerospace,0
+1252,family,Il-76,Boeing 727,0
+1253,variant,Il-76,747-200,0
+1254,manufacturer,Canadair,Canadair,1
+1255,family,CRJ-700,CRJ-700,1
+1256,variant,CRJ-700,CRJ-700,1
+1257,manufacturer,Cessna,Cessna,1
+1258,family,Cessna 208,Cessna 208,1
+1259,variant,Cessna 208,Cessna 208,1
+1260,manufacturer,Airbus,Embraer,0
+1261,family,A310,A330,0
+1262,variant,A310,A300B4,0
+1263,manufacturer,Canadair,Gulfstream Aerospace,0
+1264,family,CRJ-200,Gulfstream,0
+1265,variant,CRJ-200,Gulfstream IV,0
+1266,manufacturer,ATR,ATR,1
+1267,family,ATR-42,ATR-42,1
+1268,variant,ATR-42,ATR-42,1
+1269,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+1270,family,Global Express,Global Express,1
+1271,variant,Global Express,Global Express,1
+1272,manufacturer,Boeing,Boeing,1
+1273,family,Boeing 767,Boeing 767,1
+1274,variant,767-200,777-200,0
+1275,manufacturer,Boeing,Airbus,0
+1276,family,Boeing 767,A340,0
+1277,variant,767-400,A340-300,0
+1278,manufacturer,Boeing,Boeing,1
+1279,family,Boeing 707,Boeing 707,1
+1280,variant,707-320,707-320,1
+1281,manufacturer,Boeing,Boeing,1
+1282,family,Boeing 707,Boeing 707,1
+1283,variant,707-320,707-320,1
+1284,manufacturer,Canadair,Fokker,0
+1285,family,CRJ-200,Fokker 70,0
+1286,variant,CRJ-200,Fokker 70,0
+1287,manufacturer,Boeing,Boeing,1
+1288,family,Boeing 767,Boeing 767,1
+1289,variant,767-300,767-300,1
+1290,manufacturer,Fokker,Fokker,1
+1291,family,Fokker 70,Fokker 70,1
+1292,variant,Fokker 70,Fokker 70,1
+1293,manufacturer,de Havilland,de Havilland,1
+1294,family,DH-82,DH-82,1
+1295,variant,DH-82,DH-82,1
+1296,manufacturer,McDonnell Douglas,Lockheed Martin,0
+1297,family,F/A-18,C-17,0
+1298,variant,F/A-18,C-17,0
+1299,manufacturer,Fairchild,Fairchild,1
+1300,family,Metroliner,Metroliner,1
+1301,variant,Metroliner,Metroliner,1
+1302,manufacturer,Boeing,Boeing,1
+1303,family,Boeing 737,Boeing 737,1
+1304,variant,737-200,737-200,1
+1305,manufacturer,Boeing,Boeing,1
+1306,family,Boeing 717,Boeing 717,1
+1307,variant,Boeing 717,Boeing 717,1
+1308,manufacturer,Piper,Piper,1
+1309,family,PA-28,PA-28,1
+1310,variant,PA-28,PA-28,1
+1311,manufacturer,Canadair,Canadair,1
+1312,family,CRJ-200,CRJ-200,1
+1313,variant,CRJ-200,CRJ-200,1
+1314,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1315,family,MD-80,MD-80,1
+1316,variant,MD-87,MD-87,1
+1317,manufacturer,Boeing,Boeing,1
+1318,family,Boeing 747,Boeing 747,1
+1319,variant,747-100,747-200,0
+1320,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1321,family,DC-8,DC-8,1
+1322,variant,DC-8,DC-8,1
+1323,manufacturer,Boeing,Boeing,1
+1324,family,Boeing 747,Boeing 747,1
+1325,variant,747-200,747-300,0
+1326,manufacturer,Canadair,Canadair,1
+1327,family,CRJ-700,CRJ-700,1
+1328,variant,CRJ-700,CRJ-700,1
+1329,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1330,family,F/A-18,F/A-18,1
+1331,variant,F/A-18,F/A-18,1
+1332,manufacturer,Airbus,Airbus,1
+1333,family,A340,A340,1
+1334,variant,A340-300,A340-300,1
+1335,manufacturer,Boeing,Boeing,1
+1336,family,Boeing 737,Boeing 737,1
+1337,variant,737-300,737-300,1
+1338,manufacturer,British Aerospace,British Aerospace,1
+1339,family,BAE 146,BAE 146,1
+1340,variant,BAE 146-300,BAE 146-300,1
+1341,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1342,family,MD-11,MD-11,1
+1343,variant,MD-11,MD-11,1
+1344,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1345,family,DC-10,DC-10,1
+1346,variant,DC-10,DC-10,1
+1347,manufacturer,Boeing,Boeing,1
+1348,family,Boeing 737,Boeing 737,1
+1349,variant,737-200,737-200,1
+1350,manufacturer,Boeing,Boeing,1
+1351,family,Boeing 737,Boeing 737,1
+1352,variant,737-800,737-900,0
+1353,manufacturer,Fokker,Fokker,1
+1354,family,Fokker 100,Fokker 100,1
+1355,variant,Fokker 100,Fokker 100,1
+1356,manufacturer,Tupolev,Tupolev,1
+1357,family,Tu-154,Tu-154,1
+1358,variant,Tu-154,Tu-154,1
+1359,manufacturer,Airbus,Airbus,1
+1360,family,A340,A340,1
+1361,variant,A340-200,A340-200,1
+1362,manufacturer,Cessna,Cessna,1
+1363,family,Cessna Citation,Cessna Citation,1
+1364,variant,Cessna 560,Cessna 560,1
+1365,manufacturer,Ilyushin,Ilyushin,1
+1366,family,Il-76,Il-76,1
+1367,variant,Il-76,Il-76,1
+1368,manufacturer,Airbus,Airbus,1
+1369,family,A320,A320,1
+1370,variant,A321,A321,1
+1371,manufacturer,Canadair,Canadair,1
+1372,family,Challenger 600,Challenger 600,1
+1373,variant,Challenger 600,Challenger 600,1
+1374,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1375,family,L-1011,L-1011,1
+1376,variant,L-1011,L-1011,1
+1377,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1378,family,L-1011,L-1011,1
+1379,variant,L-1011,L-1011,1
+1380,manufacturer,de Havilland,de Havilland,1
+1381,family,DHC-6,DHC-6,1
+1382,variant,DHC-6,DHC-6,1
+1383,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1384,family,C-130,C-130,1
+1385,variant,C-130,C-130,1
+1386,manufacturer,Embraer,Airbus,0
+1387,family,Embraer E-Jet,A320,0
+1388,variant,E-170,A321,0
+1389,manufacturer,Airbus,Airbus,1
+1390,family,A340,A340,1
+1391,variant,A340-200,A340-200,1
+1392,manufacturer,Boeing,Boeing,1
+1393,family,Boeing 757,Boeing 757,1
+1394,variant,757-300,757-300,1
+1395,manufacturer,Canadair,Canadair,1
+1396,family,CRJ-700,CRJ-700,1
+1397,variant,CRJ-700,CRJ-700,1
+1398,manufacturer,British Aerospace,British Aerospace,1
+1399,family,BAE 146,BAE 146,1
+1400,variant,BAE 146-300,BAE 146-300,1
+1401,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1402,family,Gulfstream,Gulfstream,1
+1403,variant,Gulfstream IV,Gulfstream IV,1
+1404,manufacturer,Boeing,Boeing,1
+1405,family,Boeing 727,Boeing 727,1
+1406,variant,727-200,727-200,1
+1407,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1408,family,DC-6,DC-6,1
+1409,variant,DC-6,DC-6,1
+1410,manufacturer,Boeing,Boeing,1
+1411,family,Boeing 737,A320,0
+1412,variant,737-200,737-200,1
+1413,manufacturer,Tupolev,Tupolev,1
+1414,family,Tu-134,Tu-134,1
+1415,variant,Tu-134,Tu-134,1
+1416,manufacturer,ATR,ATR,1
+1417,family,ATR-42,ATR-42,1
+1418,variant,ATR-42,ATR-42,1
+1419,manufacturer,Embraer,Embraer,1
+1420,family,EMB-120,EMB-120,1
+1421,variant,EMB-120,EMB-120,1
+1422,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+1423,family,Global Express,Global Express,1
+1424,variant,Global Express,Global Express,1
+1425,manufacturer,Fokker,Fokker,1
+1426,family,Fokker 50,Fokker 50,1
+1427,variant,Fokker 50,Fokker 50,1
+1428,manufacturer,British Aerospace,British Aerospace,1
+1429,family,BAE 146,BAE 146,1
+1430,variant,BAE 146-300,BAE 146-300,1
+1431,manufacturer,Saab,Embraer,0
+1432,family,Saab 2000,Embraer E-Jet,0
+1433,variant,Saab 2000,E-195,0
+1434,manufacturer,Boeing,Boeing,1
+1435,family,Boeing 707,Boeing 707,1
+1436,variant,707-320,707-320,1
+1437,manufacturer,Canadair,Canadair,1
+1438,family,CRJ-700,CRJ-700,1
+1439,variant,CRJ-700,CRJ-700,1
+1440,manufacturer,Eurofighter,Eurofighter,1
+1441,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+1442,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+1443,manufacturer,Boeing,Boeing,1
+1444,family,Boeing 737,Boeing 737,1
+1445,variant,737-600,737-600,1
+1446,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1447,family,MD-90,MD-80,0
+1448,variant,MD-90,MD-80,0
+1449,manufacturer,British Aerospace,British Aerospace,1
+1450,family,Hawk T1,Hawk T1,1
+1451,variant,Hawk T1,Hawk T1,1
+1452,manufacturer,Lockheed Martin,Lockheed Martin,1
+1453,family,F-16,F-16,1
+1454,variant,F-16A/B,F-16A/B,1
+1455,manufacturer,British Aerospace,British Aerospace,1
+1456,family,Hawk T1,Hawk T1,1
+1457,variant,Hawk T1,Hawk T1,1
+1458,manufacturer,Beechcraft,Dornier,0
+1459,family,Beechcraft 1900,Dornier 328,0
+1460,variant,Beechcraft 1900,Beechcraft 1900,1
+1461,manufacturer,Embraer,Embraer,1
+1462,family,EMB-120,EMB-120,1
+1463,variant,EMB-120,EMB-120,1
+1464,manufacturer,Boeing,Boeing,1
+1465,family,Boeing 767,Boeing 767,1
+1466,variant,767-200,767-200,1
+1467,manufacturer,Embraer,Embraer,1
+1468,family,Embraer Legacy 600,Embraer ERJ 145,0
+1469,variant,Embraer Legacy 600,ERJ 135,0
+1470,manufacturer,Saab,Saab,1
+1471,family,Saab 2000,Saab 2000,1
+1472,variant,Saab 2000,Saab 2000,1
+1473,manufacturer,ATR,ATR,1
+1474,family,ATR-42,ATR-42,1
+1475,variant,ATR-42,ATR-42,1
+1476,manufacturer,Airbus,Airbus,1
+1477,family,A320,A320,1
+1478,variant,A318,A318,1
+1479,manufacturer,Boeing,Boeing,1
+1480,family,Boeing 777,Boeing 727,0
+1481,variant,777-200,727-200,0
+1482,manufacturer,Supermarine,Supermarine,1
+1483,family,Spitfire,Spitfire,1
+1484,variant,Spitfire,Spitfire,1
+1485,manufacturer,de Havilland,de Havilland,1
+1486,family,Dash 8,Dash 8,1
+1487,variant,DHC-8-100,DHC-8-100,1
+1488,manufacturer,Boeing,Boeing,1
+1489,family,Boeing 737,Boeing 737,1
+1490,variant,737-300,737-300,1
+1491,manufacturer,Tupolev,Tupolev,1
+1492,family,Tu-134,Tu-134,1
+1493,variant,Tu-134,Tu-134,1
+1494,manufacturer,Fairchild,Fairchild,1
+1495,family,Metroliner,Metroliner,1
+1496,variant,Metroliner,Metroliner,1
+1497,manufacturer,Boeing,Boeing,1
+1498,family,Boeing 737,Boeing 737,1
+1499,variant,737-500,737-500,1
+1500,manufacturer,Airbus,Airbus,1
+1501,family,A340,A340,1
+1502,variant,A340-200,A340-300,0
+1503,manufacturer,Fokker,Fokker,1
+1504,family,Fokker 50,Fokker 50,1
+1505,variant,Fokker 50,Fokker 50,1
+1506,manufacturer,Airbus,Airbus,1
+1507,family,A310,A310,1
+1508,variant,A310,A310,1
+1509,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1510,family,MD-11,MD-11,1
+1511,variant,MD-11,MD-11,1
+1512,manufacturer,Airbus,Airbus,1
+1513,family,A330,A330,1
+1514,variant,A330-200,A330-200,1
+1515,manufacturer,Fokker,Fokker,1
+1516,family,Fokker 100,Fokker 100,1
+1517,variant,Fokker 100,Fokker 100,1
+1518,manufacturer,Boeing,Boeing,1
+1519,family,Boeing 707,Boeing 707,1
+1520,variant,707-320,707-320,1
+1521,manufacturer,Boeing,Boeing,1
+1522,family,Boeing 737,Boeing 737,1
+1523,variant,737-700,737-500,0
+1524,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1525,family,DC-8,DC-8,1
+1526,variant,DC-8,DC-8,1
+1527,manufacturer,Airbus,Airbus,1
+1528,family,A320,A320,1
+1529,variant,A320,A320,1
+1530,manufacturer,Boeing,Boeing,1
+1531,family,Boeing 767,Boeing 767,1
+1532,variant,767-200,767-200,1
+1533,manufacturer,Boeing,Boeing,1
+1534,family,Boeing 747,Boeing 747,1
+1535,variant,747-300,747-200,0
+1536,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1537,family,C-47,DC-3,0
+1538,variant,C-47,DC-3,0
+1539,manufacturer,Airbus,Airbus,1
+1540,family,A380,A380,1
+1541,variant,A380,A380,1
+1542,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1543,family,C-130,C-130,1
+1544,variant,C-130,C-130,1
+1545,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+1546,family,C-130,C-130,1
+1547,variant,C-130,C-130,1
+1548,manufacturer,Boeing,Boeing,1
+1549,family,Boeing 747,Boeing 747,1
+1550,variant,747-300,747-200,0
+1551,manufacturer,Dornier,Dornier,1
+1552,family,Dornier 328,Dornier 328,1
+1553,variant,Dornier 328,Dornier 328,1
+1554,manufacturer,ATR,ATR,1
+1555,family,ATR-42,ATR-42,1
+1556,variant,ATR-42,ATR-42,1
+1557,manufacturer,Airbus,Airbus,1
+1558,family,A340,A340,1
+1559,variant,A340-300,A340-300,1
+1560,manufacturer,ATR,ATR,1
+1561,family,ATR-42,ATR-42,1
+1562,variant,ATR-42,ATR-42,1
+1563,manufacturer,Boeing,Boeing,1
+1564,family,Boeing 747,Boeing 747,1
+1565,variant,747-400,747-200,0
+1566,manufacturer,McDonnell Douglas,Airbus,0
+1567,family,MD-11,A330,0
+1568,variant,MD-11,A330-300,0
+1569,manufacturer,Yakovlev,Yakovlev,1
+1570,family,Yak-42,Yak-42,1
+1571,variant,Yak-42,Yak-42,1
+1572,manufacturer,Embraer,Embraer,1
+1573,family,Embraer E-Jet,Embraer E-Jet,1
+1574,variant,E-170,E-170,1
+1575,manufacturer,Airbus,Airbus,1
+1576,family,A320,A320,1
+1577,variant,A320,A321,0
+1578,manufacturer,Cessna,Cessna,1
+1579,family,Cessna 172,Cessna 172,1
+1580,variant,Cessna 172,Cessna 172,1
+1581,manufacturer,Canadair,Canadair,1
+1582,family,CRJ-200,CRJ-200,1
+1583,variant,CRJ-200,CRJ-200,1
+1584,manufacturer,Embraer,Embraer,1
+1585,family,EMB-120,EMB-120,1
+1586,variant,EMB-120,EMB-120,1
+1587,manufacturer,Airbus,Airbus,1
+1588,family,A330,A330,1
+1589,variant,A330-200,A330-200,1
+1590,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1591,family,Gulfstream,Gulfstream,1
+1592,variant,Gulfstream IV,Gulfstream IV,1
+1593,manufacturer,Panavia,Panavia,1
+1594,family,Tornado,Tornado,1
+1595,variant,Tornado,Tornado,1
+1596,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1597,family,MD-80,MD-80,1
+1598,variant,MD-80,MD-80,1
+1599,manufacturer,Fairchild,Fairchild,1
+1600,family,Metroliner,Metroliner,1
+1601,variant,Metroliner,Metroliner,1
+1602,manufacturer,Airbus,Airbus,1
+1603,family,A320,A320,1
+1604,variant,A319,A319,1
+1605,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1606,family,MD-11,MD-11,1
+1607,variant,MD-11,MD-11,1
+1608,manufacturer,Boeing,Boeing,1
+1609,family,Boeing 727,Boeing 727,1
+1610,variant,727-200,727-200,1
+1611,manufacturer,Boeing,Boeing,1
+1612,family,Boeing 747,Boeing 747,1
+1613,variant,747-300,747-300,1
+1614,manufacturer,Tupolev,Tupolev,1
+1615,family,Tu-154,Tu-154,1
+1616,variant,Tu-154,Tu-154,1
+1617,manufacturer,Fairchild,Fairchild,1
+1618,family,Metroliner,Metroliner,1
+1619,variant,Metroliner,Metroliner,1
+1620,manufacturer,Boeing,Boeing,1
+1621,family,Boeing 737,Boeing 737,1
+1622,variant,737-300,737-300,1
+1623,manufacturer,Airbus,Airbus,1
+1624,family,A340,A340,1
+1625,variant,A340-500,A340-500,1
+1626,manufacturer,Boeing,Boeing,1
+1627,family,Boeing 707,Boeing 707,1
+1628,variant,707-320,707-320,1
+1629,manufacturer,Boeing,Boeing,1
+1630,family,Boeing 767,Boeing 767,1
+1631,variant,767-300,767-300,1
+1632,manufacturer,Dassault Aviation,Dassault Aviation,1
+1633,family,Falcon 2000,Falcon 2000,1
+1634,variant,Falcon 2000,Falcon 2000,1
+1635,manufacturer,Canadair,Canadair,1
+1636,family,Challenger 600,Challenger 600,1
+1637,variant,Challenger 600,Challenger 600,1
+1638,manufacturer,Ilyushin,Ilyushin,1
+1639,family,Il-76,Il-76,1
+1640,variant,Il-76,Il-76,1
+1641,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1642,family,DC-10,DC-10,1
+1643,variant,DC-10,DC-10,1
+1644,manufacturer,Dassault Aviation,Dassault Aviation,1
+1645,family,Falcon 2000,Falcon 2000,1
+1646,variant,Falcon 2000,Falcon 2000,1
+1647,manufacturer,Airbus,Airbus,1
+1648,family,A300,A300,1
+1649,variant,A300B4,A300B4,1
+1650,manufacturer,Embraer,Embraer,1
+1651,family,EMB-120,EMB-120,1
+1652,variant,EMB-120,EMB-120,1
+1653,manufacturer,Canadair,Canadair,1
+1654,family,CRJ-700,CRJ-700,1
+1655,variant,CRJ-700,CRJ-900,0
+1656,manufacturer,Dornier,Dornier,1
+1657,family,Dornier 328,Dornier 328,1
+1658,variant,Dornier 328,Dornier 328,1
+1659,manufacturer,Fokker,Fokker,1
+1660,family,Fokker 70,Fokker 70,1
+1661,variant,Fokker 70,Fokker 70,1
+1662,manufacturer,Boeing,Boeing,1
+1663,family,Boeing 717,Boeing 717,1
+1664,variant,Boeing 717,Boeing 717,1
+1665,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1666,family,MD-80,MD-80,1
+1667,variant,MD-87,MD-87,1
+1668,manufacturer,Boeing,Boeing,1
+1669,family,Boeing 767,Boeing 767,1
+1670,variant,767-200,767-300,0
+1671,manufacturer,Airbus,Airbus,1
+1672,family,A340,A340,1
+1673,variant,A340-600,A340-600,1
+1674,manufacturer,Boeing,Boeing,1
+1675,family,Boeing 747,Boeing 747,1
+1676,variant,747-100,747-100,1
+1677,manufacturer,Beechcraft,Beechcraft,1
+1678,family,King Air,King Air,1
+1679,variant,Model B200,Model B200,1
+1680,manufacturer,Dassault Aviation,Dassault Aviation,1
+1681,family,Falcon 2000,Falcon 2000,1
+1682,variant,Falcon 2000,Falcon 2000,1
+1683,manufacturer,Boeing,Boeing,1
+1684,family,Boeing 747,Boeing 747,1
+1685,variant,747-100,747-200,0
+1686,manufacturer,Embraer,Embraer,1
+1687,family,Embraer ERJ 145,Embraer ERJ 145,1
+1688,variant,ERJ 145,ERJ 145,1
+1689,manufacturer,Boeing,Boeing,1
+1690,family,Boeing 777,Boeing 777,1
+1691,variant,777-200,777-200,1
+1692,manufacturer,Boeing,Boeing,1
+1693,family,Boeing 747,Boeing 747,1
+1694,variant,747-400,747-400,1
+1695,manufacturer,Douglas Aircraft Company,Airbus,0
+1696,family,DC-8,A340,0
+1697,variant,DC-8,A340-600,0
+1698,manufacturer,Fairchild,Fairchild,1
+1699,family,Metroliner,Metroliner,1
+1700,variant,Metroliner,Metroliner,1
+1701,manufacturer,Boeing,Boeing,1
+1702,family,Boeing 757,Boeing 757,1
+1703,variant,757-200,757-200,1
+1704,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1705,family,Gulfstream,Gulfstream,1
+1706,variant,Gulfstream IV,Gulfstream IV,1
+1707,manufacturer,Cessna,Cessna,1
+1708,family,Cessna 208,Cessna 208,1
+1709,variant,Cessna 208,Cessna 208,1
+1710,manufacturer,de Havilland,de Havilland,1
+1711,family,Dash 8,Dash 8,1
+1712,variant,DHC-8-100,DHC-8-100,1
+1713,manufacturer,British Aerospace,British Aerospace,1
+1714,family,BAE-125,BAE-125,1
+1715,variant,BAE-125,BAE-125,1
+1716,manufacturer,Ilyushin,Ilyushin,1
+1717,family,Il-76,Il-76,1
+1718,variant,Il-76,Il-76,1
+1719,manufacturer,Cessna,Cessna,1
+1720,family,Cessna Citation,Cessna Citation,1
+1721,variant,Cessna 560,Cessna 560,1
+1722,manufacturer,Supermarine,Supermarine,1
+1723,family,Spitfire,Spitfire,1
+1724,variant,Spitfire,Spitfire,1
+1725,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1726,family,DC-6,DC-6,1
+1727,variant,DC-6,DC-6,1
+1728,manufacturer,Beechcraft,Beechcraft,1
+1729,family,Beechcraft 1900,Beechcraft 1900,1
+1730,variant,Beechcraft 1900,Beechcraft 1900,1
+1731,manufacturer,ATR,ATR,1
+1732,family,ATR-42,ATR-42,1
+1733,variant,ATR-42,ATR-42,1
+1734,manufacturer,Beechcraft,Beechcraft,1
+1735,family,King Air,King Air,1
+1736,variant,Model B200,Model B200,1
+1737,manufacturer,Airbus,Airbus,1
+1738,family,A330,A330,1
+1739,variant,A330-300,A330-300,1
+1740,manufacturer,Boeing,Boeing,1
+1741,family,Boeing 707,Boeing 707,1
+1742,variant,707-320,707-320,1
+1743,manufacturer,de Havilland,de Havilland,1
+1744,family,Dash 8,Dash 8,1
+1745,variant,DHC-8-100,DHC-8-100,1
+1746,manufacturer,de Havilland,de Havilland,1
+1747,family,DHC-6,DHC-6,1
+1748,variant,DHC-6,DHC-6,1
+1749,manufacturer,Cessna,Cessna,1
+1750,family,Cessna 208,Cessna 208,1
+1751,variant,Cessna 208,Cessna 208,1
+1752,manufacturer,Fokker,Fokker,1
+1753,family,Fokker 70,Fokker 70,1
+1754,variant,Fokker 70,Fokker 70,1
+1755,manufacturer,Dassault Aviation,Dassault Aviation,1
+1756,family,Falcon 2000,Falcon 2000,1
+1757,variant,Falcon 2000,Falcon 2000,1
+1758,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1759,family,Gulfstream,Gulfstream,1
+1760,variant,Gulfstream V,Gulfstream IV,0
+1761,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1762,family,MD-11,MD-11,1
+1763,variant,MD-11,MD-11,1
+1764,manufacturer,Airbus,Airbus,1
+1765,family,A340,A340,1
+1766,variant,A340-600,A340-600,1
+1767,manufacturer,Dornier,Dornier,1
+1768,family,Dornier 328,Dornier 328,1
+1769,variant,Dornier 328,Dornier 328,1
+1770,manufacturer,Airbus,Airbus,1
+1771,family,A330,A330,1
+1772,variant,A330-200,A330-300,0
+1773,manufacturer,Canadair,Canadair,1
+1774,family,CRJ-700,CRJ-700,1
+1775,variant,CRJ-900,CRJ-900,1
+1776,manufacturer,Airbus,Airbus,1
+1777,family,A340,A340,1
+1778,variant,A340-200,A340-200,1
+1779,manufacturer,Beechcraft,Beechcraft,1
+1780,family,King Air,King Air,1
+1781,variant,Model B200,Model B200,1
+1782,manufacturer,Saab,Saab,1
+1783,family,Saab 2000,Saab 2000,1
+1784,variant,Saab 2000,Saab 2000,1
+1785,manufacturer,de Havilland,de Havilland,1
+1786,family,DH-82,DH-82,1
+1787,variant,DH-82,DH-82,1
+1788,manufacturer,de Havilland,de Havilland,1
+1789,family,Dash 8,Dash 8,1
+1790,variant,DHC-8-300,DHC-8-300,1
+1791,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1792,family,DC-3,DC-3,1
+1793,variant,DC-3,DC-3,1
+1794,manufacturer,Canadair,Canadair,1
+1795,family,Challenger 600,Challenger 600,1
+1796,variant,Challenger 600,Challenger 600,1
+1797,manufacturer,Airbus,Airbus,1
+1798,family,A340,A340,1
+1799,variant,A340-500,A340-500,1
+1800,manufacturer,Dassault Aviation,Dassault Aviation,1
+1801,family,Falcon 900,Falcon 900,1
+1802,variant,Falcon 900,Falcon 900,1
+1803,manufacturer,Embraer,Embraer,1
+1804,family,Embraer ERJ 145,Embraer ERJ 145,1
+1805,variant,ERJ 145,ERJ 145,1
+1806,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+1807,family,Gulfstream,Gulfstream,1
+1808,variant,Gulfstream V,Gulfstream V,1
+1809,manufacturer,Embraer,Embraer,1
+1810,family,Embraer Legacy 600,Embraer ERJ 145,0
+1811,variant,Embraer Legacy 600,ERJ 135,0
+1812,manufacturer,Boeing,Boeing,1
+1813,family,Boeing 747,Boeing 747,1
+1814,variant,747-100,747-100,1
+1815,manufacturer,British Aerospace,British Aerospace,1
+1816,family,BAE-125,BAE-125,1
+1817,variant,BAE-125,BAE-125,1
+1818,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1819,family,DC-9,DC-9,1
+1820,variant,DC-9-30,DC-9-30,1
+1821,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1822,family,MD-90,MD-90,1
+1823,variant,MD-90,MD-90,1
+1824,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+1825,family,Global Express,Global Express,1
+1826,variant,Global Express,Global Express,1
+1827,manufacturer,Cessna,Cessna,1
+1828,family,Cessna Citation,Cessna Citation,1
+1829,variant,Cessna 560,Cessna 560,1
+1830,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1831,family,F/A-18,F/A-18,1
+1832,variant,F/A-18,F/A-18,1
+1833,manufacturer,Embraer,Embraer,1
+1834,family,Embraer E-Jet,Embraer E-Jet,1
+1835,variant,E-190,E-190,1
+1836,manufacturer,Boeing,Boeing,1
+1837,family,Boeing 737,Boeing 737,1
+1838,variant,737-600,737-600,1
+1839,manufacturer,Lockheed Martin,Lockheed Martin,1
+1840,family,F-16,F-16,1
+1841,variant,F-16A/B,F-16A/B,1
+1842,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1843,family,DC-10,DC-10,1
+1844,variant,DC-10,DC-10,1
+1845,manufacturer,Lockheed Martin,Lockheed Martin,1
+1846,family,F-16,F-16,1
+1847,variant,F-16A/B,F-16A/B,1
+1848,manufacturer,Boeing,Boeing,1
+1849,family,Boeing 777,Boeing 777,1
+1850,variant,777-300,777-300,1
+1851,manufacturer,Eurofighter,McDonnell Douglas,0
+1852,family,Eurofighter Typhoon,F/A-18,0
+1853,variant,Eurofighter Typhoon,F/A-18,0
+1854,manufacturer,Dornier,Dornier,1
+1855,family,Dornier 328,Dornier 328,1
+1856,variant,Dornier 328,Dornier 328,1
+1857,manufacturer,Cessna,Cessna,1
+1858,family,Cessna 172,Cessna 172,1
+1859,variant,Cessna 172,Cessna 172,1
+1860,manufacturer,Dassault Aviation,Dassault Aviation,1
+1861,family,Falcon 2000,Falcon 2000,1
+1862,variant,Falcon 2000,Falcon 2000,1
+1863,manufacturer,Boeing,Boeing,1
+1864,family,Boeing 747,Boeing 747,1
+1865,variant,747-400,747-200,0
+1866,manufacturer,ATR,ATR,1
+1867,family,ATR-72,ATR-72,1
+1868,variant,ATR-72,ATR-72,1
+1869,manufacturer,Boeing,Boeing,1
+1870,family,Boeing 737,Boeing 737,1
+1871,variant,737-400,737-900,0
+1872,manufacturer,British Aerospace,British Aerospace,1
+1873,family,BAE 146,BAE 146,1
+1874,variant,BAE 146-300,BAE 146-300,1
+1875,manufacturer,Embraer,Embraer,1
+1876,family,Embraer Legacy 600,Embraer Legacy 600,1
+1877,variant,Embraer Legacy 600,Embraer Legacy 600,1
+1878,manufacturer,Fokker,Fokker,1
+1879,family,Fokker 70,Fokker 70,1
+1880,variant,Fokker 70,Fokker 70,1
+1881,manufacturer,Boeing,Boeing,1
+1882,family,Boeing 747,Boeing 747,1
+1883,variant,747-300,747-300,1
+1884,manufacturer,Airbus,Airbus,1
+1885,family,A320,A320,1
+1886,variant,A321,A321,1
+1887,manufacturer,Embraer,Embraer,1
+1888,family,Embraer ERJ 145,Embraer ERJ 145,1
+1889,variant,ERJ 135,ERJ 135,1
+1890,manufacturer,ATR,ATR,1
+1891,family,ATR-42,ATR-42,1
+1892,variant,ATR-42,ATR-42,1
+1893,manufacturer,Airbus,Airbus,1
+1894,family,A340,A340,1
+1895,variant,A340-200,A340-200,1
+1896,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1897,family,MD-80,MD-80,1
+1898,variant,MD-80,MD-80,1
+1899,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+1900,family,MD-80,MD-80,1
+1901,variant,MD-80,MD-80,1
+1902,manufacturer,Boeing,Boeing,1
+1903,family,Boeing 737,Boeing 737,1
+1904,variant,737-400,737-300,0
+1905,manufacturer,Fokker,Fokker,1
+1906,family,Fokker 50,Fokker 50,1
+1907,variant,Fokker 50,Fokker 50,1
+1908,manufacturer,Supermarine,Supermarine,1
+1909,family,Spitfire,Spitfire,1
+1910,variant,Spitfire,Spitfire,1
+1911,manufacturer,Fokker,Fokker,1
+1912,family,Fokker 50,Fokker 50,1
+1913,variant,Fokker 50,Fokker 50,1
+1914,manufacturer,Airbus,Airbus,1
+1915,family,A340,A340,1
+1916,variant,A340-500,A340-500,1
+1917,manufacturer,Saab,Saab,1
+1918,family,Saab 2000,Saab 2000,1
+1919,variant,Saab 2000,Saab 2000,1
+1920,manufacturer,Lockheed Martin,Lockheed Martin,1
+1921,family,F-16,F-16,1
+1922,variant,F-16A/B,F-16A/B,1
+1923,manufacturer,Embraer,Embraer,1
+1924,family,Embraer E-Jet,Embraer E-Jet,1
+1925,variant,E-170,E-170,1
+1926,manufacturer,Fokker,Fokker,1
+1927,family,Fokker 50,Fokker 50,1
+1928,variant,Fokker 50,Fokker 50,1
+1929,manufacturer,Boeing,Boeing,1
+1930,family,Boeing 767,Boeing 767,1
+1931,variant,767-400,767-400,1
+1932,manufacturer,Embraer,Embraer,1
+1933,family,Embraer E-Jet,Embraer E-Jet,1
+1934,variant,E-170,E-170,1
+1935,manufacturer,Fokker,Fokker,1
+1936,family,Fokker 100,Fokker 100,1
+1937,variant,Fokker 100,Fokker 100,1
+1938,manufacturer,Airbus,Airbus,1
+1939,family,A300,A300,1
+1940,variant,A300B4,A300B4,1
+1941,manufacturer,Cessna,Cessna,1
+1942,family,Cessna Citation,Cessna Citation,1
+1943,variant,Cessna 525,Cessna 525,1
+1944,manufacturer,Saab,Saab,1
+1945,family,Saab 340,Saab 340,1
+1946,variant,Saab 340,Saab 340,1
+1947,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1948,family,DC-3,C-47,0
+1949,variant,DC-3,C-47,0
+1950,manufacturer,Boeing,Boeing,1
+1951,family,Boeing 737,Boeing 737,1
+1952,variant,737-200,737-500,0
+1953,manufacturer,de Havilland,de Havilland,1
+1954,family,Dash 8,Dash 8,1
+1955,variant,DHC-8-300,DHC-8-300,1
+1956,manufacturer,Antonov,Antonov,1
+1957,family,An-12,An-12,1
+1958,variant,An-12,An-12,1
+1959,manufacturer,Boeing,Boeing,1
+1960,family,Boeing 737,Boeing 737,1
+1961,variant,737-300,737-300,1
+1962,manufacturer,British Aerospace,British Aerospace,1
+1963,family,BAE 146,BAE 146,1
+1964,variant,BAE 146-300,BAE 146-300,1
+1965,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+1966,family,C-47,DC-3,0
+1967,variant,C-47,DC-3,0
+1968,manufacturer,Boeing,Boeing,1
+1969,family,Boeing 707,Boeing 707,1
+1970,variant,707-320,707-320,1
+1971,manufacturer,Boeing,Boeing,1
+1972,family,Boeing 717,Boeing 717,1
+1973,variant,Boeing 717,Boeing 717,1
+1974,manufacturer,Yakovlev,Yakovlev,1
+1975,family,Yak-42,Yak-42,1
+1976,variant,Yak-42,Yak-42,1
+1977,manufacturer,Fokker,Fokker,1
+1978,family,Fokker 100,Fokker 70,0
+1979,variant,Fokker 100,Fokker 100,1
+1980,manufacturer,Boeing,Boeing,1
+1981,family,Boeing 747,Boeing 747,1
+1982,variant,747-300,747-300,1
+1983,manufacturer,Boeing,Boeing,1
+1984,family,Boeing 757,Boeing 757,1
+1985,variant,757-300,757-300,1
+1986,manufacturer,Cessna,Cessna,1
+1987,family,Cessna 208,Cessna 208,1
+1988,variant,Cessna 208,Cessna 208,1
+1989,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+1990,family,Global Express,Global Express,1
+1991,variant,Global Express,Global Express,1
+1992,manufacturer,de Havilland,de Havilland,1
+1993,family,DHC-6,DHC-6,1
+1994,variant,DHC-6,DHC-6,1
+1995,manufacturer,British Aerospace,British Aerospace,1
+1996,family,BAE-125,BAE-125,1
+1997,variant,BAE-125,BAE-125,1
+1998,manufacturer,British Aerospace,British Aerospace,1
+1999,family,BAE 146,BAE 146,1
+2000,variant,BAE 146-200,BAE 146-300,0
+2001,manufacturer,Piper,Piper,1
+2002,family,PA-28,PA-28,1
+2003,variant,PA-28,PA-28,1
+2004,manufacturer,Boeing,Boeing,1
+2005,family,Boeing 737,Boeing 737,1
+2006,variant,737-400,737-400,1
+2007,manufacturer,Embraer,Embraer,1
+2008,family,Embraer E-Jet,Embraer E-Jet,1
+2009,variant,E-195,E-195,1
+2010,manufacturer,Ilyushin,Ilyushin,1
+2011,family,Il-76,Il-76,1
+2012,variant,Il-76,Il-76,1
+2013,manufacturer,Airbus,Airbus,1
+2014,family,A320,A320,1
+2015,variant,A318,A318,1
+2016,manufacturer,Airbus,Airbus,1
+2017,family,A320,A320,1
+2018,variant,A319,A319,1
+2019,manufacturer,Boeing,Boeing,1
+2020,family,Boeing 747,Boeing 747,1
+2021,variant,747-300,747-200,0
+2022,manufacturer,de Havilland,de Havilland,1
+2023,family,DHC-6,DHC-6,1
+2024,variant,DHC-6,DHC-6,1
+2025,manufacturer,Boeing,Boeing,1
+2026,family,Boeing 727,Boeing 727,1
+2027,variant,727-200,727-200,1
+2028,manufacturer,Airbus,Airbus,1
+2029,family,A320,A320,1
+2030,variant,A319,A319,1
+2031,manufacturer,de Havilland,de Havilland,1
+2032,family,DHC-6,DHC-6,1
+2033,variant,DHC-6,DHC-6,1
+2034,manufacturer,Supermarine,Supermarine,1
+2035,family,Spitfire,Spitfire,1
+2036,variant,Spitfire,Spitfire,1
+2037,manufacturer,Piper,Piper,1
+2038,family,PA-28,PA-28,1
+2039,variant,PA-28,PA-28,1
+2040,manufacturer,Supermarine,Supermarine,1
+2041,family,Spitfire,Spitfire,1
+2042,variant,Spitfire,Spitfire,1
+2043,manufacturer,Embraer,Embraer,1
+2044,family,Embraer ERJ 145,Embraer ERJ 145,1
+2045,variant,ERJ 145,ERJ 145,1
+2046,manufacturer,Boeing,Boeing,1
+2047,family,Boeing 737,Boeing 737,1
+2048,variant,737-200,737-200,1
+2049,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2050,family,DC-10,DC-10,1
+2051,variant,DC-10,DC-10,1
+2052,manufacturer,Boeing,Boeing,1
+2053,family,Boeing 737,Boeing 737,1
+2054,variant,737-800,737-700,0
+2055,manufacturer,Canadair,Canadair,1
+2056,family,CRJ-200,CRJ-200,1
+2057,variant,CRJ-200,CRJ-200,1
+2058,manufacturer,Beechcraft,Beechcraft,1
+2059,family,Beechcraft 1900,Beechcraft 1900,1
+2060,variant,Beechcraft 1900,Beechcraft 1900,1
+2061,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2062,family,DC-10,DC-10,1
+2063,variant,DC-10,DC-10,1
+2064,manufacturer,Airbus,Airbus,1
+2065,family,A310,A310,1
+2066,variant,A310,A310,1
+2067,manufacturer,Canadair,Canadair,1
+2068,family,CRJ-200,CRJ-200,1
+2069,variant,CRJ-200,CRJ-200,1
+2070,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2071,family,MD-80,MD-90,0
+2072,variant,MD-80,MD-90,0
+2073,manufacturer,Dassault Aviation,British Aerospace,0
+2074,family,Falcon 2000,BAE-125,0
+2075,variant,Falcon 2000,BAE-125,0
+2076,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2077,family,Gulfstream,Gulfstream,1
+2078,variant,Gulfstream IV,Gulfstream IV,1
+2079,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2080,family,L-1011,L-1011,1
+2081,variant,L-1011,L-1011,1
+2082,manufacturer,Dassault Aviation,Dassault Aviation,1
+2083,family,Falcon 2000,Falcon 2000,1
+2084,variant,Falcon 2000,Falcon 2000,1
+2085,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2086,family,DC-8,DC-8,1
+2087,variant,DC-8,DC-8,1
+2088,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2089,family,C-130,C-130,1
+2090,variant,C-130,C-130,1
+2091,manufacturer,Dornier,Dornier,1
+2092,family,Dornier 328,Dornier 328,1
+2093,variant,Dornier 328,Dornier 328,1
+2094,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2095,family,MD-80,MD-80,1
+2096,variant,MD-87,MD-87,1
+2097,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2098,family,MD-80,MD-80,1
+2099,variant,MD-80,MD-80,1
+2100,manufacturer,British Aerospace,British Aerospace,1
+2101,family,BAE 146,BAE 146,1
+2102,variant,BAE 146-300,BAE 146-300,1
+2103,manufacturer,Embraer,Embraer,1
+2104,family,Embraer ERJ 145,Embraer ERJ 145,1
+2105,variant,ERJ 135,ERJ 135,1
+2106,manufacturer,Embraer,Embraer,1
+2107,family,Embraer E-Jet,Embraer E-Jet,1
+2108,variant,E-195,E-195,1
+2109,manufacturer,Boeing,Boeing,1
+2110,family,Boeing 757,Boeing 757,1
+2111,variant,757-300,757-300,1
+2112,manufacturer,Cessna,Cessna,1
+2113,family,Cessna Citation,Cessna Citation,1
+2114,variant,Cessna 525,Cessna 525,1
+2115,manufacturer,Cessna,Cessna,1
+2116,family,Cessna 172,Cessna 172,1
+2117,variant,Cessna 172,Cessna 172,1
+2118,manufacturer,Embraer,Embraer,1
+2119,family,Embraer ERJ 145,Embraer ERJ 145,1
+2120,variant,ERJ 135,ERJ 135,1
+2121,manufacturer,Airbus,Airbus,1
+2122,family,A320,A320,1
+2123,variant,A321,A321,1
+2124,manufacturer,Boeing,Boeing,1
+2125,family,Boeing 737,Boeing 737,1
+2126,variant,737-300,737-300,1
+2127,manufacturer,de Havilland,de Havilland,1
+2128,family,Dash 8,Dash 8,1
+2129,variant,DHC-8-100,DHC-8-100,1
+2130,manufacturer,Boeing,Boeing,1
+2131,family,Boeing 767,Boeing 767,1
+2132,variant,767-300,767-300,1
+2133,manufacturer,Lockheed Martin,Lockheed Martin,1
+2134,family,F-16,F-16,1
+2135,variant,F-16A/B,F-16A/B,1
+2136,manufacturer,Boeing,Boeing,1
+2137,family,Boeing 737,Boeing 737,1
+2138,variant,737-600,737-600,1
+2139,manufacturer,Airbus,Airbus,1
+2140,family,A320,A320,1
+2141,variant,A321,A321,1
+2142,manufacturer,Airbus,Airbus,1
+2143,family,A340,A340,1
+2144,variant,A340-600,A340-600,1
+2145,manufacturer,Piper,Piper,1
+2146,family,PA-28,PA-28,1
+2147,variant,PA-28,PA-28,1
+2148,manufacturer,Boeing,Boeing,1
+2149,family,Boeing 747,Boeing 747,1
+2150,variant,747-200,747-200,1
+2151,manufacturer,British Aerospace,British Aerospace,1
+2152,family,BAE-125,BAE-125,1
+2153,variant,BAE-125,BAE-125,1
+2154,manufacturer,Airbus,Airbus,1
+2155,family,A340,A340,1
+2156,variant,A340-200,A340-300,0
+2157,manufacturer,Boeing,Boeing,1
+2158,family,Boeing 737,Boeing 737,1
+2159,variant,737-400,737-300,0
+2160,manufacturer,Saab,Saab,1
+2161,family,Saab 2000,Saab 2000,1
+2162,variant,Saab 2000,Saab 2000,1
+2163,manufacturer,Dassault Aviation,Dassault Aviation,1
+2164,family,Falcon 2000,Falcon 2000,1
+2165,variant,Falcon 2000,Falcon 2000,1
+2166,manufacturer,Dassault Aviation,Dassault Aviation,1
+2167,family,Falcon 2000,Falcon 2000,1
+2168,variant,Falcon 2000,Falcon 2000,1
+2169,manufacturer,Boeing,Airbus,0
+2170,family,Boeing 737,A320,0
+2171,variant,737-800,A320,0
+2172,manufacturer,Supermarine,Supermarine,1
+2173,family,Spitfire,Spitfire,1
+2174,variant,Spitfire,DHC-1,0
+2175,manufacturer,Canadair,Canadair,1
+2176,family,CRJ-700,CRJ-700,1
+2177,variant,CRJ-900,CRJ-900,1
+2178,manufacturer,Boeing,Boeing,1
+2179,family,Boeing 747,Boeing 747,1
+2180,variant,747-400,747-200,0
+2181,manufacturer,Airbus,Airbus,1
+2182,family,A330,A330,1
+2183,variant,A330-200,A330-200,1
+2184,manufacturer,Boeing,Boeing,1
+2185,family,Boeing 757,Boeing 757,1
+2186,variant,757-200,757-200,1
+2187,manufacturer,Saab,Saab,1
+2188,family,Saab 2000,Saab 2000,1
+2189,variant,Saab 2000,Saab 2000,1
+2190,manufacturer,Airbus,Airbus,1
+2191,family,A340,A340,1
+2192,variant,A340-300,A340-500,0
+2193,manufacturer,Canadair,Canadair,1
+2194,family,CRJ-700,CRJ-700,1
+2195,variant,CRJ-700,CRJ-700,1
+2196,manufacturer,Tupolev,Tupolev,1
+2197,family,Tu-154,Tu-154,1
+2198,variant,Tu-154,Tu-154,1
+2199,manufacturer,Embraer,Embraer,1
+2200,family,EMB-120,EMB-120,1
+2201,variant,EMB-120,EMB-120,1
+2202,manufacturer,British Aerospace,British Aerospace,1
+2203,family,Hawk T1,Hawk T1,1
+2204,variant,Hawk T1,Hawk T1,1
+2205,manufacturer,Supermarine,Supermarine,1
+2206,family,Spitfire,Spitfire,1
+2207,variant,Spitfire,Spitfire,1
+2208,manufacturer,Boeing,Boeing,1
+2209,family,Boeing 737,Boeing 737,1
+2210,variant,737-400,737-400,1
+2211,manufacturer,Boeing,Boeing,1
+2212,family,Boeing 747,Boeing 747,1
+2213,variant,747-100,747-100,1
+2214,manufacturer,Boeing,Boeing,1
+2215,family,Boeing 737,Boeing 737,1
+2216,variant,737-500,737-300,0
+2217,manufacturer,de Havilland,de Havilland,1
+2218,family,Dash 8,Dash 8,1
+2219,variant,DHC-8-100,DHC-8-100,1
+2220,manufacturer,de Havilland,de Havilland,1
+2221,family,DH-82,DH-82,1
+2222,variant,DH-82,DH-82,1
+2223,manufacturer,ATR,ATR,1
+2224,family,ATR-72,ATR-72,1
+2225,variant,ATR-72,ATR-72,1
+2226,manufacturer,Airbus,Airbus,1
+2227,family,A330,A330,1
+2228,variant,A330-200,A330-200,1
+2229,manufacturer,Beechcraft,Beechcraft,1
+2230,family,King Air,King Air,1
+2231,variant,Model B200,Model B200,1
+2232,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2233,family,F/A-18,F/A-18,1
+2234,variant,F/A-18,F/A-18,1
+2235,manufacturer,Piper,Piper,1
+2236,family,PA-28,PA-28,1
+2237,variant,PA-28,PA-28,1
+2238,manufacturer,Eurofighter,Eurofighter,1
+2239,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+2240,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+2241,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2242,family,C-47,C-47,1
+2243,variant,C-47,C-47,1
+2244,manufacturer,Airbus,Airbus,1
+2245,family,A320,A320,1
+2246,variant,A318,A318,1
+2247,manufacturer,Saab,Saab,1
+2248,family,Saab 340,Saab 340,1
+2249,variant,Saab 340,Saab 340,1
+2250,manufacturer,Canadair,Canadair,1
+2251,family,CRJ-700,CRJ-700,1
+2252,variant,CRJ-900,CRJ-900,1
+2253,manufacturer,ATR,ATR,1
+2254,family,ATR-72,ATR-72,1
+2255,variant,ATR-72,ATR-72,1
+2256,manufacturer,Embraer,Embraer,1
+2257,family,Embraer E-Jet,Embraer E-Jet,1
+2258,variant,E-190,E-190,1
+2259,manufacturer,British Aerospace,British Aerospace,1
+2260,family,Hawk T1,Hawk T1,1
+2261,variant,Hawk T1,Hawk T1,1
+2262,manufacturer,Boeing,Boeing,1
+2263,family,Boeing 747,Boeing 747,1
+2264,variant,747-300,747-300,1
+2265,manufacturer,Airbus,Airbus,1
+2266,family,A340,A340,1
+2267,variant,A340-600,A340-600,1
+2268,manufacturer,Fokker,Fokker,1
+2269,family,Fokker 50,Fokker 50,1
+2270,variant,Fokker 50,Fokker 50,1
+2271,manufacturer,Embraer,Airbus,0
+2272,family,Embraer E-Jet,A330,0
+2273,variant,E-170,A330-300,0
+2274,manufacturer,Fokker,Boeing,0
+2275,family,Fokker 50,DC-9,0
+2276,variant,Fokker 50,DC-9-30,0
+2277,manufacturer,Fokker,Fokker,1
+2278,family,Fokker 70,Fokker 70,1
+2279,variant,Fokker 70,Fokker 70,1
+2280,manufacturer,Canadair,Canadair,1
+2281,family,CRJ-700,CRJ-700,1
+2282,variant,CRJ-700,CRJ-700,1
+2283,manufacturer,Airbus,Airbus,1
+2284,family,A310,A310,1
+2285,variant,A310,A310,1
+2286,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2287,family,F/A-18,F/A-18,1
+2288,variant,F/A-18,F/A-18,1
+2289,manufacturer,British Aerospace,British Aerospace,1
+2290,family,BAE-125,BAE-125,1
+2291,variant,BAE-125,BAE-125,1
+2292,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2293,family,MD-80,MD-80,1
+2294,variant,MD-87,MD-87,1
+2295,manufacturer,Panavia,Panavia,1
+2296,family,Tornado,Tornado,1
+2297,variant,Tornado,Tornado,1
+2298,manufacturer,British Aerospace,British Aerospace,1
+2299,family,BAE 146,BAE 146,1
+2300,variant,BAE 146-200,BAE 146-200,1
+2301,manufacturer,Robin,Robin,1
+2302,family,DR-400,DR-400,1
+2303,variant,DR-400,DR-400,1
+2304,manufacturer,Airbus,Airbus,1
+2305,family,A320,A320,1
+2306,variant,A318,A318,1
+2307,manufacturer,ATR,ATR,1
+2308,family,ATR-42,ATR-42,1
+2309,variant,ATR-42,ATR-42,1
+2310,manufacturer,Airbus,Airbus,1
+2311,family,A340,A340,1
+2312,variant,A340-300,A340-300,1
+2313,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2314,family,C-47,DC-3,0
+2315,variant,C-47,DC-3,0
+2316,manufacturer,Boeing,Boeing,1
+2317,family,Boeing 757,Boeing 757,1
+2318,variant,757-300,757-300,1
+2319,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+2320,family,SR-20,SR-20,1
+2321,variant,SR-20,SR-20,1
+2322,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2323,family,DC-10,DC-10,1
+2324,variant,DC-10,DC-10,1
+2325,manufacturer,Canadair,Canadair,1
+2326,family,CRJ-700,CRJ-700,1
+2327,variant,CRJ-900,CRJ-900,1
+2328,manufacturer,Airbus,Airbus,1
+2329,family,A340,A340,1
+2330,variant,A340-500,A340-500,1
+2331,manufacturer,Piper,Piper,1
+2332,family,PA-28,PA-28,1
+2333,variant,PA-28,PA-28,1
+2334,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2335,family,L-1011,L-1011,1
+2336,variant,L-1011,L-1011,1
+2337,manufacturer,Boeing,Boeing,1
+2338,family,Boeing 777,Boeing 777,1
+2339,variant,777-200,777-200,1
+2340,manufacturer,Boeing,Boeing,1
+2341,family,Boeing 707,Boeing 707,1
+2342,variant,707-320,707-320,1
+2343,manufacturer,Antonov,Antonov,1
+2344,family,An-12,An-12,1
+2345,variant,An-12,An-12,1
+2346,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+2347,family,Global Express,Global Express,1
+2348,variant,Global Express,Global Express,1
+2349,manufacturer,Boeing,Boeing,1
+2350,family,Boeing 767,Boeing 767,1
+2351,variant,767-200,767-200,1
+2352,manufacturer,Boeing,Boeing,1
+2353,family,Boeing 747,Boeing 747,1
+2354,variant,747-200,747-300,0
+2355,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2356,family,DC-6,DC-6,1
+2357,variant,DC-6,DC-6,1
+2358,manufacturer,Boeing,Boeing,1
+2359,family,Boeing 737,Boeing 737,1
+2360,variant,737-200,737-200,1
+2361,manufacturer,Airbus,Airbus,1
+2362,family,A320,A320,1
+2363,variant,A318,A318,1
+2364,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2365,family,DC-9,DC-9,1
+2366,variant,DC-9-30,DC-9-30,1
+2367,manufacturer,Tupolev,Tupolev,1
+2368,family,Tu-134,Tu-134,1
+2369,variant,Tu-134,Tu-134,1
+2370,manufacturer,Boeing,Boeing,1
+2371,family,Boeing 757,Boeing 757,1
+2372,variant,757-300,757-300,1
+2373,manufacturer,Eurofighter,Eurofighter,1
+2374,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+2375,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+2376,manufacturer,Fokker,Canadair,0
+2377,family,Fokker 70,CRJ-700,0
+2378,variant,Fokker 70,CRJ-700,0
+2379,manufacturer,Cessna,Cessna,1
+2380,family,Cessna 172,Cessna 172,1
+2381,variant,Cessna 172,Cessna 172,1
+2382,manufacturer,Tupolev,Tupolev,1
+2383,family,Tu-154,Tu-154,1
+2384,variant,Tu-154,Tu-154,1
+2385,manufacturer,Lockheed Martin,Lockheed Martin,1
+2386,family,F-16,F-16,1
+2387,variant,F-16A/B,F-16A/B,1
+2388,manufacturer,Airbus,Airbus,1
+2389,family,A340,A340,1
+2390,variant,A340-300,A340-300,1
+2391,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2392,family,C-130,C-130,1
+2393,variant,C-130,C-130,1
+2394,manufacturer,Boeing,Boeing,1
+2395,family,Boeing 757,Boeing 757,1
+2396,variant,757-300,757-300,1
+2397,manufacturer,Piper,Piper,1
+2398,family,PA-28,PA-28,1
+2399,variant,PA-28,PA-28,1
+2400,manufacturer,Boeing,Boeing,1
+2401,family,Boeing 747,Boeing 747,1
+2402,variant,747-400,747-400,1
+2403,manufacturer,Cessna,Cessna,1
+2404,family,Cessna Citation,Cessna Citation,1
+2405,variant,Cessna 560,Cessna 560,1
+2406,manufacturer,Canadair,Canadair,1
+2407,family,Challenger 600,Challenger 600,1
+2408,variant,Challenger 600,Challenger 600,1
+2409,manufacturer,Embraer,Embraer,1
+2410,family,Embraer Legacy 600,Embraer Legacy 600,1
+2411,variant,Embraer Legacy 600,Embraer Legacy 600,1
+2412,manufacturer,Boeing,Boeing,1
+2413,family,Boeing 757,Boeing 757,1
+2414,variant,757-300,757-200,0
+2415,manufacturer,Boeing,Boeing,1
+2416,family,Boeing 737,Boeing 737,1
+2417,variant,737-600,737-600,1
+2418,manufacturer,Boeing,Boeing,1
+2419,family,Boeing 737,Boeing 737,1
+2420,variant,737-700,737-500,0
+2421,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2422,family,MD-90,MD-90,1
+2423,variant,MD-90,MD-90,1
+2424,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2425,family,Gulfstream,Gulfstream,1
+2426,variant,Gulfstream V,Gulfstream V,1
+2427,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2428,family,DC-6,DC-6,1
+2429,variant,DC-6,DC-6,1
+2430,manufacturer,Beechcraft,Beechcraft,1
+2431,family,King Air,Metroliner,0
+2432,variant,Model B200,Metroliner,0
+2433,manufacturer,Boeing,Boeing,1
+2434,family,Boeing 757,Boeing 757,1
+2435,variant,757-300,757-300,1
+2436,manufacturer,Boeing,Boeing,1
+2437,family,Boeing 747,Boeing 747,1
+2438,variant,747-100,747-100,1
+2439,manufacturer,Beechcraft,Beechcraft,1
+2440,family,King Air,King Air,1
+2441,variant,Model B200,Model B200,1
+2442,manufacturer,Boeing,Boeing,1
+2443,family,Boeing 707,Boeing 707,1
+2444,variant,707-320,707-320,1
+2445,manufacturer,Boeing,Boeing,1
+2446,family,Boeing 737,Boeing 737,1
+2447,variant,737-800,737-400,0
+2448,manufacturer,Yakovlev,Yakovlev,1
+2449,family,Yak-42,Yak-42,1
+2450,variant,Yak-42,Yak-42,1
+2451,manufacturer,ATR,ATR,1
+2452,family,ATR-72,ATR-72,1
+2453,variant,ATR-72,ATR-72,1
+2454,manufacturer,Dornier,Dornier,1
+2455,family,Dornier 328,Dornier 328,1
+2456,variant,Dornier 328,Dornier 328,1
+2457,manufacturer,Boeing,Boeing,1
+2458,family,Boeing 717,Boeing 717,1
+2459,variant,Boeing 717,Boeing 717,1
+2460,manufacturer,Boeing,Boeing,1
+2461,family,Boeing 717,Boeing 717,1
+2462,variant,Boeing 717,Boeing 717,1
+2463,manufacturer,Airbus,Airbus,1
+2464,family,A320,A320,1
+2465,variant,A321,A321,1
+2466,manufacturer,Embraer,Embraer,1
+2467,family,Embraer E-Jet,Embraer E-Jet,1
+2468,variant,E-190,E-190,1
+2469,manufacturer,Saab,Saab,1
+2470,family,Saab 340,Saab 340,1
+2471,variant,Saab 340,Saab 340,1
+2472,manufacturer,Canadair,Canadair,1
+2473,family,CRJ-200,CRJ-200,1
+2474,variant,CRJ-200,CRJ-200,1
+2475,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2476,family,C-47,DC-3,0
+2477,variant,C-47,DC-3,0
+2478,manufacturer,Boeing,Boeing,1
+2479,family,Boeing 767,Boeing 767,1
+2480,variant,767-400,767-400,1
+2481,manufacturer,Boeing,Boeing,1
+2482,family,Boeing 737,Boeing 737,1
+2483,variant,737-800,737-700,0
+2484,manufacturer,de Havilland,de Havilland,1
+2485,family,Dash 8,Dash 8,1
+2486,variant,DHC-8-100,DHC-8-100,1
+2487,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2488,family,MD-80,MD-90,0
+2489,variant,MD-80,MD-90,0
+2490,manufacturer,Robin,Robin,1
+2491,family,DR-400,DR-400,1
+2492,variant,DR-400,DR-400,1
+2493,manufacturer,Boeing,Boeing,1
+2494,family,Boeing 747,Boeing 747,1
+2495,variant,747-200,747-100,0
+2496,manufacturer,Yakovlev,Yakovlev,1
+2497,family,Yak-42,Yak-42,1
+2498,variant,Yak-42,Yak-42,1
+2499,manufacturer,Cessna,Cessna,1
+2500,family,Cessna 172,Cessna 172,1
+2501,variant,Cessna 172,Cessna 172,1
+2502,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2503,family,MD-90,MD-90,1
+2504,variant,MD-90,MD-90,1
+2505,manufacturer,Boeing,Boeing,1
+2506,family,Boeing 717,Boeing 717,1
+2507,variant,Boeing 717,Boeing 717,1
+2508,manufacturer,Embraer,Embraer,1
+2509,family,EMB-120,EMB-120,1
+2510,variant,EMB-120,EMB-120,1
+2511,manufacturer,Boeing,Boeing,1
+2512,family,Boeing 747,Boeing 747,1
+2513,variant,747-200,747-200,1
+2514,manufacturer,Embraer,Embraer,1
+2515,family,Embraer ERJ 145,Embraer ERJ 145,1
+2516,variant,ERJ 145,ERJ 145,1
+2517,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2518,family,C-47,DC-3,0
+2519,variant,C-47,DC-3,0
+2520,manufacturer,Douglas Aircraft Company,Boeing,0
+2521,family,DC-8,Embraer E-Jet,0
+2522,variant,DC-8,757-300,0
+2523,manufacturer,Panavia,Panavia,1
+2524,family,Tornado,Tornado,1
+2525,variant,Tornado,Tornado,1
+2526,manufacturer,Cessna,Cessna,1
+2527,family,Cessna Citation,Challenger 600,0
+2528,variant,Cessna 525,Challenger 600,0
+2529,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2530,family,F/A-18,F/A-18,1
+2531,variant,F/A-18,F/A-18,1
+2532,manufacturer,ATR,ATR,1
+2533,family,ATR-72,ATR-72,1
+2534,variant,ATR-72,ATR-72,1
+2535,manufacturer,Dassault Aviation,Dassault Aviation,1
+2536,family,Falcon 900,Falcon 900,1
+2537,variant,Falcon 900,Falcon 900,1
+2538,manufacturer,Fairchild,Fairchild,1
+2539,family,Metroliner,Metroliner,1
+2540,variant,Metroliner,Metroliner,1
+2541,manufacturer,McDonnell Douglas,Fokker,0
+2542,family,DC-9,DC-9,1
+2543,variant,DC-9-30,DC-9-30,1
+2544,manufacturer,Boeing,Boeing,1
+2545,family,Boeing 737,Boeing 737,1
+2546,variant,737-900,737-900,1
+2547,manufacturer,Beechcraft,Beechcraft,1
+2548,family,Beechcraft 1900,Beechcraft 1900,1
+2549,variant,Beechcraft 1900,Beechcraft 1900,1
+2550,manufacturer,Beechcraft,Beechcraft,1
+2551,family,Beechcraft 1900,Beechcraft 1900,1
+2552,variant,Beechcraft 1900,Beechcraft 1900,1
+2553,manufacturer,Fairchild,Fairchild,1
+2554,family,Metroliner,Metroliner,1
+2555,variant,Metroliner,Metroliner,1
+2556,manufacturer,Beechcraft,Beechcraft,1
+2557,family,Beechcraft 1900,Beechcraft 1900,1
+2558,variant,Beechcraft 1900,Beechcraft 1900,1
+2559,manufacturer,Airbus,Airbus,1
+2560,family,A300,A300,1
+2561,variant,A300B4,A300B4,1
+2562,manufacturer,Canadair,Canadair,1
+2563,family,CRJ-200,CRJ-200,1
+2564,variant,CRJ-200,CRJ-200,1
+2565,manufacturer,Boeing,Boeing,1
+2566,family,Boeing 767,Boeing 767,1
+2567,variant,767-200,767-200,1
+2568,manufacturer,Airbus,Airbus,1
+2569,family,A320,A320,1
+2570,variant,A319,A319,1
+2571,manufacturer,Airbus,Airbus,1
+2572,family,A320,A320,1
+2573,variant,A320,A319,0
+2574,manufacturer,Boeing,Boeing,1
+2575,family,Boeing 737,Boeing 737,1
+2576,variant,737-900,737-900,1
+2577,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2578,family,DC-10,DC-10,1
+2579,variant,DC-10,DC-10,1
+2580,manufacturer,Airbus,Airbus,1
+2581,family,A340,A340,1
+2582,variant,A340-600,A340-600,1
+2583,manufacturer,Boeing,Boeing,1
+2584,family,Boeing 737,Boeing 737,1
+2585,variant,737-900,737-900,1
+2586,manufacturer,Beechcraft,Beechcraft,1
+2587,family,King Air,King Air,1
+2588,variant,Model B200,Model B200,1
+2589,manufacturer,Boeing,Boeing,1
+2590,family,Boeing 767,Boeing 767,1
+2591,variant,767-300,767-200,0
+2592,manufacturer,de Havilland,de Havilland,1
+2593,family,Dash 8,Dash 8,1
+2594,variant,DHC-8-100,DHC-8-100,1
+2595,manufacturer,Embraer,Embraer,1
+2596,family,Embraer E-Jet,Embraer E-Jet,1
+2597,variant,E-195,E-195,1
+2598,manufacturer,Airbus,Airbus,1
+2599,family,A380,A380,1
+2600,variant,A380,A380,1
+2601,manufacturer,de Havilland,de Havilland,1
+2602,family,DH-82,DH-82,1
+2603,variant,DH-82,DH-82,1
+2604,manufacturer,de Havilland,de Havilland,1
+2605,family,DH-82,DH-82,1
+2606,variant,DH-82,DH-82,1
+2607,manufacturer,Panavia,Panavia,1
+2608,family,Tornado,Tornado,1
+2609,variant,Tornado,Tornado,1
+2610,manufacturer,Eurofighter,Eurofighter,1
+2611,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+2612,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+2613,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2614,family,C-130,C-130,1
+2615,variant,C-130,C-130,1
+2616,manufacturer,Piper,Piper,1
+2617,family,PA-28,PA-28,1
+2618,variant,PA-28,PA-28,1
+2619,manufacturer,Canadair,Canadair,1
+2620,family,CRJ-700,CRJ-700,1
+2621,variant,CRJ-900,CRJ-900,1
+2622,manufacturer,Boeing,Boeing,1
+2623,family,Boeing 767,Boeing 767,1
+2624,variant,767-300,767-300,1
+2625,manufacturer,Boeing,Boeing,1
+2626,family,Boeing 777,Boeing 777,1
+2627,variant,777-200,777-200,1
+2628,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2629,family,DC-9,DC-9,1
+2630,variant,DC-9-30,DC-9-30,1
+2631,manufacturer,Boeing,Boeing,1
+2632,family,Boeing 737,Boeing 737,1
+2633,variant,737-500,737-600,0
+2634,manufacturer,Boeing,Boeing,1
+2635,family,Boeing 717,Boeing 717,1
+2636,variant,Boeing 717,Boeing 717,1
+2637,manufacturer,Canadair,Canadair,1
+2638,family,Challenger 600,Challenger 600,1
+2639,variant,Challenger 600,Challenger 600,1
+2640,manufacturer,Boeing,Boeing,1
+2641,family,Boeing 767,Boeing 767,1
+2642,variant,767-200,767-200,1
+2643,manufacturer,de Havilland,de Havilland,1
+2644,family,DHC-1,DHC-1,1
+2645,variant,DHC-1,DHC-1,1
+2646,manufacturer,Airbus,Airbus,1
+2647,family,A340,A340,1
+2648,variant,A340-600,A340-600,1
+2649,manufacturer,ATR,ATR,1
+2650,family,ATR-72,ATR-72,1
+2651,variant,ATR-72,ATR-72,1
+2652,manufacturer,Boeing,Boeing,1
+2653,family,Boeing 767,Boeing 767,1
+2654,variant,767-200,767-200,1
+2655,manufacturer,Robin,Robin,1
+2656,family,DR-400,DR-400,1
+2657,variant,DR-400,DR-400,1
+2658,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2659,family,C-47,C-47,1
+2660,variant,C-47,C-47,1
+2661,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2662,family,Gulfstream,Gulfstream,1
+2663,variant,Gulfstream IV,Gulfstream IV,1
+2664,manufacturer,Boeing,Boeing,1
+2665,family,Boeing 737,Boeing 737,1
+2666,variant,737-800,737-800,1
+2667,manufacturer,Canadair,Canadair,1
+2668,family,CRJ-700,CRJ-700,1
+2669,variant,CRJ-700,CRJ-700,1
+2670,manufacturer,Fokker,Fokker,1
+2671,family,Fokker 70,Fokker 70,1
+2672,variant,Fokker 70,Fokker 70,1
+2673,manufacturer,de Havilland,de Havilland,1
+2674,family,DHC-1,DHC-1,1
+2675,variant,DHC-1,DHC-1,1
+2676,manufacturer,Fokker,Fokker,1
+2677,family,Fokker 50,Fokker 50,1
+2678,variant,Fokker 50,Fokker 50,1
+2679,manufacturer,de Havilland,de Havilland,1
+2680,family,DH-82,DH-82,1
+2681,variant,DH-82,DH-82,1
+2682,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2683,family,DC-10,DC-10,1
+2684,variant,DC-10,DC-10,1
+2685,manufacturer,Saab,Saab,1
+2686,family,Saab 340,Saab 340,1
+2687,variant,Saab 340,Saab 340,1
+2688,manufacturer,Airbus,Airbus,1
+2689,family,A340,A340,1
+2690,variant,A340-600,A340-600,1
+2691,manufacturer,Dassault Aviation,Dassault Aviation,1
+2692,family,Falcon 900,Falcon 2000,0
+2693,variant,Falcon 900,Falcon 2000,0
+2694,manufacturer,Boeing,Boeing,1
+2695,family,Boeing 747,Boeing 747,1
+2696,variant,747-400,747-400,1
+2697,manufacturer,Cessna,Cessna,1
+2698,family,Cessna 172,Cessna 172,1
+2699,variant,Cessna 172,Cessna 172,1
+2700,manufacturer,Airbus,Airbus,1
+2701,family,A330,A330,1
+2702,variant,A330-300,A330-300,1
+2703,manufacturer,de Havilland,de Havilland,1
+2704,family,DHC-1,DHC-1,1
+2705,variant,DHC-1,DHC-1,1
+2706,manufacturer,Boeing,Boeing,1
+2707,family,Boeing 747,Boeing 747,1
+2708,variant,747-300,747-100,0
+2709,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2710,family,Gulfstream,Gulfstream,1
+2711,variant,Gulfstream V,Gulfstream IV,0
+2712,manufacturer,Boeing,Boeing,1
+2713,family,Boeing 747,Boeing 747,1
+2714,variant,747-200,747-300,0
+2715,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2716,family,C-130,C-130,1
+2717,variant,C-130,C-130,1
+2718,manufacturer,Embraer,Embraer,1
+2719,family,Embraer ERJ 145,Embraer ERJ 145,1
+2720,variant,ERJ 145,ERJ 135,0
+2721,manufacturer,Fokker,Fokker,1
+2722,family,Fokker 50,Fokker 50,1
+2723,variant,Fokker 50,Fokker 50,1
+2724,manufacturer,Embraer,Embraer,1
+2725,family,EMB-120,EMB-120,1
+2726,variant,EMB-120,EMB-120,1
+2727,manufacturer,Robin,Robin,1
+2728,family,DR-400,DR-400,1
+2729,variant,DR-400,DR-400,1
+2730,manufacturer,Embraer,Embraer,1
+2731,family,Embraer ERJ 145,Embraer ERJ 145,1
+2732,variant,ERJ 135,ERJ 135,1
+2733,manufacturer,British Aerospace,British Aerospace,1
+2734,family,BAE 146,BAE 146,1
+2735,variant,BAE 146-300,BAE 146-300,1
+2736,manufacturer,Airbus,Airbus,1
+2737,family,A320,A320,1
+2738,variant,A319,A319,1
+2739,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2740,family,F/A-18,F/A-18,1
+2741,variant,F/A-18,F/A-18,1
+2742,manufacturer,Panavia,Panavia,1
+2743,family,Tornado,Tornado,1
+2744,variant,Tornado,Tornado,1
+2745,manufacturer,British Aerospace,British Aerospace,1
+2746,family,BAE-125,BAE-125,1
+2747,variant,BAE-125,BAE-125,1
+2748,manufacturer,Embraer,Embraer,1
+2749,family,Embraer E-Jet,Embraer E-Jet,1
+2750,variant,E-190,E-190,1
+2751,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2752,family,Gulfstream,Gulfstream,1
+2753,variant,Gulfstream V,Gulfstream V,1
+2754,manufacturer,Piper,Piper,1
+2755,family,PA-28,PA-28,1
+2756,variant,PA-28,PA-28,1
+2757,manufacturer,Tupolev,Tupolev,1
+2758,family,Tu-154,Tu-154,1
+2759,variant,Tu-154,Tu-154,1
+2760,manufacturer,Canadair,Canadair,1
+2761,family,Challenger 600,Challenger 600,1
+2762,variant,Challenger 600,Challenger 600,1
+2763,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2764,family,MD-90,MD-90,1
+2765,variant,MD-90,MD-90,1
+2766,manufacturer,Airbus,Airbus,1
+2767,family,A340,A340,1
+2768,variant,A340-500,A340-500,1
+2769,manufacturer,Boeing,Boeing,1
+2770,family,Boeing 737,Boeing 737,1
+2771,variant,737-900,737-900,1
+2772,manufacturer,Dassault Aviation,Dassault Aviation,1
+2773,family,Falcon 900,Falcon 900,1
+2774,variant,Falcon 900,Falcon 900,1
+2775,manufacturer,Eurofighter,Eurofighter,1
+2776,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+2777,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+2778,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2779,family,DC-8,DC-8,1
+2780,variant,DC-8,DC-8,1
+2781,manufacturer,Canadair,Canadair,1
+2782,family,Challenger 600,Challenger 600,1
+2783,variant,Challenger 600,Challenger 600,1
+2784,manufacturer,Embraer,Canadair,0
+2785,family,Embraer ERJ 145,Embraer ERJ 145,1
+2786,variant,ERJ 135,ERJ 135,1
+2787,manufacturer,Tupolev,Tupolev,1
+2788,family,Tu-154,Tu-154,1
+2789,variant,Tu-154,Tu-154,1
+2790,manufacturer,Cessna,Cessna,1
+2791,family,Cessna 208,Cessna 208,1
+2792,variant,Cessna 208,Cessna 208,1
+2793,manufacturer,British Aerospace,British Aerospace,1
+2794,family,Hawk T1,Hawk T1,1
+2795,variant,Hawk T1,Hawk T1,1
+2796,manufacturer,Fokker,Fokker,1
+2797,family,Fokker 100,Fokker 100,1
+2798,variant,Fokker 100,Fokker 100,1
+2799,manufacturer,Boeing,Boeing,1
+2800,family,Boeing 707,Boeing 707,1
+2801,variant,707-320,707-320,1
+2802,manufacturer,Eurofighter,Eurofighter,1
+2803,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+2804,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+2805,manufacturer,Embraer,Embraer,1
+2806,family,Embraer Legacy 600,Embraer Legacy 600,1
+2807,variant,Embraer Legacy 600,Embraer Legacy 600,1
+2808,manufacturer,Boeing,McDonnell Douglas,0
+2809,family,Boeing 717,MD-80,0
+2810,variant,Boeing 717,MD-87,0
+2811,manufacturer,Fokker,Fokker,1
+2812,family,Fokker 100,Fokker 100,1
+2813,variant,Fokker 100,Fokker 100,1
+2814,manufacturer,Beechcraft,Beechcraft,1
+2815,family,Beechcraft 1900,Beechcraft 1900,1
+2816,variant,Beechcraft 1900,Beechcraft 1900,1
+2817,manufacturer,Airbus,Boeing,0
+2818,family,A380,A340,0
+2819,variant,A380,A380,1
+2820,manufacturer,Fokker,Fokker,1
+2821,family,Fokker 100,Fokker 100,1
+2822,variant,Fokker 100,Fokker 100,1
+2823,manufacturer,Boeing,Boeing,1
+2824,family,Boeing 737,Boeing 737,1
+2825,variant,737-500,737-500,1
+2826,manufacturer,Airbus,Airbus,1
+2827,family,A340,A340,1
+2828,variant,A340-300,A340-300,1
+2829,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2830,family,DC-8,DC-8,1
+2831,variant,DC-8,DC-8,1
+2832,manufacturer,Airbus,Airbus,1
+2833,family,A340,A340,1
+2834,variant,A340-300,A340-300,1
+2835,manufacturer,Airbus,Airbus,1
+2836,family,A310,A310,1
+2837,variant,A310,A310,1
+2838,manufacturer,Airbus,Airbus,1
+2839,family,A330,A330,1
+2840,variant,A330-300,A330-300,1
+2841,manufacturer,de Havilland,de Havilland,1
+2842,family,Dash 8,Dash 8,1
+2843,variant,DHC-8-300,DHC-8-300,1
+2844,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2845,family,MD-80,MD-80,1
+2846,variant,MD-87,MD-87,1
+2847,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+2848,family,Global Express,Global Express,1
+2849,variant,Global Express,Global Express,1
+2850,manufacturer,Airbus,Airbus,1
+2851,family,A310,A310,1
+2852,variant,A310,A310,1
+2853,manufacturer,ATR,ATR,1
+2854,family,ATR-72,ATR-72,1
+2855,variant,ATR-72,ATR-72,1
+2856,manufacturer,Boeing,Boeing,1
+2857,family,Boeing 747,Boeing 747,1
+2858,variant,747-400,747-200,0
+2859,manufacturer,Airbus,Airbus,1
+2860,family,A340,A340,1
+2861,variant,A340-500,A340-500,1
+2862,manufacturer,Airbus,Airbus,1
+2863,family,A340,A340,1
+2864,variant,A340-500,A340-500,1
+2865,manufacturer,ATR,ATR,1
+2866,family,ATR-72,ATR-72,1
+2867,variant,ATR-72,ATR-72,1
+2868,manufacturer,Boeing,Boeing,1
+2869,family,Boeing 757,Boeing 757,1
+2870,variant,757-300,757-300,1
+2871,manufacturer,Beechcraft,Beechcraft,1
+2872,family,King Air,King Air,1
+2873,variant,Model B200,Model B200,1
+2874,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2875,family,MD-11,MD-11,1
+2876,variant,MD-11,MD-11,1
+2877,manufacturer,Tupolev,Tupolev,1
+2878,family,Tu-134,Tu-134,1
+2879,variant,Tu-134,Tu-134,1
+2880,manufacturer,Saab,Saab,1
+2881,family,Saab 2000,Saab 2000,1
+2882,variant,Saab 2000,Saab 2000,1
+2883,manufacturer,Boeing,Boeing,1
+2884,family,Boeing 737,Boeing 737,1
+2885,variant,737-900,737-900,1
+2886,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+2887,family,SR-20,SR-20,1
+2888,variant,SR-20,SR-20,1
+2889,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+2890,family,L-1011,L-1011,1
+2891,variant,L-1011,L-1011,1
+2892,manufacturer,Dassault Aviation,Dassault Aviation,1
+2893,family,Falcon 2000,Falcon 2000,1
+2894,variant,Falcon 2000,Falcon 2000,1
+2895,manufacturer,Cessna,Cessna,1
+2896,family,Cessna Citation,Cessna Citation,1
+2897,variant,Cessna 525,Cessna 525,1
+2898,manufacturer,Canadair,Canadair,1
+2899,family,CRJ-700,CRJ-700,1
+2900,variant,CRJ-700,CRJ-700,1
+2901,manufacturer,Embraer,Embraer,1
+2902,family,Embraer Legacy 600,Embraer Legacy 600,1
+2903,variant,Embraer Legacy 600,Embraer Legacy 600,1
+2904,manufacturer,Piper,Robin,0
+2905,family,PA-28,DR-400,0
+2906,variant,PA-28,DR-400,0
+2907,manufacturer,Canadair,Canadair,1
+2908,family,CRJ-700,CRJ-700,1
+2909,variant,CRJ-900,CRJ-900,1
+2910,manufacturer,Boeing,Boeing,1
+2911,family,Boeing 737,Boeing 737,1
+2912,variant,737-400,737-400,1
+2913,manufacturer,Supermarine,Supermarine,1
+2914,family,Spitfire,Spitfire,1
+2915,variant,Spitfire,Spitfire,1
+2916,manufacturer,Airbus,Airbus,1
+2917,family,A340,A340,1
+2918,variant,A340-600,A340-500,0
+2919,manufacturer,Boeing,Boeing,1
+2920,family,Boeing 777,Boeing 777,1
+2921,variant,777-300,777-300,1
+2922,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2923,family,Gulfstream,Gulfstream,1
+2924,variant,Gulfstream IV,Gulfstream IV,1
+2925,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2926,family,Gulfstream,Gulfstream,1
+2927,variant,Gulfstream IV,Gulfstream IV,1
+2928,manufacturer,Boeing,Boeing,1
+2929,family,Boeing 737,Boeing 737,1
+2930,variant,737-700,737-700,1
+2931,manufacturer,Airbus,Airbus,1
+2932,family,A300,A300,1
+2933,variant,A300B4,A300B4,1
+2934,manufacturer,Boeing,Boeing,1
+2935,family,Boeing 747,Boeing 747,1
+2936,variant,747-200,747-300,0
+2937,manufacturer,Boeing,Boeing,1
+2938,family,Boeing 767,Boeing 767,1
+2939,variant,767-200,767-200,1
+2940,manufacturer,Boeing,Boeing,1
+2941,family,Boeing 767,Boeing 777,0
+2942,variant,767-400,777-200,0
+2943,manufacturer,Robin,Robin,1
+2944,family,DR-400,DR-400,1
+2945,variant,DR-400,DR-400,1
+2946,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+2947,family,MD-11,DC-10,0
+2948,variant,MD-11,DC-10,0
+2949,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+2950,family,Global Express,Global Express,1
+2951,variant,Global Express,Global Express,1
+2952,manufacturer,Antonov,Antonov,1
+2953,family,An-12,An-12,1
+2954,variant,An-12,An-12,1
+2955,manufacturer,Canadair,Canadair,1
+2956,family,CRJ-700,CRJ-700,1
+2957,variant,CRJ-900,CRJ-900,1
+2958,manufacturer,Boeing,McDonnell Douglas,0
+2959,family,Boeing 717,MD-90,0
+2960,variant,Boeing 717,MD-90,0
+2961,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+2962,family,Gulfstream,Gulfstream,1
+2963,variant,Gulfstream V,Gulfstream IV,0
+2964,manufacturer,de Havilland,de Havilland,1
+2965,family,Dash 8,Dash 8,1
+2966,variant,DHC-8-300,DHC-8-300,1
+2967,manufacturer,Boeing,Boeing,1
+2968,family,Boeing 737,Boeing 737,1
+2969,variant,737-300,737-500,0
+2970,manufacturer,Embraer,Embraer,1
+2971,family,Embraer E-Jet,Embraer E-Jet,1
+2972,variant,E-190,E-190,1
+2973,manufacturer,ATR,ATR,1
+2974,family,ATR-42,ATR-42,1
+2975,variant,ATR-42,ATR-42,1
+2976,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2977,family,C-47,C-47,1
+2978,variant,C-47,C-47,1
+2979,manufacturer,Boeing,Boeing,1
+2980,family,Boeing 767,Boeing 767,1
+2981,variant,767-400,767-400,1
+2982,manufacturer,Robin,Robin,1
+2983,family,DR-400,DR-400,1
+2984,variant,DR-400,DR-400,1
+2985,manufacturer,British Aerospace,British Aerospace,1
+2986,family,BAE 146,BAE 146,1
+2987,variant,BAE 146-300,BAE 146-300,1
+2988,manufacturer,Fokker,Fokker,1
+2989,family,Fokker 100,Fokker 100,1
+2990,variant,Fokker 100,Fokker 100,1
+2991,manufacturer,ATR,ATR,1
+2992,family,ATR-72,ATR-72,1
+2993,variant,ATR-72,ATR-72,1
+2994,manufacturer,Gulfstream Aerospace,Tupolev,0
+2995,family,Gulfstream,Tu-134,0
+2996,variant,Gulfstream V,Tu-134,0
+2997,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+2998,family,DC-3,DC-3,1
+2999,variant,DC-3,DC-3,1
+3000,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+3001,family,C-130,C-130,1
+3002,variant,C-130,C-130,1
+3003,manufacturer,Boeing,Boeing,1
+3004,family,Boeing 747,Boeing 747,1
+3005,variant,747-300,747-300,1
+3006,manufacturer,Embraer,Embraer,1
+3007,family,Embraer E-Jet,Embraer E-Jet,1
+3008,variant,E-190,E-190,1
+3009,manufacturer,Embraer,Embraer,1
+3010,family,Embraer ERJ 145,Embraer ERJ 145,1
+3011,variant,ERJ 145,ERJ 145,1
+3012,manufacturer,Boeing,Boeing,1
+3013,family,Boeing 737,Boeing 737,1
+3014,variant,737-500,737-600,0
+3015,manufacturer,Antonov,Antonov,1
+3016,family,An-12,An-12,1
+3017,variant,An-12,An-12,1
+3018,manufacturer,Airbus,Airbus,1
+3019,family,A320,A320,1
+3020,variant,A318,A318,1
+3021,manufacturer,Airbus,Airbus,1
+3022,family,A330,A330,1
+3023,variant,A330-300,A330-300,1
+3024,manufacturer,Beechcraft,Beechcraft,1
+3025,family,Beechcraft 1900,Beechcraft 1900,1
+3026,variant,Beechcraft 1900,Beechcraft 1900,1
+3027,manufacturer,Airbus,Airbus,1
+3028,family,A320,A320,1
+3029,variant,A319,A319,1
+3030,manufacturer,Embraer,Embraer,1
+3031,family,Embraer ERJ 145,Embraer ERJ 145,1
+3032,variant,ERJ 145,ERJ 145,1
+3033,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3034,family,DC-3,DC-3,1
+3035,variant,DC-3,DC-3,1
+3036,manufacturer,Embraer,Embraer,1
+3037,family,Embraer ERJ 145,Embraer ERJ 145,1
+3038,variant,ERJ 145,ERJ 145,1
+3039,manufacturer,Airbus,Airbus,1
+3040,family,A330,A330,1
+3041,variant,A330-200,A330-200,1
+3042,manufacturer,de Havilland,de Havilland,1
+3043,family,DH-82,DH-82,1
+3044,variant,DH-82,DH-82,1
+3045,manufacturer,Cessna,Cessna,1
+3046,family,Cessna Citation,Cessna Citation,1
+3047,variant,Cessna 560,Cessna 560,1
+3048,manufacturer,Airbus,Airbus,1
+3049,family,A340,A340,1
+3050,variant,A340-500,A340-500,1
+3051,manufacturer,British Aerospace,British Aerospace,1
+3052,family,BAE 146,BAE 146,1
+3053,variant,BAE 146-200,BAE 146-200,1
+3054,manufacturer,Boeing,Boeing,1
+3055,family,Boeing 747,Boeing 747,1
+3056,variant,747-400,747-400,1
+3057,manufacturer,Embraer,Embraer,1
+3058,family,Embraer ERJ 145,Embraer ERJ 145,1
+3059,variant,ERJ 135,Cessna 525,0
+3060,manufacturer,Canadair,Canadair,1
+3061,family,CRJ-700,CRJ-700,1
+3062,variant,CRJ-900,CRJ-900,1
+3063,manufacturer,Boeing,Boeing,1
+3064,family,Boeing 717,Boeing 717,1
+3065,variant,Boeing 717,Boeing 717,1
+3066,manufacturer,Canadair,Canadair,1
+3067,family,CRJ-700,CRJ-700,1
+3068,variant,CRJ-900,CRJ-700,0
+3069,manufacturer,Dassault Aviation,Dassault Aviation,1
+3070,family,Falcon 2000,Falcon 2000,1
+3071,variant,Falcon 2000,Falcon 2000,1
+3072,manufacturer,Panavia,Panavia,1
+3073,family,Tornado,Tornado,1
+3074,variant,Tornado,Tornado,1
+3075,manufacturer,Boeing,Boeing,1
+3076,family,Boeing 737,Boeing 737,1
+3077,variant,737-500,737-700,0
+3078,manufacturer,Canadair,Canadair,1
+3079,family,CRJ-200,CRJ-200,1
+3080,variant,CRJ-200,CRJ-200,1
+3081,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+3082,family,C-130,C-130,1
+3083,variant,C-130,C-130,1
+3084,manufacturer,Lockheed Martin,Lockheed Martin,1
+3085,family,F-16,F-16,1
+3086,variant,F-16A/B,F-16A/B,1
+3087,manufacturer,Boeing,Boeing,1
+3088,family,Boeing 757,Boeing 757,1
+3089,variant,757-300,757-300,1
+3090,manufacturer,Boeing,Boeing,1
+3091,family,Boeing 737,Boeing 737,1
+3092,variant,737-200,737-200,1
+3093,manufacturer,Boeing,Boeing,1
+3094,family,Boeing 747,Boeing 747,1
+3095,variant,747-400,747-400,1
+3096,manufacturer,British Aerospace,British Aerospace,1
+3097,family,Hawk T1,Hawk T1,1
+3098,variant,Hawk T1,Hawk T1,1
+3099,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3100,family,DC-6,DC-6,1
+3101,variant,DC-6,DC-6,1
+3102,manufacturer,Boeing,Boeing,1
+3103,family,Boeing 717,Boeing 717,1
+3104,variant,Boeing 717,Boeing 717,1
+3105,manufacturer,Boeing,Boeing,1
+3106,family,Boeing 737,Boeing 737,1
+3107,variant,737-700,737-700,1
+3108,manufacturer,Beechcraft,Beechcraft,1
+3109,family,King Air,King Air,1
+3110,variant,Model B200,Model B200,1
+3111,manufacturer,Boeing,Boeing,1
+3112,family,Boeing 737,Boeing 737,1
+3113,variant,737-500,737-500,1
+3114,manufacturer,Boeing,Boeing,1
+3115,family,Boeing 737,Boeing 737,1
+3116,variant,737-900,737-900,1
+3117,manufacturer,Boeing,Boeing,1
+3118,family,Boeing 777,Boeing 767,0
+3119,variant,777-300,767-300,0
+3120,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+3121,family,SR-20,SR-20,1
+3122,variant,SR-20,SR-20,1
+3123,manufacturer,Embraer,Embraer,1
+3124,family,Embraer E-Jet,Embraer E-Jet,1
+3125,variant,E-190,E-190,1
+3126,manufacturer,Airbus,Airbus,1
+3127,family,A320,A320,1
+3128,variant,A320,A320,1
+3129,manufacturer,Airbus,Airbus,1
+3130,family,A340,A340,1
+3131,variant,A340-300,A340-300,1
+3132,manufacturer,Tupolev,Tupolev,1
+3133,family,Tu-134,Tu-134,1
+3134,variant,Tu-134,Tu-134,1
+3135,manufacturer,Airbus,Airbus,1
+3136,family,A320,A320,1
+3137,variant,A318,A318,1
+3138,manufacturer,Embraer,Canadair,0
+3139,family,Embraer E-Jet,A320,0
+3140,variant,E-170,CRJ-900,0
+3141,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+3142,family,C-130,C-130,1
+3143,variant,C-130,C-130,1
+3144,manufacturer,Embraer,Embraer,1
+3145,family,Embraer E-Jet,Embraer E-Jet,1
+3146,variant,E-190,E-190,1
+3147,manufacturer,Tupolev,Tupolev,1
+3148,family,Tu-134,Tu-134,1
+3149,variant,Tu-134,Tu-134,1
+3150,manufacturer,Tupolev,Tupolev,1
+3151,family,Tu-134,Tu-134,1
+3152,variant,Tu-134,Tu-134,1
+3153,manufacturer,Boeing,Boeing,1
+3154,family,Boeing 737,Boeing 737,1
+3155,variant,737-800,737-800,1
+3156,manufacturer,Tupolev,Tupolev,1
+3157,family,Tu-134,Tu-134,1
+3158,variant,Tu-134,Tu-134,1
+3159,manufacturer,Canadair,Canadair,1
+3160,family,CRJ-200,CRJ-200,1
+3161,variant,CRJ-200,CRJ-200,1
+3162,manufacturer,Saab,Saab,1
+3163,family,Saab 2000,Saab 2000,1
+3164,variant,Saab 2000,Saab 2000,1
+3165,manufacturer,de Havilland,de Havilland,1
+3166,family,Dash 8,Dash 8,1
+3167,variant,DHC-8-300,DHC-8-300,1
+3168,manufacturer,Lockheed Martin,Lockheed Martin,1
+3169,family,F-16,F-16,1
+3170,variant,F-16A/B,F-16A/B,1
+3171,manufacturer,Embraer,Embraer,1
+3172,family,Embraer Legacy 600,Embraer Legacy 600,1
+3173,variant,Embraer Legacy 600,Embraer Legacy 600,1
+3174,manufacturer,Robin,Robin,1
+3175,family,DR-400,DR-400,1
+3176,variant,DR-400,DR-400,1
+3177,manufacturer,Boeing,Boeing,1
+3178,family,Boeing 777,Boeing 777,1
+3179,variant,777-300,777-300,1
+3180,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+3181,family,SR-20,SR-20,1
+3182,variant,SR-20,SR-20,1
+3183,manufacturer,Robin,Robin,1
+3184,family,DR-400,DR-400,1
+3185,variant,DR-400,DR-400,1
+3186,manufacturer,Boeing,Boeing,1
+3187,family,Boeing 767,Boeing 767,1
+3188,variant,767-300,767-300,1
+3189,manufacturer,Cessna,Cessna,1
+3190,family,Cessna 172,Cessna 172,1
+3191,variant,Cessna 172,Cessna 172,1
+3192,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3193,family,MD-90,MD-80,0
+3194,variant,MD-90,MD-80,0
+3195,manufacturer,Boeing,Boeing,1
+3196,family,Boeing 777,Boeing 777,1
+3197,variant,777-300,777-300,1
+3198,manufacturer,Airbus,Airbus,1
+3199,family,A320,A320,1
+3200,variant,A318,A318,1
+3201,manufacturer,Panavia,Panavia,1
+3202,family,Tornado,Tornado,1
+3203,variant,Tornado,Tornado,1
+3204,manufacturer,Cessna,Cessna,1
+3205,family,Cessna Citation,Cessna Citation,1
+3206,variant,Cessna 560,Cessna 560,1
+3207,manufacturer,Canadair,Canadair,1
+3208,family,CRJ-700,CRJ-700,1
+3209,variant,CRJ-700,CRJ-700,1
+3210,manufacturer,Boeing,Boeing,1
+3211,family,Boeing 777,Boeing 777,1
+3212,variant,777-200,777-200,1
+3213,manufacturer,Panavia,Panavia,1
+3214,family,Tornado,Tornado,1
+3215,variant,Tornado,Tornado,1
+3216,manufacturer,Boeing,Boeing,1
+3217,family,Boeing 737,Boeing 737,1
+3218,variant,737-700,737-700,1
+3219,manufacturer,Cessna,Cessna,1
+3220,family,Cessna Citation,Cessna Citation,1
+3221,variant,Cessna 525,Cessna 525,1
+3222,manufacturer,Lockheed Martin,Lockheed Martin,1
+3223,family,F-16,F-16,1
+3224,variant,F-16A/B,F-16A/B,1
+3225,manufacturer,Boeing,Boeing,1
+3226,family,Boeing 777,Boeing 777,1
+3227,variant,777-300,777-300,1
+3228,manufacturer,Beechcraft,Beechcraft,1
+3229,family,King Air,King Air,1
+3230,variant,Model B200,Model B200,1
+3231,manufacturer,Boeing,Boeing,1
+3232,family,Boeing 737,Boeing 737,1
+3233,variant,737-500,737-700,0
+3234,manufacturer,Saab,Saab,1
+3235,family,Saab 340,Saab 340,1
+3236,variant,Saab 340,Saab 340,1
+3237,manufacturer,Embraer,Embraer,1
+3238,family,Embraer E-Jet,Embraer E-Jet,1
+3239,variant,E-195,E-195,1
+3240,manufacturer,Boeing,Embraer,0
+3241,family,Boeing 747,EMB-120,0
+3242,variant,747-200,777-300,0
+3243,manufacturer,Boeing,Boeing,1
+3244,family,Boeing 757,Boeing 757,1
+3245,variant,757-300,757-300,1
+3246,manufacturer,Airbus,Airbus,1
+3247,family,A340,A340,1
+3248,variant,A340-500,A340-500,1
+3249,manufacturer,Robin,Robin,1
+3250,family,DR-400,DR-400,1
+3251,variant,DR-400,DR-400,1
+3252,manufacturer,Eurofighter,Eurofighter,1
+3253,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+3254,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+3255,manufacturer,Antonov,Antonov,1
+3256,family,An-12,An-12,1
+3257,variant,An-12,An-12,1
+3258,manufacturer,Airbus,Airbus,1
+3259,family,A320,A320,1
+3260,variant,A320,A320,1
+3261,manufacturer,Boeing,Boeing,1
+3262,family,Boeing 777,Boeing 777,1
+3263,variant,777-200,777-200,1
+3264,manufacturer,Airbus,Airbus,1
+3265,family,A380,A380,1
+3266,variant,A380,A380,1
+3267,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3268,family,MD-11,MD-11,1
+3269,variant,MD-11,MD-11,1
+3270,manufacturer,Boeing,Boeing,1
+3271,family,Boeing 737,Boeing 737,1
+3272,variant,737-600,737-600,1
+3273,manufacturer,Boeing,Boeing,1
+3274,family,Boeing 737,Boeing 737,1
+3275,variant,737-600,737-600,1
+3276,manufacturer,Ilyushin,Airbus,0
+3277,family,Il-76,A340,0
+3278,variant,Il-76,A340-300,0
+3279,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+3280,family,SR-20,SR-20,1
+3281,variant,SR-20,SR-20,1
+3282,manufacturer,Airbus,Airbus,1
+3283,family,A320,A320,1
+3284,variant,A318,A318,1
+3285,manufacturer,Airbus,Airbus,1
+3286,family,A340,A340,1
+3287,variant,A340-500,A340-500,1
+3288,manufacturer,British Aerospace,British Aerospace,1
+3289,family,BAE-125,BAE-125,1
+3290,variant,BAE-125,BAE-125,1
+3291,manufacturer,Airbus,Airbus,1
+3292,family,A380,A380,1
+3293,variant,A380,A380,1
+3294,manufacturer,Boeing,Boeing,1
+3295,family,Boeing 737,Boeing 737,1
+3296,variant,737-900,737-900,1
+3297,manufacturer,Robin,Robin,1
+3298,family,DR-400,DR-400,1
+3299,variant,DR-400,DR-400,1
+3300,manufacturer,de Havilland,de Havilland,1
+3301,family,DHC-1,DHC-1,1
+3302,variant,DHC-1,DHC-1,1
+3303,manufacturer,Cessna,Cessna,1
+3304,family,Cessna Citation,Cessna Citation,1
+3305,variant,Cessna 560,Cessna 560,1
+3306,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3307,family,MD-80,MD-80,1
+3308,variant,MD-80,MD-80,1
+3309,manufacturer,Embraer,Embraer,1
+3310,family,Embraer E-Jet,Embraer E-Jet,1
+3311,variant,E-195,E-190,0
+3312,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3313,family,Gulfstream,Gulfstream,1
+3314,variant,Gulfstream IV,Gulfstream V,0
+3315,manufacturer,Fokker,Fokker,1
+3316,family,Fokker 70,Fokker 70,1
+3317,variant,Fokker 70,Fokker 70,1
+3318,manufacturer,British Aerospace,British Aerospace,1
+3319,family,Hawk T1,Hawk T1,1
+3320,variant,Hawk T1,Hawk T1,1
+3321,manufacturer,Dassault Aviation,Dassault Aviation,1
+3322,family,Falcon 2000,Falcon 2000,1
+3323,variant,Falcon 2000,Falcon 2000,1
+3324,manufacturer,Dassault Aviation,Dassault Aviation,1
+3325,family,Falcon 900,Falcon 900,1
+3326,variant,Falcon 900,Falcon 900,1
+3327,manufacturer,Airbus,Airbus,1
+3328,family,A320,A320,1
+3329,variant,A318,A318,1
+3330,manufacturer,British Aerospace,British Aerospace,1
+3331,family,BAE-125,BAE-125,1
+3332,variant,BAE-125,BAE-125,1
+3333,manufacturer,Yakovlev,Yakovlev,1
+3334,family,Yak-42,Yak-42,1
+3335,variant,Yak-42,Yak-42,1
+3336,manufacturer,Antonov,Antonov,1
+3337,family,An-12,An-12,1
+3338,variant,An-12,An-12,1
+3339,manufacturer,Canadair,Canadair,1
+3340,family,CRJ-700,CRJ-700,1
+3341,variant,CRJ-900,CRJ-900,1
+3342,manufacturer,de Havilland,de Havilland,1
+3343,family,Dash 8,Dash 8,1
+3344,variant,DHC-8-300,DHC-8-300,1
+3345,manufacturer,Boeing,Boeing,1
+3346,family,Boeing 747,Boeing 747,1
+3347,variant,747-300,747-300,1
+3348,manufacturer,Boeing,Boeing,1
+3349,family,Boeing 777,Boeing 777,1
+3350,variant,777-200,777-200,1
+3351,manufacturer,Embraer,Embraer,1
+3352,family,Embraer ERJ 145,Embraer ERJ 145,1
+3353,variant,ERJ 135,ERJ 135,1
+3354,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3355,family,Gulfstream,Gulfstream,1
+3356,variant,Gulfstream IV,Gulfstream V,0
+3357,manufacturer,de Havilland,de Havilland,1
+3358,family,DHC-1,DHC-1,1
+3359,variant,DHC-1,DHC-1,1
+3360,manufacturer,de Havilland,de Havilland,1
+3361,family,DHC-1,DHC-1,1
+3362,variant,DHC-1,DHC-1,1
+3363,manufacturer,Boeing,Boeing,1
+3364,family,Boeing 777,Boeing 777,1
+3365,variant,777-200,777-200,1
+3366,manufacturer,McDonnell Douglas,Boeing,0
+3367,family,DC-9,Boeing 717,0
+3368,variant,DC-9-30,Boeing 717,0
+3369,manufacturer,Airbus,Airbus,1
+3370,family,A340,A340,1
+3371,variant,A340-500,A340-500,1
+3372,manufacturer,Boeing,Boeing,1
+3373,family,Boeing 767,Boeing 767,1
+3374,variant,767-400,767-400,1
+3375,manufacturer,Cessna,Cessna,1
+3376,family,Cessna 172,Cessna 172,1
+3377,variant,Cessna 172,Cessna 172,1
+3378,manufacturer,Boeing,Boeing,1
+3379,family,Boeing 737,Boeing 737,1
+3380,variant,737-800,737-800,1
+3381,manufacturer,Boeing,Boeing,1
+3382,family,Boeing 737,Boeing 737,1
+3383,variant,737-200,737-200,1
+3384,manufacturer,Embraer,Embraer,1
+3385,family,Embraer Legacy 600,Embraer Legacy 600,1
+3386,variant,Embraer Legacy 600,Embraer Legacy 600,1
+3387,manufacturer,Saab,Saab,1
+3388,family,Saab 340,Saab 340,1
+3389,variant,Saab 340,Saab 340,1
+3390,manufacturer,British Aerospace,British Aerospace,1
+3391,family,BAE-125,BAE-125,1
+3392,variant,BAE-125,BAE-125,1
+3393,manufacturer,Boeing,Boeing,1
+3394,family,Boeing 777,A380,0
+3395,variant,777-200,777-200,1
+3396,manufacturer,Eurofighter,Eurofighter,1
+3397,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+3398,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+3399,manufacturer,Canadair,Canadair,1
+3400,family,CRJ-700,CRJ-700,1
+3401,variant,CRJ-700,CRJ-700,1
+3402,manufacturer,Airbus,Airbus,1
+3403,family,A380,A380,1
+3404,variant,A380,A380,1
+3405,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3406,family,Gulfstream,Gulfstream,1
+3407,variant,Gulfstream V,Gulfstream V,1
+3408,manufacturer,Airbus,Airbus,1
+3409,family,A320,A320,1
+3410,variant,A318,A318,1
+3411,manufacturer,Beechcraft,Beechcraft,1
+3412,family,King Air,King Air,1
+3413,variant,Model B200,Beechcraft 1900,0
+3414,manufacturer,Boeing,Boeing,1
+3415,family,Boeing 737,Boeing 737,1
+3416,variant,737-700,737-700,1
+3417,manufacturer,Boeing,Boeing,1
+3418,family,Boeing 777,Boeing 777,1
+3419,variant,777-300,777-300,1
+3420,manufacturer,Airbus,Airbus,1
+3421,family,A320,A320,1
+3422,variant,A320,A320,1
+3423,manufacturer,de Havilland,de Havilland,1
+3424,family,DHC-1,DHC-1,1
+3425,variant,DHC-1,DHC-1,1
+3426,manufacturer,Boeing,Boeing,1
+3427,family,Boeing 757,Boeing 737,0
+3428,variant,757-200,737-400,0
+3429,manufacturer,Boeing,Boeing,1
+3430,family,Boeing 737,Boeing 737,1
+3431,variant,737-600,737-600,1
+3432,manufacturer,British Aerospace,British Aerospace,1
+3433,family,Hawk T1,Hawk T1,1
+3434,variant,Hawk T1,Hawk T1,1
+3435,manufacturer,British Aerospace,British Aerospace,1
+3436,family,Hawk T1,Hawk T1,1
+3437,variant,Hawk T1,Hawk T1,1
+3438,manufacturer,Boeing,Boeing,1
+3439,family,Boeing 747,Boeing 747,1
+3440,variant,747-200,747-300,0
+3441,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3442,family,DC-6,DC-6,1
+3443,variant,DC-6,DC-6,1
+3444,manufacturer,Boeing,Boeing,1
+3445,family,Boeing 727,Boeing 727,1
+3446,variant,727-200,727-200,1
+3447,manufacturer,Boeing,Boeing,1
+3448,family,Boeing 757,Boeing 757,1
+3449,variant,757-200,757-300,0
+3450,manufacturer,Embraer,Embraer,1
+3451,family,Embraer ERJ 145,Embraer ERJ 145,1
+3452,variant,ERJ 145,ERJ 145,1
+3453,manufacturer,de Havilland,de Havilland,1
+3454,family,DH-82,DH-82,1
+3455,variant,DH-82,DH-82,1
+3456,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3457,family,DC-9,DC-9,1
+3458,variant,DC-9-30,DC-9-30,1
+3459,manufacturer,Embraer,Embraer,1
+3460,family,Embraer ERJ 145,Embraer ERJ 145,1
+3461,variant,ERJ 135,ERJ 135,1
+3462,manufacturer,Panavia,Panavia,1
+3463,family,Tornado,Tornado,1
+3464,variant,Tornado,Tornado,1
+3465,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3466,family,DC-3,DC-3,1
+3467,variant,DC-3,DC-3,1
+3468,manufacturer,Fairchild,Fairchild,1
+3469,family,Metroliner,Metroliner,1
+3470,variant,Metroliner,Metroliner,1
+3471,manufacturer,Boeing,Boeing,1
+3472,family,Boeing 737,Boeing 737,1
+3473,variant,737-500,737-500,1
+3474,manufacturer,British Aerospace,British Aerospace,1
+3475,family,BAE 146,BAE 146,1
+3476,variant,BAE 146-300,BAE 146-300,1
+3477,manufacturer,British Aerospace,British Aerospace,1
+3478,family,Hawk T1,Hawk T1,1
+3479,variant,Hawk T1,Hawk T1,1
+3480,manufacturer,Cessna,Cessna,1
+3481,family,Cessna Citation,Cessna Citation,1
+3482,variant,Cessna 525,Cessna 525,1
+3483,manufacturer,Canadair,Canadair,1
+3484,family,CRJ-700,CRJ-700,1
+3485,variant,CRJ-900,CRJ-900,1
+3486,manufacturer,Boeing,Boeing,1
+3487,family,Boeing 777,Boeing 777,1
+3488,variant,777-300,777-300,1
+3489,manufacturer,Eurofighter,Eurofighter,1
+3490,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+3491,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+3492,manufacturer,Beechcraft,Beechcraft,1
+3493,family,Beechcraft 1900,Beechcraft 1900,1
+3494,variant,Beechcraft 1900,Beechcraft 1900,1
+3495,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3496,family,F/A-18,F/A-18,1
+3497,variant,F/A-18,F/A-18,1
+3498,manufacturer,Cessna,Cessna,1
+3499,family,Cessna 208,Cessna 208,1
+3500,variant,Cessna 208,Cessna 208,1
+3501,manufacturer,Embraer,Embraer,1
+3502,family,Embraer ERJ 145,Embraer ERJ 145,1
+3503,variant,ERJ 145,ERJ 135,0
+3504,manufacturer,de Havilland,de Havilland,1
+3505,family,DHC-1,DHC-1,1
+3506,variant,DHC-1,DHC-1,1
+3507,manufacturer,Boeing,Boeing,1
+3508,family,Boeing 737,Boeing 737,1
+3509,variant,737-900,737-900,1
+3510,manufacturer,Embraer,Embraer,1
+3511,family,EMB-120,EMB-120,1
+3512,variant,EMB-120,EMB-120,1
+3513,manufacturer,Boeing,Boeing,1
+3514,family,Boeing 777,Boeing 777,1
+3515,variant,777-300,777-300,1
+3516,manufacturer,British Aerospace,British Aerospace,1
+3517,family,BAE 146,Dash 8,0
+3518,variant,BAE 146-200,DHC-8-100,0
+3519,manufacturer,British Aerospace,British Aerospace,1
+3520,family,BAE 146,BAE 146,1
+3521,variant,BAE 146-200,BAE 146-200,1
+3522,manufacturer,British Aerospace,British Aerospace,1
+3523,family,BAE-125,BAE-125,1
+3524,variant,BAE-125,BAE-125,1
+3525,manufacturer,Fairchild,Fairchild,1
+3526,family,Metroliner,Metroliner,1
+3527,variant,Metroliner,Metroliner,1
+3528,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3529,family,MD-90,MD-90,1
+3530,variant,MD-90,MD-90,1
+3531,manufacturer,Embraer,Embraer,1
+3532,family,Embraer E-Jet,Embraer E-Jet,1
+3533,variant,E-170,E-170,1
+3534,manufacturer,Embraer,Embraer,1
+3535,family,Embraer E-Jet,Embraer E-Jet,1
+3536,variant,E-195,E-195,1
+3537,manufacturer,Boeing,Boeing,1
+3538,family,Boeing 747,Boeing 747,1
+3539,variant,747-400,747-400,1
+3540,manufacturer,British Aerospace,British Aerospace,1
+3541,family,Hawk T1,Hawk T1,1
+3542,variant,Hawk T1,Hawk T1,1
+3543,manufacturer,Beechcraft,Beechcraft,1
+3544,family,King Air,King Air,1
+3545,variant,Model B200,Model B200,1
+3546,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+3547,family,Global Express,Global Express,1
+3548,variant,Global Express,Global Express,1
+3549,manufacturer,Lockheed Corporation,Fokker,0
+3550,family,C-130,Fokker 50,0
+3551,variant,C-130,Fokker 50,0
+3552,manufacturer,British Aerospace,British Aerospace,1
+3553,family,BAE-125,BAE-125,1
+3554,variant,BAE-125,BAE-125,1
+3555,manufacturer,Embraer,Embraer,1
+3556,family,Embraer Legacy 600,Embraer Legacy 600,1
+3557,variant,Embraer Legacy 600,Embraer Legacy 600,1
+3558,manufacturer,Saab,Saab,1
+3559,family,Saab 340,Saab 340,1
+3560,variant,Saab 340,Saab 340,1
+3561,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3562,family,F/A-18,F/A-18,1
+3563,variant,F/A-18,F/A-18,1
+3564,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3565,family,F/A-18,F/A-18,1
+3566,variant,F/A-18,F/A-18,1
+3567,manufacturer,Boeing,Boeing,1
+3568,family,Boeing 767,Boeing 767,1
+3569,variant,767-400,767-400,1
+3570,manufacturer,Boeing,Boeing,1
+3571,family,Boeing 777,Boeing 777,1
+3572,variant,777-300,777-300,1
+3573,manufacturer,Boeing,Boeing,1
+3574,family,Boeing 757,Boeing 757,1
+3575,variant,757-300,757-300,1
+3576,manufacturer,Dornier,Dornier,1
+3577,family,Dornier 328,Dornier 328,1
+3578,variant,Dornier 328,Dornier 328,1
+3579,manufacturer,Airbus,Airbus,1
+3580,family,A320,A320,1
+3581,variant,A318,A318,1
+3582,manufacturer,Boeing,Boeing,1
+3583,family,Boeing 757,Boeing 757,1
+3584,variant,757-200,757-200,1
+3585,manufacturer,Embraer,Embraer,1
+3586,family,Embraer ERJ 145,Embraer ERJ 145,1
+3587,variant,ERJ 135,ERJ 135,1
+3588,manufacturer,Airbus,Airbus,1
+3589,family,A340,A340,1
+3590,variant,A340-500,A340-600,0
+3591,manufacturer,Airbus,Airbus,1
+3592,family,A320,A320,1
+3593,variant,A319,A319,1
+3594,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3595,family,DC-8,DC-8,1
+3596,variant,DC-8,DC-8,1
+3597,manufacturer,Airbus,Airbus,1
+3598,family,A340,A340,1
+3599,variant,A340-600,A340-600,1
+3600,manufacturer,Boeing,Boeing,1
+3601,family,Boeing 777,Boeing 777,1
+3602,variant,777-300,777-300,1
+3603,manufacturer,Cessna,Cessna,1
+3604,family,Cessna Citation,Cessna Citation,1
+3605,variant,Cessna 525,Cessna 525,1
+3606,manufacturer,Boeing,Boeing,1
+3607,family,Boeing 757,Boeing 757,1
+3608,variant,757-200,757-200,1
+3609,manufacturer,Yakovlev,Yakovlev,1
+3610,family,Yak-42,Yak-42,1
+3611,variant,Yak-42,Yak-42,1
+3612,manufacturer,Saab,Saab,1
+3613,family,Saab 340,Saab 340,1
+3614,variant,Saab 340,Saab 340,1
+3615,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3616,family,DC-3,DC-3,1
+3617,variant,DC-3,DC-3,1
+3618,manufacturer,Airbus,Airbus,1
+3619,family,A320,A320,1
+3620,variant,A320,A320,1
+3621,manufacturer,Boeing,Boeing,1
+3622,family,Boeing 727,Boeing 727,1
+3623,variant,727-200,727-200,1
+3624,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+3625,family,L-1011,L-1011,1
+3626,variant,L-1011,L-1011,1
+3627,manufacturer,Airbus,Airbus,1
+3628,family,A340,A340,1
+3629,variant,A340-600,A340-600,1
+3630,manufacturer,Boeing,Boeing,1
+3631,family,Boeing 737,Boeing 737,1
+3632,variant,737-500,737-700,0
+3633,manufacturer,Airbus,Airbus,1
+3634,family,A330,A330,1
+3635,variant,A330-300,A330-300,1
+3636,manufacturer,ATR,ATR,1
+3637,family,ATR-72,ATR-72,1
+3638,variant,ATR-72,ATR-72,1
+3639,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3640,family,F/A-18,F/A-18,1
+3641,variant,F/A-18,F/A-18,1
+3642,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3643,family,Gulfstream,Gulfstream,1
+3644,variant,Gulfstream V,Gulfstream V,1
+3645,manufacturer,Boeing,Boeing,1
+3646,family,Boeing 737,Boeing 737,1
+3647,variant,737-700,737-700,1
+3648,manufacturer,Piper,Piper,1
+3649,family,PA-28,PA-28,1
+3650,variant,PA-28,PA-28,1
+3651,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3652,family,MD-11,MD-11,1
+3653,variant,MD-11,MD-11,1
+3654,manufacturer,Airbus,Airbus,1
+3655,family,A380,A380,1
+3656,variant,A380,A380,1
+3657,manufacturer,Airbus,Airbus,1
+3658,family,A330,A330,1
+3659,variant,A330-300,A330-300,1
+3660,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3661,family,Gulfstream,Gulfstream,1
+3662,variant,Gulfstream V,Gulfstream V,1
+3663,manufacturer,Dassault Aviation,Dassault Aviation,1
+3664,family,Falcon 900,Falcon 900,1
+3665,variant,Falcon 900,Falcon 900,1
+3666,manufacturer,Supermarine,Supermarine,1
+3667,family,Spitfire,Spitfire,1
+3668,variant,Spitfire,Spitfire,1
+3669,manufacturer,Cessna,Cessna,1
+3670,family,Cessna Citation,Cessna Citation,1
+3671,variant,Cessna 525,Cessna 525,1
+3672,manufacturer,Canadair,Canadair,1
+3673,family,CRJ-700,CRJ-700,1
+3674,variant,CRJ-900,CRJ-700,0
+3675,manufacturer,Airbus,Airbus,1
+3676,family,A340,A340,1
+3677,variant,A340-500,A340-500,1
+3678,manufacturer,Ilyushin,Ilyushin,1
+3679,family,Il-76,Il-76,1
+3680,variant,Il-76,Il-76,1
+3681,manufacturer,Airbus,Airbus,1
+3682,family,A330,A330,1
+3683,variant,A330-200,A330-200,1
+3684,manufacturer,Airbus,Airbus,1
+3685,family,A300,A300,1
+3686,variant,A300B4,A300B4,1
+3687,manufacturer,Boeing,Boeing,1
+3688,family,Boeing 767,Boeing 767,1
+3689,variant,767-300,767-300,1
+3690,manufacturer,Dassault Aviation,Dassault Aviation,1
+3691,family,Falcon 900,Falcon 900,1
+3692,variant,Falcon 900,Falcon 900,1
+3693,manufacturer,Canadair,Canadair,1
+3694,family,Challenger 600,Challenger 600,1
+3695,variant,Challenger 600,Challenger 600,1
+3696,manufacturer,Airbus,Airbus,1
+3697,family,A340,A340,1
+3698,variant,A340-300,A340-300,1
+3699,manufacturer,Beechcraft,Beechcraft,1
+3700,family,Beechcraft 1900,Beechcraft 1900,1
+3701,variant,Beechcraft 1900,Beechcraft 1900,1
+3702,manufacturer,Boeing,Boeing,1
+3703,family,Boeing 747,Boeing 747,1
+3704,variant,747-300,747-300,1
+3705,manufacturer,Boeing,Boeing,1
+3706,family,Boeing 737,Boeing 737,1
+3707,variant,737-800,737-800,1
+3708,manufacturer,Cessna,Cessna,1
+3709,family,Cessna Citation,Cessna Citation,1
+3710,variant,Cessna 525,Cessna 525,1
+3711,manufacturer,Robin,Robin,1
+3712,family,DR-400,DR-400,1
+3713,variant,DR-400,DR-400,1
+3714,manufacturer,Airbus,Airbus,1
+3715,family,A340,A340,1
+3716,variant,A340-600,A340-600,1
+3717,manufacturer,Boeing,Boeing,1
+3718,family,Boeing 737,Boeing 737,1
+3719,variant,737-200,737-200,1
+3720,manufacturer,Airbus,Airbus,1
+3721,family,A320,A320,1
+3722,variant,A320,A320,1
+3723,manufacturer,de Havilland,de Havilland,1
+3724,family,Dash 8,Dash 8,1
+3725,variant,DHC-8-300,DHC-8-300,1
+3726,manufacturer,Supermarine,Supermarine,1
+3727,family,Spitfire,Spitfire,1
+3728,variant,Spitfire,Spitfire,1
+3729,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3730,family,F/A-18,F/A-18,1
+3731,variant,F/A-18,F/A-18,1
+3732,manufacturer,Cessna,Cessna,1
+3733,family,Cessna Citation,Cessna Citation,1
+3734,variant,Cessna 525,Cessna 525,1
+3735,manufacturer,Saab,Saab,1
+3736,family,Saab 2000,Saab 2000,1
+3737,variant,Saab 2000,Saab 2000,1
+3738,manufacturer,Embraer,Embraer,1
+3739,family,Embraer Legacy 600,Embraer ERJ 145,0
+3740,variant,Embraer Legacy 600,ERJ 135,0
+3741,manufacturer,Embraer,Embraer,1
+3742,family,Embraer Legacy 600,Embraer ERJ 145,0
+3743,variant,Embraer Legacy 600,ERJ 135,0
+3744,manufacturer,Supermarine,Supermarine,1
+3745,family,Spitfire,Spitfire,1
+3746,variant,Spitfire,Spitfire,1
+3747,manufacturer,Embraer,Embraer,1
+3748,family,Embraer ERJ 145,Embraer ERJ 145,1
+3749,variant,ERJ 135,ERJ 135,1
+3750,manufacturer,Dassault Aviation,Dassault Aviation,1
+3751,family,Falcon 900,Falcon 900,1
+3752,variant,Falcon 900,Falcon 900,1
+3753,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3754,family,MD-11,MD-11,1
+3755,variant,MD-11,MD-11,1
+3756,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+3757,family,Global Express,Global Express,1
+3758,variant,Global Express,Global Express,1
+3759,manufacturer,Canadair,Canadair,1
+3760,family,Challenger 600,Challenger 600,1
+3761,variant,Challenger 600,Challenger 600,1
+3762,manufacturer,Dassault Aviation,Dassault Aviation,1
+3763,family,Falcon 900,Falcon 900,1
+3764,variant,Falcon 900,Falcon 900,1
+3765,manufacturer,de Havilland,de Havilland,1
+3766,family,DHC-6,DHC-6,1
+3767,variant,DHC-6,DHC-6,1
+3768,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3769,family,Gulfstream,Gulfstream,1
+3770,variant,Gulfstream IV,Gulfstream IV,1
+3771,manufacturer,Boeing,Boeing,1
+3772,family,Boeing 767,Boeing 767,1
+3773,variant,767-300,767-300,1
+3774,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3775,family,Gulfstream,Gulfstream,1
+3776,variant,Gulfstream IV,Gulfstream IV,1
+3777,manufacturer,Embraer,Embraer,1
+3778,family,Embraer E-Jet,Embraer E-Jet,1
+3779,variant,E-195,E-195,1
+3780,manufacturer,Airbus,Airbus,1
+3781,family,A310,A310,1
+3782,variant,A310,A310,1
+3783,manufacturer,Dassault Aviation,Dassault Aviation,1
+3784,family,Falcon 2000,Falcon 2000,1
+3785,variant,Falcon 2000,Falcon 2000,1
+3786,manufacturer,Boeing,Boeing,1
+3787,family,Boeing 737,Boeing 737,1
+3788,variant,737-900,737-900,1
+3789,manufacturer,Boeing,Boeing,1
+3790,family,Boeing 767,Boeing 767,1
+3791,variant,767-300,767-300,1
+3792,manufacturer,Saab,Saab,1
+3793,family,Saab 2000,Saab 2000,1
+3794,variant,Saab 2000,Saab 2000,1
+3795,manufacturer,ATR,ATR,1
+3796,family,ATR-72,ATR-72,1
+3797,variant,ATR-72,ATR-72,1
+3798,manufacturer,British Aerospace,British Aerospace,1
+3799,family,BAE 146,BAE 146,1
+3800,variant,BAE 146-200,BAE 146-200,1
+3801,manufacturer,de Havilland,de Havilland,1
+3802,family,DHC-1,DHC-1,1
+3803,variant,DHC-1,DHC-1,1
+3804,manufacturer,Boeing,Boeing,1
+3805,family,Boeing 737,Boeing 737,1
+3806,variant,737-400,737-400,1
+3807,manufacturer,Boeing,Boeing,1
+3808,family,Boeing 737,Boeing 737,1
+3809,variant,737-900,737-900,1
+3810,manufacturer,Boeing,Boeing,1
+3811,family,Boeing 737,Boeing 737,1
+3812,variant,737-200,737-200,1
+3813,manufacturer,Canadair,Canadair,1
+3814,family,CRJ-700,CRJ-700,1
+3815,variant,CRJ-900,CRJ-900,1
+3816,manufacturer,Embraer,Embraer,1
+3817,family,Embraer Legacy 600,Embraer Legacy 600,1
+3818,variant,Embraer Legacy 600,Embraer Legacy 600,1
+3819,manufacturer,Cessna,Cessna,1
+3820,family,Cessna Citation,Cessna Citation,1
+3821,variant,Cessna 525,Cessna 525,1
+3822,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+3823,family,Gulfstream,Gulfstream,1
+3824,variant,Gulfstream V,Gulfstream V,1
+3825,manufacturer,Canadair,Canadair,1
+3826,family,CRJ-200,CRJ-200,1
+3827,variant,CRJ-200,CRJ-200,1
+3828,manufacturer,Beechcraft,Beechcraft,1
+3829,family,King Air,King Air,1
+3830,variant,Model B200,Model B200,1
+3831,manufacturer,British Aerospace,British Aerospace,1
+3832,family,BAE 146,BAE 146,1
+3833,variant,BAE 146-200,BAE 146-200,1
+3834,manufacturer,ATR,ATR,1
+3835,family,ATR-42,ATR-42,1
+3836,variant,ATR-42,ATR-42,1
+3837,manufacturer,Airbus,Airbus,1
+3838,family,A320,A320,1
+3839,variant,A318,A321,0
+3840,manufacturer,Cessna,Cessna,1
+3841,family,Cessna 172,Cessna 172,1
+3842,variant,Cessna 172,Cessna 172,1
+3843,manufacturer,Canadair,Canadair,1
+3844,family,CRJ-700,CRJ-700,1
+3845,variant,CRJ-900,CRJ-700,0
+3846,manufacturer,Embraer,Embraer,1
+3847,family,Embraer ERJ 145,Embraer ERJ 145,1
+3848,variant,ERJ 145,ERJ 145,1
+3849,manufacturer,Dassault Aviation,Dassault Aviation,1
+3850,family,Falcon 900,Falcon 900,1
+3851,variant,Falcon 900,Falcon 900,1
+3852,manufacturer,British Aerospace,British Aerospace,1
+3853,family,BAE 146,BAE 146,1
+3854,variant,BAE 146-200,BAE 146-200,1
+3855,manufacturer,Dassault Aviation,Dassault Aviation,1
+3856,family,Falcon 2000,Falcon 2000,1
+3857,variant,Falcon 2000,Falcon 2000,1
+3858,manufacturer,Dornier,Dornier,1
+3859,family,Dornier 328,Dash 8,0
+3860,variant,Dornier 328,Dornier 328,1
+3861,manufacturer,Panavia,Panavia,1
+3862,family,Tornado,Tornado,1
+3863,variant,Tornado,Tornado,1
+3864,manufacturer,de Havilland,de Havilland,1
+3865,family,DHC-1,DHC-1,1
+3866,variant,DHC-1,DHC-1,1
+3867,manufacturer,Tupolev,Tupolev,1
+3868,family,Tu-154,Tu-154,1
+3869,variant,Tu-154,Tu-154,1
+3870,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+3871,family,C-47,DC-3,0
+3872,variant,C-47,DC-3,0
+3873,manufacturer,Airbus,Airbus,1
+3874,family,A380,A380,1
+3875,variant,A380,A380,1
+3876,manufacturer,Beechcraft,Piper,0
+3877,family,King Air,Metroliner,0
+3878,variant,Model B200,Metroliner,0
+3879,manufacturer,Boeing,Boeing,1
+3880,family,Boeing 777,Boeing 777,1
+3881,variant,777-300,777-300,1
+3882,manufacturer,Airbus,Airbus,1
+3883,family,A320,A320,1
+3884,variant,A320,A320,1
+3885,manufacturer,Cessna,Cessna,1
+3886,family,Cessna Citation,Cessna Citation,1
+3887,variant,Cessna 560,Cessna 560,1
+3888,manufacturer,Airbus,Airbus,1
+3889,family,A320,A320,1
+3890,variant,A318,A318,1
+3891,manufacturer,Fokker,Fokker,1
+3892,family,Fokker 50,Fokker 50,1
+3893,variant,Fokker 50,Fokker 50,1
+3894,manufacturer,Lockheed Martin,Lockheed Martin,1
+3895,family,F-16,F-16,1
+3896,variant,F-16A/B,F-16A/B,1
+3897,manufacturer,Boeing,Boeing,1
+3898,family,Boeing 737,Boeing 737,1
+3899,variant,737-900,737-900,1
+3900,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3901,family,MD-80,MD-80,1
+3902,variant,MD-87,MD-87,1
+3903,manufacturer,Airbus,Airbus,1
+3904,family,A330,A330,1
+3905,variant,A330-300,A330-300,1
+3906,manufacturer,Embraer,Embraer,1
+3907,family,Embraer ERJ 145,Embraer ERJ 145,1
+3908,variant,ERJ 135,ERJ 135,1
+3909,manufacturer,Airbus,Airbus,1
+3910,family,A320,A320,1
+3911,variant,A319,A319,1
+3912,manufacturer,Airbus,Airbus,1
+3913,family,A320,A320,1
+3914,variant,A320,A320,1
+3915,manufacturer,Embraer,Embraer,1
+3916,family,Embraer E-Jet,Embraer E-Jet,1
+3917,variant,E-170,E-170,1
+3918,manufacturer,Panavia,Panavia,1
+3919,family,Tornado,Tornado,1
+3920,variant,Tornado,Tornado,1
+3921,manufacturer,Supermarine,Supermarine,1
+3922,family,Spitfire,Spitfire,1
+3923,variant,Spitfire,Spitfire,1
+3924,manufacturer,Boeing,McDonnell Douglas,0
+3925,family,Boeing 717,MD-80,0
+3926,variant,Boeing 717,MD-87,0
+3927,manufacturer,Piper,Piper,1
+3928,family,PA-28,PA-28,1
+3929,variant,PA-28,PA-28,1
+3930,manufacturer,Dassault Aviation,Dassault Aviation,1
+3931,family,Falcon 900,Falcon 900,1
+3932,variant,Falcon 900,Falcon 900,1
+3933,manufacturer,Airbus,Airbus,1
+3934,family,A380,A380,1
+3935,variant,A380,A380,1
+3936,manufacturer,de Havilland,de Havilland,1
+3937,family,DH-82,Cessna 172,0
+3938,variant,DH-82,Cessna 172,0
+3939,manufacturer,Boeing,Boeing,1
+3940,family,Boeing 737,Boeing 737,1
+3941,variant,737-700,737-700,1
+3942,manufacturer,de Havilland,de Havilland,1
+3943,family,DH-82,DH-82,1
+3944,variant,DH-82,DH-82,1
+3945,manufacturer,de Havilland,de Havilland,1
+3946,family,DH-82,DH-82,1
+3947,variant,DH-82,DH-82,1
+3948,manufacturer,Eurofighter,Eurofighter,1
+3949,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+3950,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+3951,manufacturer,de Havilland,de Havilland,1
+3952,family,Dash 8,Dash 8,1
+3953,variant,DHC-8-300,DHC-8-300,1
+3954,manufacturer,British Aerospace,British Aerospace,1
+3955,family,BAE 146,BAE 146,1
+3956,variant,BAE 146-300,BAE 146-300,1
+3957,manufacturer,Boeing,Boeing,1
+3958,family,Boeing 717,Boeing 717,1
+3959,variant,Boeing 717,Boeing 717,1
+3960,manufacturer,Embraer,Embraer,1
+3961,family,Embraer E-Jet,Embraer E-Jet,1
+3962,variant,E-195,E-195,1
+3963,manufacturer,Airbus,Airbus,1
+3964,family,A380,A380,1
+3965,variant,A380,A380,1
+3966,manufacturer,ATR,ATR,1
+3967,family,ATR-72,ATR-72,1
+3968,variant,ATR-72,ATR-72,1
+3969,manufacturer,de Havilland,de Havilland,1
+3970,family,DHC-6,DHC-6,1
+3971,variant,DHC-6,DHC-6,1
+3972,manufacturer,de Havilland,de Havilland,1
+3973,family,DHC-6,DHC-6,1
+3974,variant,DHC-6,DHC-6,1
+3975,manufacturer,de Havilland,de Havilland,1
+3976,family,DHC-6,DHC-6,1
+3977,variant,DHC-6,DHC-6,1
+3978,manufacturer,Embraer,Embraer,1
+3979,family,Embraer E-Jet,Embraer E-Jet,1
+3980,variant,E-195,E-195,1
+3981,manufacturer,de Havilland,de Havilland,1
+3982,family,DHC-6,DHC-6,1
+3983,variant,DHC-6,DHC-6,1
+3984,manufacturer,de Havilland,de Havilland,1
+3985,family,DHC-6,DHC-6,1
+3986,variant,DHC-6,DHC-6,1
+3987,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+3988,family,MD-80,MD-80,1
+3989,variant,MD-80,MD-80,1
+3990,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+3991,family,SR-20,SR-20,1
+3992,variant,SR-20,SR-20,1
+3993,manufacturer,ATR,ATR,1
+3994,family,ATR-72,ATR-72,1
+3995,variant,ATR-72,ATR-72,1
+3996,manufacturer,Airbus,Airbus,1
+3997,family,A330,A330,1
+3998,variant,A330-200,A330-200,1
+3999,manufacturer,Saab,Saab,1
+4000,family,Saab 2000,Saab 2000,1
+4001,variant,Saab 2000,Saab 2000,1
+4002,manufacturer,Embraer,Embraer,1
+4003,family,Embraer Legacy 600,Embraer Legacy 600,1
+4004,variant,Embraer Legacy 600,Embraer Legacy 600,1
+4005,manufacturer,Boeing,Boeing,1
+4006,family,Boeing 737,Boeing 737,1
+4007,variant,737-300,737-300,1
+4008,manufacturer,Boeing,Boeing,1
+4009,family,Boeing 767,Boeing 767,1
+4010,variant,767-300,767-300,1
+4011,manufacturer,British Aerospace,British Aerospace,1
+4012,family,BAE 146,BAE 146,1
+4013,variant,BAE 146-200,BAE 146-200,1
+4014,manufacturer,Boeing,Boeing,1
+4015,family,Boeing 737,Boeing 737,1
+4016,variant,737-600,737-600,1
+4017,manufacturer,Boeing,Boeing,1
+4018,family,Boeing 707,Boeing 707,1
+4019,variant,707-320,707-320,1
+4020,manufacturer,Canadair,Canadair,1
+4021,family,Challenger 600,Falcon 2000,0
+4022,variant,Challenger 600,Falcon 2000,0
+4023,manufacturer,Saab,Saab,1
+4024,family,Saab 2000,Saab 2000,1
+4025,variant,Saab 2000,Saab 2000,1
+4026,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4027,family,SR-20,SR-20,1
+4028,variant,SR-20,SR-20,1
+4029,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+4030,family,F/A-18,F/A-18,1
+4031,variant,F/A-18,F/A-18,1
+4032,manufacturer,Embraer,Embraer,1
+4033,family,Embraer E-Jet,Embraer E-Jet,1
+4034,variant,E-190,E-190,1
+4035,manufacturer,Airbus,Airbus,1
+4036,family,A320,A320,1
+4037,variant,A321,A321,1
+4038,manufacturer,Embraer,Embraer,1
+4039,family,Embraer Legacy 600,Embraer Legacy 600,1
+4040,variant,Embraer Legacy 600,Embraer Legacy 600,1
+4041,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+4042,family,Gulfstream,Gulfstream,1
+4043,variant,Gulfstream V,Gulfstream V,1
+4044,manufacturer,Supermarine,Supermarine,1
+4045,family,Spitfire,Spitfire,1
+4046,variant,Spitfire,Spitfire,1
+4047,manufacturer,Boeing,Boeing,1
+4048,family,Boeing 737,Boeing 737,1
+4049,variant,737-600,737-700,0
+4050,manufacturer,Dassault Aviation,Dassault Aviation,1
+4051,family,Falcon 900,Falcon 900,1
+4052,variant,Falcon 900,Falcon 900,1
+4053,manufacturer,Boeing,Boeing,1
+4054,family,Boeing 747,Boeing 747,1
+4055,variant,747-400,747-400,1
+4056,manufacturer,Dornier,Dornier,1
+4057,family,Dornier 328,Dornier 328,1
+4058,variant,Dornier 328,Dornier 328,1
+4059,manufacturer,Embraer,Embraer,1
+4060,family,Embraer E-Jet,Embraer E-Jet,1
+4061,variant,E-195,E-195,1
+4062,manufacturer,Tupolev,Tupolev,1
+4063,family,Tu-154,Tu-154,1
+4064,variant,Tu-154,Tu-154,1
+4065,manufacturer,Dassault Aviation,Dassault Aviation,1
+4066,family,Falcon 2000,Falcon 2000,1
+4067,variant,Falcon 2000,Falcon 2000,1
+4068,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4069,family,SR-20,SR-20,1
+4070,variant,SR-20,SR-20,1
+4071,manufacturer,Boeing,Boeing,1
+4072,family,Boeing 737,Boeing 737,1
+4073,variant,737-400,737-300,0
+4074,manufacturer,Boeing,Boeing,1
+4075,family,Boeing 737,Boeing 737,1
+4076,variant,737-800,737-400,0
+4077,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+4078,family,Gulfstream,Gulfstream,1
+4079,variant,Gulfstream IV,Gulfstream IV,1
+4080,manufacturer,Airbus,Airbus,1
+4081,family,A320,A320,1
+4082,variant,A321,A321,1
+4083,manufacturer,Ilyushin,Ilyushin,1
+4084,family,Il-76,Il-76,1
+4085,variant,Il-76,Il-76,1
+4086,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4087,family,SR-20,SR-20,1
+4088,variant,SR-20,SR-20,1
+4089,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4090,family,SR-20,SR-20,1
+4091,variant,SR-20,SR-20,1
+4092,manufacturer,Robin,Robin,1
+4093,family,DR-400,DR-400,1
+4094,variant,DR-400,DR-400,1
+4095,manufacturer,Lockheed Martin,Lockheed Martin,1
+4096,family,F-16,F-16,1
+4097,variant,F-16A/B,F-16A/B,1
+4098,manufacturer,Boeing,Boeing,1
+4099,family,Boeing 767,Boeing 767,1
+4100,variant,767-400,767-400,1
+4101,manufacturer,Boeing,Boeing,1
+4102,family,Boeing 777,Boeing 777,1
+4103,variant,777-200,777-200,1
+4104,manufacturer,Airbus,Airbus,1
+4105,family,A320,A320,1
+4106,variant,A319,A319,1
+4107,manufacturer,de Havilland,de Havilland,1
+4108,family,Dash 8,Dash 8,1
+4109,variant,DHC-8-300,DHC-8-300,1
+4110,manufacturer,Canadair,Canadair,1
+4111,family,Challenger 600,Challenger 600,1
+4112,variant,Challenger 600,Challenger 600,1
+4113,manufacturer,Cessna,Cessna,1
+4114,family,Cessna Citation,Cessna Citation,1
+4115,variant,Cessna 525,Cessna 525,1
+4116,manufacturer,Beechcraft,Beechcraft,1
+4117,family,King Air,King Air,1
+4118,variant,Model B200,Model B200,1
+4119,manufacturer,Panavia,Panavia,1
+4120,family,Tornado,Tornado,1
+4121,variant,Tornado,Tornado,1
+4122,manufacturer,Saab,Saab,1
+4123,family,Saab 2000,Saab 2000,1
+4124,variant,Saab 2000,Saab 2000,1
+4125,manufacturer,Embraer,Embraer,1
+4126,family,Embraer E-Jet,Embraer E-Jet,1
+4127,variant,E-195,E-195,1
+4128,manufacturer,Airbus,Airbus,1
+4129,family,A380,A380,1
+4130,variant,A380,A380,1
+4131,manufacturer,Cessna,Cessna,1
+4132,family,Cessna 208,Cessna 208,1
+4133,variant,Cessna 208,Cessna 208,1
+4134,manufacturer,Airbus,Airbus,1
+4135,family,A330,A330,1
+4136,variant,A330-300,A330-200,0
+4137,manufacturer,Fokker,Fokker,1
+4138,family,Fokker 50,Fokker 50,1
+4139,variant,Fokker 50,Fokker 50,1
+4140,manufacturer,Boeing,Boeing,1
+4141,family,Boeing 777,Boeing 777,1
+4142,variant,777-300,777-300,1
+4143,manufacturer,Embraer,Embraer,1
+4144,family,Embraer E-Jet,Embraer E-Jet,1
+4145,variant,E-170,E-170,1
+4146,manufacturer,Bombardier Aerospace,Canadair,0
+4147,family,Global Express,Challenger 600,0
+4148,variant,Global Express,Challenger 600,0
+4149,manufacturer,British Aerospace,British Aerospace,1
+4150,family,BAE 146,BAE 146,1
+4151,variant,BAE 146-200,BAE 146-200,1
+4152,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4153,family,SR-20,SR-20,1
+4154,variant,SR-20,SR-20,1
+4155,manufacturer,Embraer,Embraer,1
+4156,family,Embraer E-Jet,Embraer E-Jet,1
+4157,variant,E-195,E-195,1
+4158,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+4159,family,MD-80,MD-80,1
+4160,variant,MD-87,MD-87,1
+4161,manufacturer,Cessna,Cessna,1
+4162,family,Cessna Citation,Cessna Citation,1
+4163,variant,Cessna 560,Cessna 560,1
+4164,manufacturer,Embraer,Boeing,0
+4165,family,Embraer E-Jet,Embraer E-Jet,1
+4166,variant,E-195,737-900,0
+4167,manufacturer,Boeing,Boeing,1
+4168,family,Boeing 777,Boeing 777,1
+4169,variant,777-300,777-300,1
+4170,manufacturer,Boeing,Boeing,1
+4171,family,Boeing 737,Boeing 737,1
+4172,variant,737-400,737-800,0
+4173,manufacturer,Cessna,Cessna,1
+4174,family,Cessna 172,Cessna 172,1
+4175,variant,Cessna 172,Cessna 172,1
+4176,manufacturer,Lockheed Martin,Lockheed Martin,1
+4177,family,F-16,F-16,1
+4178,variant,F-16A/B,F-16A/B,1
+4179,manufacturer,Lockheed Martin,Lockheed Martin,1
+4180,family,F-16,F-16,1
+4181,variant,F-16A/B,F-16A/B,1
+4182,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+4183,family,F/A-18,F/A-18,1
+4184,variant,F/A-18,F/A-18,1
+4185,manufacturer,Embraer,Embraer,1
+4186,family,Embraer E-Jet,Embraer E-Jet,1
+4187,variant,E-170,E-170,1
+4188,manufacturer,Boeing,Boeing,1
+4189,family,Boeing 737,Boeing 737,1
+4190,variant,737-600,737-600,1
+4191,manufacturer,Boeing,Boeing,1
+4192,family,Boeing 777,Boeing 777,1
+4193,variant,777-300,777-300,1
+4194,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+4195,family,Global Express,Global Express,1
+4196,variant,Global Express,Global Express,1
+4197,manufacturer,Supermarine,Supermarine,1
+4198,family,Spitfire,Spitfire,1
+4199,variant,Spitfire,Spitfire,1
+4200,manufacturer,Cessna,Cessna,1
+4201,family,Cessna Citation,Cessna Citation,1
+4202,variant,Cessna 525,Cessna 525,1
+4203,manufacturer,Lockheed Martin,Lockheed Martin,1
+4204,family,F-16,F-16,1
+4205,variant,F-16A/B,F-16A/B,1
+4206,manufacturer,Canadair,Canadair,1
+4207,family,Challenger 600,Challenger 600,1
+4208,variant,Challenger 600,Challenger 600,1
+4209,manufacturer,Gulfstream Aerospace,Gulfstream Aerospace,1
+4210,family,Gulfstream,Gulfstream,1
+4211,variant,Gulfstream V,Gulfstream V,1
+4212,manufacturer,Douglas Aircraft Company,Douglas Aircraft Company,1
+4213,family,DC-3,DC-3,1
+4214,variant,DC-3,DC-3,1
+4215,manufacturer,Airbus,Airbus,1
+4216,family,A330,A330,1
+4217,variant,A330-300,A330-300,1
+4218,manufacturer,Cessna,Cessna,1
+4219,family,Cessna 208,Cessna 208,1
+4220,variant,Cessna 208,Cessna 208,1
+4221,manufacturer,Embraer,Embraer,1
+4222,family,Embraer E-Jet,Embraer E-Jet,1
+4223,variant,E-190,E-190,1
+4224,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4225,family,SR-20,SR-20,1
+4226,variant,SR-20,SR-20,1
+4227,manufacturer,Airbus,Airbus,1
+4228,family,A330,A330,1
+4229,variant,A330-300,A330-300,1
+4230,manufacturer,Airbus,Airbus,1
+4231,family,A380,A380,1
+4232,variant,A380,A380,1
+4233,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4234,family,SR-20,SR-20,1
+4235,variant,SR-20,SR-20,1
+4236,manufacturer,Supermarine,Supermarine,1
+4237,family,Spitfire,Spitfire,1
+4238,variant,Spitfire,Spitfire,1
+4239,manufacturer,Embraer,Embraer,1
+4240,family,Embraer E-Jet,Embraer E-Jet,1
+4241,variant,E-190,E-195,0
+4242,manufacturer,British Aerospace,British Aerospace,1
+4243,family,Hawk T1,Hawk T1,1
+4244,variant,Hawk T1,Hawk T1,1
+4245,manufacturer,de Havilland,de Havilland,1
+4246,family,DHC-1,DHC-1,1
+4247,variant,DHC-1,DHC-1,1
+4248,manufacturer,Fokker,Fokker,1
+4249,family,Fokker 70,Fokker 70,1
+4250,variant,Fokker 70,Fokker 70,1
+4251,manufacturer,de Havilland,de Havilland,1
+4252,family,DHC-1,DHC-1,1
+4253,variant,DHC-1,DHC-1,1
+4254,manufacturer,Fokker,Fokker,1
+4255,family,Fokker 100,Fokker 100,1
+4256,variant,Fokker 100,Fokker 100,1
+4257,manufacturer,Canadair,Canadair,1
+4258,family,CRJ-700,CRJ-700,1
+4259,variant,CRJ-900,CRJ-700,0
+4260,manufacturer,Bombardier Aerospace,Bombardier Aerospace,1
+4261,family,Global Express,Global Express,1
+4262,variant,Global Express,Global Express,1
+4263,manufacturer,Boeing,Boeing,1
+4264,family,Boeing 767,Boeing 767,1
+4265,variant,767-400,767-400,1
+4266,manufacturer,Cessna,Cessna,1
+4267,family,Cessna 172,Cessna 172,1
+4268,variant,Cessna 172,Cessna 172,1
+4269,manufacturer,Cessna,Cessna,1
+4270,family,Cessna Citation,Cessna Citation,1
+4271,variant,Cessna 560,Cessna 560,1
+4272,manufacturer,de Havilland,de Havilland,1
+4273,family,DHC-1,DHC-1,1
+4274,variant,DHC-1,DHC-1,1
+4275,manufacturer,de Havilland,de Havilland,1
+4276,family,DH-82,DH-82,1
+4277,variant,DH-82,DH-82,1
+4278,manufacturer,Piper,Piper,1
+4279,family,PA-28,PA-28,1
+4280,variant,PA-28,PA-28,1
+4281,manufacturer,Boeing,Boeing,1
+4282,family,Boeing 777,Boeing 777,1
+4283,variant,777-200,777-200,1
+4284,manufacturer,British Aerospace,British Aerospace,1
+4285,family,Hawk T1,Hawk T1,1
+4286,variant,Hawk T1,Hawk T1,1
+4287,manufacturer,de Havilland,de Havilland,1
+4288,family,DHC-1,DHC-1,1
+4289,variant,DHC-1,DHC-1,1
+4290,manufacturer,Saab,Saab,1
+4291,family,Saab 2000,Saab 2000,1
+4292,variant,Saab 2000,Saab 2000,1
+4293,manufacturer,de Havilland,de Havilland,1
+4294,family,DHC-1,DHC-1,1
+4295,variant,DHC-1,DHC-1,1
+4296,manufacturer,Embraer,Embraer,1
+4297,family,Embraer E-Jet,Embraer E-Jet,1
+4298,variant,E-190,E-190,1
+4299,manufacturer,Airbus,Airbus,1
+4300,family,A330,A330,1
+4301,variant,A330-200,A330-200,1
+4302,manufacturer,Embraer,Embraer,1
+4303,family,Embraer E-Jet,Embraer E-Jet,1
+4304,variant,E-190,E-195,0
+4305,manufacturer,Piper,Piper,1
+4306,family,PA-28,PA-28,1
+4307,variant,PA-28,PA-28,1
+4308,manufacturer,Boeing,Boeing,1
+4309,family,Boeing 757,Boeing 757,1
+4310,variant,757-200,757-200,1
+4311,manufacturer,Eurofighter,Eurofighter,1
+4312,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+4313,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+4314,manufacturer,Canadair,Canadair,1
+4315,family,CRJ-700,CRJ-700,1
+4316,variant,CRJ-700,CRJ-700,1
+4317,manufacturer,Cessna,Cessna,1
+4318,family,Cessna 172,Cessna 172,1
+4319,variant,Cessna 172,Cessna 172,1
+4320,manufacturer,Cessna,Cessna,1
+4321,family,Cessna Citation,Cessna Citation,1
+4322,variant,Cessna 525,Cessna 525,1
+4323,manufacturer,Embraer,Embraer,1
+4324,family,Embraer E-Jet,Embraer E-Jet,1
+4325,variant,E-170,E-170,1
+4326,manufacturer,Canadair,Canadair,1
+4327,family,CRJ-200,CRJ-200,1
+4328,variant,CRJ-200,CRJ-200,1
+4329,manufacturer,Airbus,Airbus,1
+4330,family,A340,A340,1
+4331,variant,A340-500,A340-500,1
+4332,manufacturer,Airbus,Airbus,1
+4333,family,A320,A320,1
+4334,variant,A321,A321,1
+4335,manufacturer,Embraer,Embraer,1
+4336,family,Embraer E-Jet,Embraer E-Jet,1
+4337,variant,E-195,E-195,1
+4338,manufacturer,Boeing,Boeing,1
+4339,family,Boeing 767,Boeing 767,1
+4340,variant,767-200,767-200,1
+4341,manufacturer,Airbus,Boeing,0
+4342,family,A380,A380,1
+4343,variant,A380,747-400,0
+4344,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+4345,family,MD-90,MD-90,1
+4346,variant,MD-90,MD-90,1
+4347,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4348,family,SR-20,SR-20,1
+4349,variant,SR-20,SR-20,1
+4350,manufacturer,Cirrus Aircraft,Cirrus Aircraft,1
+4351,family,SR-20,SR-20,1
+4352,variant,SR-20,SR-20,1
+4353,manufacturer,Airbus,Airbus,1
+4354,family,A320,A320,1
+4355,variant,A321,A321,1
+4356,manufacturer,Canadair,Canadair,1
+4357,family,Challenger 600,Challenger 600,1
+4358,variant,Challenger 600,Challenger 600,1
+4359,manufacturer,Boeing,Boeing,1
+4360,family,Boeing 737,Boeing 737,1
+4361,variant,737-800,737-900,0
+4362,manufacturer,Airbus,Airbus,1
+4363,family,A320,A320,1
+4364,variant,A318,A318,1
+4365,manufacturer,Airbus,Airbus,1
+4366,family,A380,A380,1
+4367,variant,A380,A380,1
+4368,manufacturer,Airbus,Airbus,1
+4369,family,A330,A330,1
+4370,variant,A330-300,A330-300,1
+4371,manufacturer,Cessna,Cessna,1
+4372,family,Cessna 172,Cessna 172,1
+4373,variant,Cessna 172,Cessna 172,1
+4374,manufacturer,Airbus,Airbus,1
+4375,family,A320,A320,1
+4376,variant,A320,A320,1
+4377,manufacturer,Eurofighter,Eurofighter,1
+4378,family,Eurofighter Typhoon,Eurofighter Typhoon,1
+4379,variant,Eurofighter Typhoon,Eurofighter Typhoon,1
+4380,manufacturer,Boeing,Boeing,1
+4381,family,Boeing 737,Boeing 737,1
+4382,variant,737-300,737-300,1
+4383,manufacturer,Boeing,Boeing,1
+4384,family,Boeing 747,Boeing 747,1
+4385,variant,747-400,747-200,0
+4386,manufacturer,Lockheed Corporation,Lockheed Corporation,1
+4387,family,L-1011,L-1011,1
+4388,variant,L-1011,L-1011,1
+4389,manufacturer,British Aerospace,British Aerospace,1
+4390,family,Hawk T1,Hawk T1,1
+4391,variant,Hawk T1,Hawk T1,1
+4392,manufacturer,Boeing,Boeing,1
+4393,family,Boeing 757,Boeing 757,1
+4394,variant,757-200,757-200,1
+4395,manufacturer,Boeing,Boeing,1
+4396,family,Boeing 747,Boeing 747,1
+4397,variant,747-100,747-100,1
+4398,manufacturer,McDonnell Douglas,McDonnell Douglas,1
+4399,family,MD-90,MD-90,1
+4400,variant,MD-90,MD-90,1
+4401,manufacturer,Robin,Robin,1
+4402,family,DR-400,DR-400,1
+4403,variant,DR-400,DR-400,1
+4404,manufacturer,Boeing,Boeing,1
+4405,family,Boeing 747,Boeing 747,1
+4406,variant,747-200,747-400,0
+4407,manufacturer,Canadair,Canadair,1
+4408,family,CRJ-200,CRJ-700,0
+4409,variant,CRJ-200,CRJ-700,0
+4410,manufacturer,Robin,Robin,1
+4411,family,DR-400,DR-400,1
+4412,variant,DR-400,DR-400,1
+4413,manufacturer,Robin,Robin,1
+4414,family,DR-400,DR-400,1
+4415,variant,DR-400,DR-400,1
+4416,manufacturer,Airbus,Airbus,1
+4417,family,A330,A330,1
+4418,variant,A330-300,A330-300,1
+4419,manufacturer,Airbus,Airbus,1
+4420,family,A340,A340,1
+4421,variant,A340-300,A340-300,1
+4422,manufacturer,Boeing,Boeing,1
+4423,family,Boeing 717,Boeing 717,1
+4424,variant,Boeing 717,Boeing 717,1
+4425,manufacturer,Dornier,Dornier,1
+4426,family,Dornier 328,Dornier 328,1
+4427,variant,Dornier 328,Dornier 328,1
+4428,manufacturer,Embraer,Embraer,1
+4429,family,Embraer E-Jet,Embraer E-Jet,1
+4430,variant,E-195,E-195,1
+4431,manufacturer,Airbus,Airbus,1
+4432,family,A330,A330,1
+4433,variant,A330-200,A330-200,1
+4434,manufacturer,Airbus,Airbus,1
+4435,family,A340,A340,1
+4436,variant,A340-300,A340-300,1
+4437,manufacturer,Cessna,Cessna,1
+4438,family,Cessna 208,Cessna 208,1
+4439,variant,Cessna 208,Cessna 208,1
+4440,manufacturer,Airbus,Airbus,1
+4441,family,A330,A330,1
+4442,variant,A330-200,A330-200,1
+4443,manufacturer,Embraer,Embraer,1
+4444,family,Embraer E-Jet,Embraer E-Jet,1
+4445,variant,E-190,E-190,1
+4446,manufacturer,Airbus,Airbus,1
+4447,family,A320,A320,1
+4448,variant,A319,A319,1
+4449,manufacturer,Canadair,Canadair,1
+4450,family,CRJ-700,CRJ-700,1
+4451,variant,CRJ-700,CRJ-700,1
+4452,manufacturer,Boeing,Boeing,1
+4453,family,Boeing 767,Boeing 767,1
+4454,variant,767-400,767-400,1
+4455,manufacturer,Airbus,Boeing,0
+4456,family,A330,Boeing 777,0
+4457,variant,A330-300,777-300,0
+4458,manufacturer,Boeing,Boeing,1
+4459,family,Boeing 767,Boeing 767,1
+4460,variant,767-200,767-300,0
+4461,manufacturer,Boeing,Boeing,1
+4462,family,Boeing 747,Boeing 747,1
+4463,variant,747-400,747-400,1
+4464,manufacturer,Airbus,Airbus,1
+4465,family,A320,A340,0
+4466,variant,A321,A340-200,0
+4467,manufacturer,Boeing,Boeing,1
+4468,family,Boeing 737,Boeing 737,1
+4469,variant,737-700,737-700,1
+4470,manufacturer,Saab,Saab,1
+4471,family,Saab 340,Saab 340,1
+4472,variant,Saab 340,Saab 340,1
+4473,manufacturer,Airbus,Airbus,1
+4474,family,A300,A300,1
+4475,variant,A300B4,A300B4,1
+4476,manufacturer,Airbus,Airbus,1
+4477,family,A330,A330,1
+4478,variant,A330-300,A330-300,1
+4479,manufacturer,Cessna,Cessna,1
+4480,family,Cessna Citation,Cessna Citation,1
+4481,variant,Cessna 560,Cessna 560,1
+4482,manufacturer,Airbus,Airbus,1
+4483,family,A380,A380,1
+4484,variant,A380,A380,1
+4485,manufacturer,Piper,Piper,1
+4486,family,PA-28,PA-28,1
+4487,variant,PA-28,PA-28,1
+4488,manufacturer,Cessna,Cessna,1
+4489,family,Cessna 208,Cessna 208,1
+4490,variant,Cessna 208,Cessna 208,1
+4491,manufacturer,Antonov,Antonov,1
+4492,family,An-12,An-12,1
+4493,variant,An-12,An-12,1
+4494,manufacturer,Airbus,Airbus,1
+4495,family,A340,A340,1
+4496,variant,A340-600,A340-600,1
+4497,manufacturer,Embraer,Embraer,1
+4498,family,Embraer E-Jet,Embraer E-Jet,1
+4499,variant,E-190,E-190,1

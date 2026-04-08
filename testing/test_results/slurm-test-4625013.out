@@ -1,0 +1,176 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-07-2026 23:48:41
+Job ID:    4625013
+User ID:   shall316
+Account:   ece
+Job name:  vlm-fgvc-test
+Partition: ice-gpu
+QOS:       coe-ice
+---------------------------------------
+============================================
+Job ID:     4625013
+Node:       atl1-1-03-012-28-0.pace.gatech.edu
+GPU:        NVIDIA H100 80GB HBM3
+Started:    Tue Apr  7 11:48:41 PM EDT 2026
+Data root:  /storage/ice1/7/4/shall316/cs4644/data
+Best dir:   /storage/ice1/7/4/shall316/cs4644/outputs/best
+Results:    /storage/ice1/7/4/shall316/cs4644/outputs/test_results
+============================================
+Using device: cuda
+GPU:          NVIDIA H100 80GB HBM3
+CUDA:         12.8
+bf16 OK:      True
+Data root:    /storage/ice1/7/4/shall316/cs4644/data
+Best dir:     /storage/ice1/7/4/shall316/cs4644/outputs/best
+Output dir:   /storage/ice1/7/4/shall316/cs4644/outputs/test_results
+Which:        both
+Limit:        None
+Started:      2026-04-07T23:50:14.360980
+
+============================================================
+BASELINE — out-of-the-box InternVL3-2B (no LoRA training)
+============================================================
+trainable params: 19,074,048 || all params: 2,099,369,472 || trainable%: 0.9086
+  Model dtype: torch.bfloat16
+  Test examples: 4500  (images × 3 questions; train images = unaugmented test set)
+  [baseline] Step 100/4500 | loss=2.4060 | acc=0.0000 | 0.8 steps/s | ETA 86.9min
+  [baseline] Step 200/4500 | loss=2.4656 | acc=0.0000 | 0.9 steps/s | ETA 76.1min
+  [baseline] Step 300/4500 | loss=2.4977 | acc=0.0000 | 1.0 steps/s | ETA 72.8min
+  [baseline] Step 400/4500 | loss=2.5296 | acc=0.0000 | 1.0 steps/s | ETA 70.5min
+  [baseline] Step 500/4500 | loss=2.5617 | acc=0.0000 | 1.0 steps/s | ETA 68.1min
+  [baseline] Step 600/4500 | loss=2.6120 | acc=0.0000 | 1.0 steps/s | ETA 66.4min
+  [baseline] Step 700/4500 | loss=2.6200 | acc=0.0000 | 1.0 steps/s | ETA 64.8min
+  [baseline] Step 800/4500 | loss=2.6406 | acc=0.0000 | 1.0 steps/s | ETA 62.8min
+  [baseline] Step 900/4500 | loss=2.6611 | acc=0.0000 | 1.0 steps/s | ETA 61.1min
+  [baseline] Step 1000/4500 | loss=2.6516 | acc=0.0000 | 1.0 steps/s | ETA 59.3min
+  [baseline] Step 1100/4500 | loss=2.6690 | acc=0.0000 | 1.0 steps/s | ETA 57.7min
+  [baseline] Step 1200/4500 | loss=2.6711 | acc=0.0000 | 1.0 steps/s | ETA 55.9min
+  [baseline] Step 1300/4500 | loss=2.6827 | acc=0.0000 | 1.0 steps/s | ETA 54.2min
+  [baseline] Step 1400/4500 | loss=2.6899 | acc=0.0000 | 1.0 steps/s | ETA 52.6min
+  [baseline] Step 1500/4500 | loss=2.7087 | acc=0.0000 | 1.0 steps/s | ETA 50.8min
+  [baseline] Step 1600/4500 | loss=2.7104 | acc=0.0000 | 1.0 steps/s | ETA 48.9min
+  [baseline] Step 1700/4500 | loss=2.7169 | acc=0.0000 | 1.0 steps/s | ETA 47.1min
+  [baseline] Step 1800/4500 | loss=2.7295 | acc=0.0000 | 1.0 steps/s | ETA 45.3min
+  [baseline] Step 1900/4500 | loss=2.7261 | acc=0.0000 | 1.0 steps/s | ETA 43.6min
+  [baseline] Step 2000/4500 | loss=2.7287 | acc=0.0000 | 1.0 steps/s | ETA 41.8min
+  [baseline] Step 2100/4500 | loss=2.7296 | acc=0.0000 | 1.0 steps/s | ETA 40.1min
+  [baseline] Step 2200/4500 | loss=2.7277 | acc=0.0000 | 1.0 steps/s | ETA 38.3min
+  [baseline] Step 2300/4500 | loss=2.7460 | acc=0.0000 | 1.0 steps/s | ETA 36.5min
+  [baseline] Step 2400/4500 | loss=2.7530 | acc=0.0000 | 1.0 steps/s | ETA 34.9min
+  [baseline] Step 2500/4500 | loss=2.7535 | acc=0.0000 | 1.0 steps/s | ETA 33.1min
+  [baseline] Step 2600/4500 | loss=2.7571 | acc=0.0000 | 1.0 steps/s | ETA 31.4min
+  [baseline] Step 2700/4500 | loss=2.7682 | acc=0.0000 | 1.0 steps/s | ETA 29.7min
+  [baseline] Step 2800/4500 | loss=2.7771 | acc=0.0000 | 1.0 steps/s | ETA 28.0min
+  [baseline] Step 2900/4500 | loss=2.7881 | acc=0.0000 | 1.0 steps/s | ETA 26.4min
+  [baseline] Step 3000/4500 | loss=2.7958 | acc=0.0000 | 1.0 steps/s | ETA 24.7min
+  [baseline] Step 3100/4500 | loss=2.7960 | acc=0.0000 | 1.0 steps/s | ETA 23.1min
+  [baseline] Step 3200/4500 | loss=2.7961 | acc=0.0000 | 1.0 steps/s | ETA 21.4min
+  [baseline] Step 3300/4500 | loss=2.8069 | acc=0.0000 | 1.0 steps/s | ETA 19.8min
+  [baseline] Step 3400/4500 | loss=2.8116 | acc=0.0000 | 1.0 steps/s | ETA 18.1min
+  [baseline] Step 3500/4500 | loss=2.8156 | acc=0.0000 | 1.0 steps/s | ETA 16.5min
+  [baseline] Step 3600/4500 | loss=2.8199 | acc=0.0000 | 1.0 steps/s | ETA 14.8min
+  [baseline] Step 3700/4500 | loss=2.8214 | acc=0.0000 | 1.0 steps/s | ETA 13.2min
+  [baseline] Step 3800/4500 | loss=2.8246 | acc=0.0000 | 1.0 steps/s | ETA 11.5min
+  [baseline] Step 3900/4500 | loss=2.8234 | acc=0.0000 | 1.0 steps/s | ETA 9.8min
+  [baseline] Step 4000/4500 | loss=2.8321 | acc=0.0000 | 1.0 steps/s | ETA 8.2min
+  [baseline] Step 4100/4500 | loss=2.8301 | acc=0.0000 | 1.0 steps/s | ETA 6.6min
+  [baseline] Step 4200/4500 | loss=2.8323 | acc=0.0000 | 1.0 steps/s | ETA 4.9min
+  [baseline] Step 4300/4500 | loss=2.8385 | acc=0.0000 | 1.0 steps/s | ETA 3.3min
+  [baseline] Step 4400/4500 | loss=2.8375 | acc=0.0000 | 1.0 steps/s | ETA 1.6min
+  [baseline] Step 4500/4500 | loss=2.8431 | acc=0.0000 | 1.0 steps/s | ETA 0.0min
+  Saved metrics    → /storage/ice1/7/4/shall316/cs4644/outputs/test_results/baseline.json
+  Saved per-sample → /storage/ice1/7/4/shall316/cs4644/outputs/test_results/baseline_predictions.csv
+  baseline elapsed: 74.1 min
+
+============================================================
+FINETUNED — best LoRA checkpoint from /storage/ice1/7/4/shall316/cs4644/outputs/best
+============================================================
+trainable params: 19,074,048 || all params: 2,099,369,472 || trainable%: 0.9086
+  [Finetuned] Loaded LoRA adapter from /storage/ice1/7/4/shall316/cs4644/outputs/best
+  Model dtype: torch.bfloat16
+  Test examples: 4500  (images × 3 questions; train images = unaugmented test set)
+  [finetuned] Step 100/4500 | loss=0.2727 | acc=0.7900 | 3.6 steps/s | ETA 20.4min
+  [finetuned] Step 200/4500 | loss=0.1721 | acc=0.8650 | 3.6 steps/s | ETA 19.7min
+  [finetuned] Step 300/4500 | loss=0.1685 | acc=0.8600 | 3.7 steps/s | ETA 18.8min
+  [finetuned] Step 400/4500 | loss=0.1650 | acc=0.8650 | 3.7 steps/s | ETA 18.3min
+  [finetuned] Step 500/4500 | loss=0.1790 | acc=0.8580 | 3.7 steps/s | ETA 17.9min
+  [finetuned] Step 600/4500 | loss=0.1771 | acc=0.8533 | 3.8 steps/s | ETA 17.3min
+  [finetuned] Step 700/4500 | loss=0.1907 | acc=0.8486 | 3.8 steps/s | ETA 16.9min
+  [finetuned] Step 800/4500 | loss=0.1820 | acc=0.8575 | 3.8 steps/s | ETA 16.3min
+  [finetuned] Step 900/4500 | loss=0.1764 | acc=0.8556 | 3.8 steps/s | ETA 15.9min
+  [finetuned] Step 1000/4500 | loss=0.1790 | acc=0.8520 | 3.8 steps/s | ETA 15.4min
+  [finetuned] Step 1100/4500 | loss=0.1838 | acc=0.8536 | 3.8 steps/s | ETA 14.9min
+  [finetuned] Step 1200/4500 | loss=0.1787 | acc=0.8567 | 3.8 steps/s | ETA 14.5min
+  [finetuned] Step 1300/4500 | loss=0.1821 | acc=0.8531 | 3.8 steps/s | ETA 14.0min
+  [finetuned] Step 1400/4500 | loss=0.1770 | acc=0.8593 | 3.8 steps/s | ETA 13.6min
+  [finetuned] Step 1500/4500 | loss=0.1753 | acc=0.8607 | 3.8 steps/s | ETA 13.1min
+  [finetuned] Step 1600/4500 | loss=0.1778 | acc=0.8625 | 3.8 steps/s | ETA 12.7min
+  [finetuned] Step 1700/4500 | loss=0.1709 | acc=0.8671 | 3.8 steps/s | ETA 12.3min
+  [finetuned] Step 1800/4500 | loss=0.1620 | acc=0.8733 | 3.8 steps/s | ETA 11.8min
+  [finetuned] Step 1900/4500 | loss=0.1580 | acc=0.8763 | 3.8 steps/s | ETA 11.4min
+  [finetuned] Step 2000/4500 | loss=0.1530 | acc=0.8790 | 3.8 steps/s | ETA 11.0min
+  [finetuned] Step 2100/4500 | loss=0.1481 | acc=0.8810 | 3.8 steps/s | ETA 10.5min
+  [finetuned] Step 2200/4500 | loss=0.1453 | acc=0.8827 | 3.8 steps/s | ETA 10.1min
+  [finetuned] Step 2300/4500 | loss=0.1433 | acc=0.8848 | 3.8 steps/s | ETA 9.7min
+  [finetuned] Step 2400/4500 | loss=0.1409 | acc=0.8871 | 3.8 steps/s | ETA 9.3min
+  [finetuned] Step 2500/4500 | loss=0.1399 | acc=0.8872 | 3.8 steps/s | ETA 8.8min
+  [finetuned] Step 2600/4500 | loss=0.1370 | acc=0.8877 | 3.8 steps/s | ETA 8.4min
+  [finetuned] Step 2700/4500 | loss=0.1330 | acc=0.8907 | 3.8 steps/s | ETA 7.9min
+  [finetuned] Step 2800/4500 | loss=0.1294 | acc=0.8929 | 3.8 steps/s | ETA 7.5min
+  [finetuned] Step 2900/4500 | loss=0.1262 | acc=0.8945 | 3.8 steps/s | ETA 7.0min
+  [finetuned] Step 3000/4500 | loss=0.1341 | acc=0.8923 | 3.8 steps/s | ETA 6.6min
+  [finetuned] Step 3100/4500 | loss=0.1304 | acc=0.8945 | 3.8 steps/s | ETA 6.2min
+  [finetuned] Step 3200/4500 | loss=0.1280 | acc=0.8956 | 3.8 steps/s | ETA 5.7min
+  [finetuned] Step 3300/4500 | loss=0.1280 | acc=0.8967 | 3.8 steps/s | ETA 5.3min
+  [finetuned] Step 3400/4500 | loss=0.1267 | acc=0.8976 | 3.8 steps/s | ETA 4.8min
+  [finetuned] Step 3500/4500 | loss=0.1241 | acc=0.8991 | 3.8 steps/s | ETA 4.4min
+  [finetuned] Step 3600/4500 | loss=0.1226 | acc=0.9000 | 3.8 steps/s | ETA 3.9min
+  [finetuned] Step 3700/4500 | loss=0.1197 | acc=0.9022 | 3.8 steps/s | ETA 3.5min
+  [finetuned] Step 3800/4500 | loss=0.1175 | acc=0.9037 | 3.8 steps/s | ETA 3.1min
+  [finetuned] Step 3900/4500 | loss=0.1172 | acc=0.9041 | 3.8 steps/s | ETA 2.6min
+  [finetuned] Step 4000/4500 | loss=0.1151 | acc=0.9052 | 3.8 steps/s | ETA 2.2min
+  [finetuned] Step 4100/4500 | loss=0.1130 | acc=0.9063 | 3.8 steps/s | ETA 1.7min
+  [finetuned] Step 4200/4500 | loss=0.1116 | acc=0.9069 | 3.8 steps/s | ETA 1.3min
+  [finetuned] Step 4300/4500 | loss=0.1097 | acc=0.9086 | 3.8 steps/s | ETA 0.9min
+  [finetuned] Step 4400/4500 | loss=0.1080 | acc=0.9095 | 3.8 steps/s | ETA 0.4min
+  [finetuned] Step 4500/4500 | loss=0.1078 | acc=0.9096 | 3.8 steps/s | ETA 0.0min
+  Saved metrics    → /storage/ice1/7/4/shall316/cs4644/outputs/test_results/finetuned.json
+  Saved per-sample → /storage/ice1/7/4/shall316/cs4644/outputs/test_results/finetuned_predictions.csv
+  finetuned elapsed: 20.2 min
+
+============================================================
+RESULTS SUMMARY
+============================================================
+metric                      baseline        finetuned       
+------------------------------------------------------------
+test_loss                   2.8431          0.1078          
+test_ppl                    17.1690         1.1138          
+test_acc_overall            0.0000          0.9096          
+test_acc_manufacturer       0.0000          0.9560          
+test_acc_family             0.0000          0.9227          
+test_acc_variant            0.0000          0.8500          
+test_loss_manufacturer      2.8557          0.0757          
+test_loss_family            2.7574          0.1036          
+test_loss_variant           2.9161          0.1440          
+test_ppl_manufacturer       17.3874         1.0787          
+test_ppl_family             15.7591         1.1092          
+test_ppl_variant            18.4698         1.1549          
+
+Combined summary → /storage/ice1/7/4/shall316/cs4644/outputs/test_results/summary.json
+Done at: 2026-04-08T01:24:37.592298
+============================================
+test_pace.py exited with code: 0
+Finished:   Wed Apr  8 01:25:02 AM EDT 2026
+============================================
+---------------------------------------
+Begin Slurm Epilog: Apr-08-2026 01:25:02
+Job ID:        4625013
+User ID:       shall316
+Account:       ece
+Job name:      vlm-fgvc-test
+Resources:     cpu=4,gres/gpu:h100=1,mem=24G,node=1
+Rsrc Used:     cput=06:25:28,vmem=0,walltime=01:36:22,mem=6714212K,energy_used=0
+Partition:     ice-gpu
+QOS:           coe-ice
+Nodes:         atl1-1-03-012-28-0
+---------------------------------------
